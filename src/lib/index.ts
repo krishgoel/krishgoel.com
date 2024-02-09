@@ -15,7 +15,7 @@ export async function getPost(slug: string) {
 }
 
 import type { PostMetadata } from '$lib/types'
-export async function getPosts() {
+export async function getAllPosts() {
 	const blogPosts = import.meta.glob('./data/posts/*.md')
 	const iterablePostFiles = Object.entries(blogPosts)
 
@@ -32,4 +32,76 @@ export async function getPosts() {
 	)
 
 	return allPosts
+}
+
+export async function getProject(slug: string) {
+	try {
+		const project = await import(`./data/projects/${slug}.md`)
+		const { title, date } = project.metadata
+		const content = project.default
+
+		return {
+			content,
+			title,
+			date
+		}
+	} catch (error) {
+		throw new Error(`Failed to fetch project with slug '${slug}'. Error generated at $lib/index.ts`)
+	}
+}
+
+import type { ProjectMetadata } from '$lib/types'
+export async function getAllProjects() {
+	const projectPosts = import.meta.glob('./data/projects/*.md')
+	const iterableProjectFiles = Object.entries(projectPosts)
+
+	const allProjects = await Promise.all(
+		iterableProjectFiles.map(async ([path, resolver]) => {
+			const { metadata } = await resolver() as { metadata: ProjectMetadata }
+			const projectPath = path.replace('./data/projects/', '/projects/').replace('.md', '')
+
+			return {
+				metadata: metadata,
+				path: projectPath
+			}
+		})
+	)
+
+	return allProjects
+}
+
+export async function getResearch(slug: string) {
+	try {
+		const research = await import(`./data/research/${slug}.md`)
+		const { title, date } = research.metadata
+		const content = research.default
+
+		return {
+			content,
+			title,
+			date
+		}
+	} catch (error) {
+		throw new Error(`Failed to fetch research with slug '${slug}'. Error generated at $lib/index.ts`)
+	}
+}
+
+import type { ResearchMetadata } from '$lib/types'
+export async function getAllResearch() {
+	const researchPosts = import.meta.glob('./data/research/*.md')
+	const iterableResearchFiles = Object.entries(researchPosts)
+
+	const allResearch = await Promise.all(
+		iterableResearchFiles.map(async ([path, resolver]) => {
+			const { metadata } = await resolver() as { metadata: ResearchMetadata }
+			const researchPath = path.replace('./data/research/', '/research/').replace('.md', '')
+
+			return {
+				metadata: metadata,
+				path: researchPath
+			}
+		})
+	)
+
+	return allResearch
 }
