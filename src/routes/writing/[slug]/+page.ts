@@ -1,6 +1,6 @@
 import { getPost } from '$lib'
 
-export function load({ params }) {
+export const load = async ({ params }) => {
     try {
         return getPost(params.slug)
     } catch (error) {
