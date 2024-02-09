@@ -10,6 +10,6 @@ export async function getPost(slug: string) {
             date
         }
     } catch (error) {
-        throw new Error(`Failed to fetch post with slug '${slug}'`)
+        throw new Error(`Failed to fetch post with slug '${slug}'. Error generated at $lib/index.ts`)
     }
 }
