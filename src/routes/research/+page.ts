@@ -7,8 +7,6 @@ export const load = async ({ fetch }) => {
 			projects
 		}
 	} catch (error) {
-		throw new Error(
-			`Failed to fetch all posts. Error generated at research/+page.ts`
-		)
+		console.error(`Failed to fetch research projects. Error generated at research/+page.ts`)
 	}
 }

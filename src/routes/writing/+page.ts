@@ -7,8 +7,6 @@ export const load = async ({ fetch }) => {
 			posts
 		}
 	} catch (error) {
-		throw new Error(
-			`Failed to fetch all posts. Error generated at writing/+page.ts`
-		)
+		console.error(`Failed to fetch writing posts. Error generated at writing/+page.ts`)
 	}
 }

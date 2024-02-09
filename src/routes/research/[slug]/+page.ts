@@ -4,6 +4,6 @@ export const load = async ({ params }) => {
     try {
         return getResearch(params.slug)
     } catch (error) {
-        throw new Error(`Failed to fetch post with slug '${params.slug}'. Error generated at research/[slug]/+page.ts`)
+        console.error(`Failed to fetch research project. Error generated at research/[slug]/+page.ts`)
     }
 }

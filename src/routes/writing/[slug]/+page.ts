@@ -4,6 +4,6 @@ export const load = async ({ params }) => {
     try {
         return getPost(params.slug)
     } catch (error) {
-        throw new Error(`Failed to fetch post with slug '${params.slug}'. Error generated at writing/[slug]/+page.ts`)
+        console.error(`Failed to fetch writing post. Error generated at writing/[slug]/+page.ts`)
     }
 }

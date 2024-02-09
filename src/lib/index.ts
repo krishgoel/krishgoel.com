@@ -10,7 +10,7 @@ export async function getPost(slug: string) {
 			date
 		}
 	} catch (error) {
-		throw new Error(`Failed to fetch post with slug '${slug}'. Error generated at $lib/index.ts`)
+		console.error(`Failed to fetch post with slug '${slug}'. Error generated at $lib/index.ts`)
 	}
 }
 
@@ -21,12 +21,16 @@ export async function getAllPosts() {
 
 	const allPosts = await Promise.all(
 		iterablePostFiles.map(async ([path, resolver]) => {
-			const { metadata } = await resolver() as { metadata: PostMetadata }
-			const postPath = path.replace('./data/posts/', '/writing/').replace('.md', '')
+			try {
+				const { metadata } = (await resolver()) as { metadata: PostMetadata }
+				const postPath = path.replace('./data/posts/', '/writing/').replace('.md', '')
 
-			return {
-				metadata: metadata,
-				path: postPath
+				return {
+					metadata: metadata,
+					path: postPath
+				}
+			} catch (error) {
+				console.error(`Failed to fetch post metadata. Error generated at $lib/index.ts`)
 			}
 		})
 	)
@@ -46,7 +50,7 @@ export async function getProject(slug: string) {
 			date
 		}
 	} catch (error) {
-		throw new Error(`Failed to fetch project with slug '${slug}'. Error generated at $lib/index.ts`)
+		console.error(`Failed to fetch project with slug '${slug}'. Error generated at $lib/index.ts`)
 	}
 }
 
@@ -57,12 +61,16 @@ export async function getAllProjects() {
 
 	const allProjects = await Promise.all(
 		iterableProjectFiles.map(async ([path, resolver]) => {
-			const { metadata } = await resolver() as { metadata: ProjectMetadata }
-			const projectPath = path.replace('./data/projects/', '/projects/').replace('.md', '')
+			try {
+				const { metadata } = (await resolver()) as { metadata: ProjectMetadata }
+				const projectPath = path.replace('./data/projects/', '/projects/').replace('.md', '')
 
-			return {
-				metadata: metadata,
-				path: projectPath
+				return {
+					metadata: metadata,
+					path: projectPath
+				}
+			} catch (error) {
+				console.error(`Failed to fetch project metadata. Error generated at $lib/index.ts`)
 			}
 		})
 	)
@@ -82,7 +90,7 @@ export async function getResearch(slug: string) {
 			date
 		}
 	} catch (error) {
-		throw new Error(`Failed to fetch research with slug '${slug}'. Error generated at $lib/index.ts`)
+		console.error(`Failed to fetch research with slug '${slug}'. Error generated at $lib/index.ts`)
 	}
 }
 
@@ -93,12 +101,16 @@ export async function getAllResearch() {
 
 	const allResearch = await Promise.all(
 		iterableResearchFiles.map(async ([path, resolver]) => {
-			const { metadata } = await resolver() as { metadata: ResearchMetadata }
-			const researchPath = path.replace('./data/research/', '/research/').replace('.md', '')
+			try {
+				const { metadata } = (await resolver()) as { metadata: ResearchMetadata }
+				const researchPath = path.replace('./data/research/', '/research/').replace('.md', '')
 
-			return {
-				metadata: metadata,
-				path: researchPath
+				return {
+					metadata: metadata,
+					path: researchPath
+				}
+			} catch (error) {
+				console.error(`Failed to fetch research metadata. Error generated at $lib/index.ts`)
 			}
 		})
 	)
