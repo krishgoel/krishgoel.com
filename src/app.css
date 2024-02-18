@@ -44,6 +44,11 @@ body {
 	@apply w-5/6;
 }
 
+.width-md {
+	@apply mx-auto;
+	@apply md:w-4/6;
+}
+
 /* Text and Font Styling */
 p {
 	@apply text-base;

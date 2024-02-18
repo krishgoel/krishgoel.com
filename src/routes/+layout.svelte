@@ -26,13 +26,13 @@
 		<div class="whitespace-nowrap overflow-x-auto inline-block space-x-2">
 			<p><a aria-label="Garden" href="/lexicon">Lexicon</a></p>
 			<p><a aria-label="Projects" href="/projects">Projects</a></p>
-			<p><a aria-label="Garden" href="/garden">Garden</a></p>
+			<p><a aria-label="Writing" href="/writing">Writing</a></p>
 			<p><a aria-label="Contact" href="/#contact">Contact</a></p>
 		</div>
 	</div>
 </nav>
 
-<div class="width-lg py-4">
+<div class="width-lg py-8">
 	<slot />
 </div>
 
@@ -46,7 +46,7 @@
 </footer>
 
 <style>
-	nav p, footer p {
+	nav h2, nav p, footer p {
 		display: inline-block;
 		margin-bottom: 0;
 	}
