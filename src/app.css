@@ -1,5 +1,87 @@
-@import url("../static/highlight.css");
+@import url('/highlight.css');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Font Faces */
+@font-face {
+	font-family: 'Akkurat';
+	src: url('/fonts/Akkurat-Regular.woff2');
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'Akkurat';
+	src: url('/fonts/Akkurat-Bold.woff2');
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'SF-Mono';
+	src: url('/fonts/SFMono-Regular.otf');
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'SF-Mono';
+	src: url('/fonts/SFMono-Bold.otf');
+	font-weight: 700;
+}
+
+body {
+	font-family: 'Akkurat', sans-serif;
+	@apply bg-zinc-900;
+	@apply text-gray-300;
+}
+.mono {
+	font-family: 'SF-Mono';
+}
+.light {
+	@apply bg-zinc-300;
+	@apply text-zinc-800;
+}
+
+.width-lg {
+	@apply mx-auto;
+	@apply w-5/6;
+}
+
+/* Text and Font Styling */
+p {
+	@apply text-base;
+	@apply mb-3;
+	line-height: 1.5;
+}
+h1 {
+	@apply text-3xl;
+	@apply mb-3;
+	font-weight: 700;
+}
+h2 {
+	@apply text-2xl;
+	@apply mb-2;
+	font-weight: 700;
+}
+h3 {
+	@apply text-xl;
+	@apply mb-2;
+	font-weight: 700;
+}
+
+/* Link styling */
+p a, li a {
+	@apply text-gray-200;
+	box-shadow: inset 0 -8px 0 #81818171;
+	transition: 0.2s;
+}
+p a:hover, li a:hover {
+	@apply text-gray-300;
+	box-shadow: inset 0 -20px 0 #818181;
+}
+.light p a, .light li a {
+	@apply text-zinc-700;
+	box-shadow: inset 0 -8px 0 rgba(130, 130, 130, 0.443);
+	transition: 0.2s;
+}
+.light p a:hover, .light li a:hover {
+	@apply text-gray-300;
+	box-shadow: inset 0 -20px 0 #282828;
+}

@@ -2,8 +2,11 @@
 export default {
   content: ['./src/**/*.{md,svelte}'],
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+				"base": "0.95rem"
+			}
+    },
   },
   plugins: [],
 }
-
