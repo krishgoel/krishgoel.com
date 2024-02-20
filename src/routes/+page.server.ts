@@ -10,41 +10,32 @@ type GitHubEvent = {
 	}
 }
 
+async function fetchAPI<T>(url: string, fallback: T, fetchFn: typeof fetch): Promise<T> {
+	try {
+		const response = await fetchFn(url)
+		if (!response.ok) {
+			throw new Error(`Failed to fetch from ${url}`)
+		}
+		return response.json()
+	} catch (error) {
+		console.error(`Error fetching ${url}:`, error)
+		return fallback
+	}
+}
+
 export async function load({ fetch }) {
 	try {
-		const postsRequest = await fetch(`/api/writing`)
-		if (!postsRequest.ok) {
-			throw new Error('Failed to fetch posts')
-		}
-		const posts: PostAPIResponse[] = await postsRequest.json()
-		const postsToDisplay = posts.filter((post) => post.metadata.displayOnIndex)
+		const postsToDisplay = await fetchAPI<PostAPIResponse[]>('/api/writing', [], fetch).then((posts) => posts.filter((post) => post.metadata.displayOnIndex))
 
-		const projectsRequest = await fetch(`/api/projects`)
-		if (!projectsRequest.ok) {
-			throw new Error('Failed to fetch projects')
-		}
-		const projects: ProjectAPIResponse[] = await projectsRequest.json()
-		const projectsToDisplay = projects.filter((project) => project.metadata.displayOnIndex)
+		const projectsToDisplay = await fetchAPI<ProjectAPIResponse[]>('/api/projects', [], fetch).then((projects) => projects.filter((project) => project.metadata.displayOnIndex))
 
-		const researchRequest = await fetch(`/api/research`)
-		if (!researchRequest.ok) {
-			throw new Error('Failed to fetch research')
-		}
-		const research = await researchRequest.json()
+		const research = await fetchAPI<ResearchMetadata[]>('/api/research', [], fetch)
 
-		const tracksRequest = await fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KrishSkywalker&api_key=${LAST_FM_API_KEY}&format=json&limit=1`)
-		if (!tracksRequest.ok) {
-			throw new Error("Failed to fetch live listening data")
-		}
-		const trackData = tracksRequest.ok ? await tracksRequest.json() : []
+		const trackData = await fetchAPI<any>(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KrishSkywalker&api_key=${LAST_FM_API_KEY}&format=json&limit=1`, {}, fetch)
 
-		const githubRequest = await fetch('https://api.github.com/users/KrishGoel/events')
-		if (!githubRequest.ok) {
-			throw new Error("Failed to fetch last GitHub commit data")
-		}
-		const githubEvents = await githubRequest.json()
-		const commitEvents = githubEvents.filter((event: GitHubEvent) => event.type === 'PushEvent' && event.payload.commits.length > 0)
-		commitEvents.sort((a: GitHubEvent, b: GitHubEvent) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
+		const githubEvents = await fetchAPI<GitHubEvent[]>('https://api.github.com/users/KrishGoel/events', [], fetch)
+		const commitEvents = githubEvents.filter((event) => event.type === 'PushEvent' && event.payload.commits.length > 0)
+		commitEvents.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
 		const lastCommitEvent = commitEvents[0]
 
 		return {
