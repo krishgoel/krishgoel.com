@@ -1,4 +1,5 @@
-import { LAST_FM_API_KEY } from '$env/static/private'
+import { env } from '$env/dynamic/private'
+const LAST_FM_API_KEY = env.LAST_FM_API_KEY
 
 import type { PostAPIResponse, ProjectAPIResponse, ResearchMetadata } from '$lib/types'
 
