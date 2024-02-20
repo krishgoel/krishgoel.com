@@ -3,7 +3,6 @@
 </script>
 
 <article>
-	<h1>{data.title}</h1>
-	<p>Published: {data.date}</p>
+	<p>{JSON.stringify(data.metadata)}</p>
 	<svelte:component this={data.content} />
 </article>

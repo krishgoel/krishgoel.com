@@ -32,9 +32,15 @@
 	</div>
 </nav>
 
-<div class="width-lg py-8">
-	<slot />
-</div>
+{#if $page.url.pathname.startsWith('/projects/') || $page.url.pathname.startsWith('/writing/') || $page.url.pathname === '/lexicon'}
+	<div class="width-md py-8">
+		<slot />
+	</div>
+{:else}
+	<div class="width-lg py-8">
+		<slot />
+	</div>
+{/if}
 
 <footer class="py-4 light">
 	<div class="width-lg flex justify-between items-center">

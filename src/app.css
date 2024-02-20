@@ -31,12 +31,16 @@ body {
 	@apply bg-zinc-900;
 	@apply text-gray-300;
 }
-.mono {
+.mono, code {
 	font-family: 'SF-Mono';
 }
 .light {
 	@apply bg-zinc-300;
 	@apply text-zinc-800;
+}
+.web {
+	background-size: 100px 100px;
+	background-image: linear-gradient(to right, rgba(60, 60, 60, 0.7) 1px, transparent 1px), linear-gradient(to bottom, rgba(60, 60, 60, 0.7) 1px, transparent 1px);
 }
 
 .width-lg {
