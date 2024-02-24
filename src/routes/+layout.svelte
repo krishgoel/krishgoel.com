@@ -3,7 +3,7 @@
 	import { page } from '$app/stores'
 </script>
 
-{#if $page.url.pathname == '/'}
+{#if $page.url.pathname === '/'}
 	<section class="bg-[url('/images/banner.png')] bg-cover bg-no-repeat" style="background-position: 80% 50%;">
 		<div class="width-lg grid md:grid-cols-2 sm:grid-cols-1 min-h-screen py-4 flex items-center bg-gradient-to-l from-zinc-900 md:from-transparent to-100% to-transparent">
 			<div>
@@ -32,15 +32,9 @@
 	</div>
 </nav>
 
-{#if $page.url.pathname.startsWith('/projects/') || $page.url.pathname.startsWith('/writing/') || $page.url.pathname === '/lexicon'}
-	<div class="width-md py-8">
-		<slot />
-	</div>
-{:else}
-	<div class="width-lg py-8">
-		<slot />
-	</div>
-{/if}
+<div class="{($page.url.pathname.startsWith('/projects/') || $page.url.pathname.startsWith('/writing/') || $page.url.pathname === '/lexicon' || $page.url.pathname === '/thanks') ? 'width-md py-16' : $page.url.pathname === '/' ? '' : 'width-lg'}">
+	<slot />
+</div>
 
 <footer class="py-4 light">
 	<div class="width-lg flex justify-between items-center">

@@ -1,7 +1,7 @@
 ---
 title: CovAID
 type: Emergency Service
-date: 04.2021
+date: 04.01.2021
 time: April 2021
 description: 4 friends and I co-founded CovAID to provide personally verified leads to all COVID-19 resources in real-time through brute-force calling with an organised team of 40 volunteers in under 48 hours.
 links: [{text: "Documentation", url: "/projects/covaid"}, {text: "Webapp", url: "https://covaid.vercel.app"}, {text: "Certificates", url: "https://covaid-certificates.vercel.app"}]

@@ -1,8 +1,8 @@
 ---
-title: Nice
-date: 01.01.2023
+title: Running a Student 
+date: 01.01.2025
 description: Esting
-tags: [{"text": "Econ", "color": "rose-600"}]
+tags: [{"text": "Econ", "styling": "text-zinc-300 bg-blue-600"}]
 displayOnIndex: true
 ---
 

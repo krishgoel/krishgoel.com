@@ -1,13 +1,165 @@
 <script lang="ts">
-	// Fix this
-	export let data: { posts: any; projects: any; research: any; track: any; commit: any }
+	import type { PostAPIResponse, ProjectAPIResponse, SpeakingAPIResponse, ResearchAPIResponse, GitHubEvent } from '$lib/types'
+	export let data: { posts: PostAPIResponse[]; projects: ProjectAPIResponse[]; speaking: SpeakingAPIResponse[]; research: ResearchAPIResponse[]; track: any; commit: GitHubEvent }
+
+	import ProjectCard from '$lib/components/ProjectCard.svelte'
+	import BlogCard from '$lib/components/BlogCard.svelte'
+	import SpeakingCard from '$lib/components/SpeakingCard.svelte'
+	import ResearchCard from '$lib/components/ResearchCard.svelte'
 </script>
 
-<p>{JSON.stringify(data)}</p>
+<section class="web py-16">
+	<div class="width-lg">
+		<div class="grid md:grid-cols-2 mb-6">
+			<div>
+				<div>
+					<h1 class="mr-4 inline">Featured Projects</h1>
+					<p class="inline-block"><a href="/projects" aria-label="See all projects">All Projects ></a></p>
+				</div>
+				<p>This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
+			</div>
+		</div>
+		<div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">
+			{#each Array(4) as _, j}
+				<div class="hidden lg:block">
+					<div class="space-y-4">
+						{#each data.projects as project, i}
+							{#if i % 4 == j}
+								<ProjectCard {project} />
+							{/if}
+						{/each}
+					</div>
+				</div>
+			{/each}
+			{#each Array(2) as _, j}
+				<div class="lg:hidden md:block hidden">
+					<div class="space-y-4">
+						{#each data.projects as project, i}
+							{#if i % 2 == j}
+								<ProjectCard {project} />
+							{/if}
+						{/each}
+					</div>
+				</div>
+			{/each}
+			{#each data.projects as project}
+				<div class="md:hidden">
+					<ProjectCard {project} />
+				</div>
+			{/each}
+		</div>
+	</div>
+</section>
 
-<section class="py-16" id="contact">
-	<div class="grid md:grid-cols-2 gap-6 flex items-center">
-		<div class="light rounded-lg py-6 md:px-12 px-6 flex items-center">
+<section class="light py-16">
+	<div class="width-lg">
+		<div class="grid md:grid-cols-2 mb-6">
+			<div>
+				<div>
+					<h1 class="mr-4 inline">Writing</h1>
+					<p class="inline-block"><a href="/projects" aria-label="See all projects">All Writings ></a></p>
+				</div>
+				<p>This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
+			</div>
+		</div>
+		<div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">
+			{#each Array(3) as _, j}
+				<div class="hidden lg:block">
+					<div class="space-y-4">
+						{#each data.posts as post, i}
+							{#if i % 3 == j}
+								<BlogCard {post} />
+							{/if}
+						{/each}
+					</div>
+				</div>
+			{/each}
+			{#each Array(2) as _, j}
+				<div class="lg:hidden md:block hidden">
+					<div class="space-y-4">
+						{#each data.posts as post, i}
+							{#if i % 2 == j}
+								<BlogCard {post} />
+							{/if}
+						{/each}
+					</div>
+				</div>
+			{/each}
+			{#each data.posts as post}
+				<div class="md:hidden">
+					<BlogCard {post} />
+				</div>
+			{/each}
+		</div>
+	</div>
+</section>
+
+<section class="web py-16">
+	<div class="width-lg">
+		<div class="grid md:grid-cols-2 mb-6">
+			<div>
+				<div>
+					<h1 class="mr-4 inline">Speaking, Teaching and Public Things?</h1>
+					<p class="inline-block"><a href="/projects" aria-label="See all projects">All Projects ></a></p>
+				</div>
+				<p>This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
+			</div>
+		</div>
+		<div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">
+			{#each Array(4) as _, j}
+				<div class="hidden lg:block">
+					<div class="space-y-4">
+						{#each data.speaking as speaking, i}
+							{#if i % 4 == j}
+								<SpeakingCard {speaking} />
+							{/if}
+						{/each}
+					</div>
+				</div>
+			{/each}
+			{#each Array(2) as _, j}
+				<div class="lg:hidden md:block hidden">
+					<div class="space-y-4">
+						{#each data.speaking as speaking, i}
+							{#if i % 2 == j}
+								<SpeakingCard {speaking} />
+							{/if}
+						{/each}
+					</div>
+				</div>
+			{/each}
+			{#each data.speaking as speaking}
+				<div class="md:hidden">
+					<SpeakingCard {speaking} />
+				</div>
+			{/each}
+		</div>
+	</div>
+</section>
+
+<section class="light py-16">
+	<div class="width-lg">
+		<h1 class="mb-0 inline">Hoping to populate this section soon</h1>
+		<!-- <div class="grid md:grid-cols-2 mb-6">
+			<div>
+				<div>
+					<h1 class="mr-4 mb-0 inline">Hoping to populate this section soon</h1>
+					<p class="inline-block"><a href="/projects" aria-label="See all projects">All Writings ></a></p>
+				</div>
+				<p>This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
+			</div>
+		</div>
+		<div class="gap-y-4">
+			{#each data.research as research}
+				<ResearchCard {research} />
+			{/each}
+		</div> -->
+	</div>
+</section>
+
+<section class="web py-16" id="contact">
+	<div class="width-lg grid md:grid-cols-2 gap-6 flex items-center">
+		<div class="card rounded-lg py-6 md:px-12 px-6 flex items-center">
 			<div>
 				{#await data.track}
 					<p>Loading my listening habits...</p>
@@ -33,7 +185,7 @@
 				{:catch error}
 					<p>This section is supposed to display my recent listening habits</p>
 					<h2>But</h2>
-					<p>the API it relies on crashed</p>
+					<p>the API it relies on crashed. {error}</p>
 				{/await}
 
 				<p class="mb-0">Here's what <a href="/listening" aria-label="Listening">I've been listening to lately</a></p>
@@ -55,17 +207,20 @@
 			{:then data}
 				<p class="mt-2 mb-0">
 					My latest GitHub Commit:
-					<a href={`https://github.com/${data.repo.name}/commit/${data.payload.commits.sha}`} aria-label="My latest commit" target="_blank">
-						{data.payload.commits[0].message}
-					</a>
-					made to
-					<a href={`https://github.com/${data.repo.name}`} aria-label="Repo with the latest commit" target="_blank">
-						{data.repo.name}
-					</a>
-					at {data.created_at}
+					{#if data?.repo?.name && data?.payload?.commits?.[0]?.sha && data?.payload?.commits?.[0]?.message && data?.created_at}
+						<a href={`https://github.com/${data.repo.name}/commit/${data.payload.commits[0].sha}`} aria-label="My latest commit" target="_blank">
+							{data.payload.commits[0].message}
+						</a> made to
+						<a href={`https://github.com/${data.repo.name}`} aria-label="Repo with the latest commit" target="_blank">
+							{data.repo.name}
+						</a> at {new Date(data.created_at).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }).replace(/(am|pm)/i, match => match.toUpperCase())} [IST]
+					{:else}
+						Commit message unavailable, Repository name unavailable, or Timestamp unavailable.
+					{/if}
 				</p>
+								
 			{:catch error}
-				<p>Failed to retrieve the latest commit information from Github.</p>
+				<p>Failed to retrieve the latest commit information from Github. {error.message || 'Error details unavailable'}.</p>
 			{/await}
 		</div>
 	</div>

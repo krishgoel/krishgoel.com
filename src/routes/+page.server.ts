@@ -1,15 +1,7 @@
 import { env } from '$env/dynamic/private'
 const LAST_FM_API_KEY = env.LAST_FM_API_KEY
 
-import type { PostAPIResponse, ProjectAPIResponse, ResearchMetadata } from '$lib/types'
-
-type GitHubEvent = {
-	type: string
-	created_at: string
-	payload: {
-		commits: any[]
-	}
-}
+import type { PostAPIResponse, ProjectAPIResponse, ResearchMetadata, GitHubEvent } from '$lib/types'
 
 async function fetchAPI<T>(url: string, fallback: T, fetchFn: typeof fetch): Promise<T> {
 	try {
@@ -30,6 +22,8 @@ export async function load({ fetch }) {
 
 		const projectsToDisplay = await fetchAPI<ProjectAPIResponse[]>('/api/projects', [], fetch).then((projects) => projects.filter((project) => project.metadata.displayOnIndex))
 
+		const speakingToDisplay = await fetchAPI<PostAPIResponse[]>('/api/speaking', [], fetch)
+
 		const research = await fetchAPI<ResearchMetadata[]>('/api/research', [], fetch)
 
 		const trackData = await fetchAPI<any>(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KrishSkywalker&api_key=${LAST_FM_API_KEY}&format=json&limit=1`, {}, fetch)
@@ -42,6 +36,7 @@ export async function load({ fetch }) {
 		return {
 			posts: postsToDisplay,
 			projects: projectsToDisplay,
+			speaking: speakingToDisplay,
 			research,
 			track: trackData,
 			commit: lastCommitEvent

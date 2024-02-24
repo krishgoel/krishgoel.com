@@ -1,7 +1,7 @@
 ---
 title: Gyaan Academy
 type: Hackathon Submission
-date: 09.2020
+date: 09.01.2020
 time: September 2020
 description: Amartya, Kataria and I built this startup idea ground up in 72 hours for arguably, Delhi's most prestigious interschool hackathon - MINET X. The idea is an 'Online School' with smart features including building a network.
 links: [{text: "Documentation", url: "/projects/gyaan-academy"}]

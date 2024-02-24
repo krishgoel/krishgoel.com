@@ -1,7 +1,7 @@
 ---
 title: BinaryBox
 type: Hackathon Submission
-date: 09.2019
+date: 09.01.2019
 time: September 2019
 description: A subscription-based STEM Kits delivery service model that Kartik Gupta and I developed for an IT event.
 links: [{text: "Documentation", url: "/projects/binarybox"}]

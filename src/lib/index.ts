@@ -74,6 +74,44 @@ export async function getAllProjects() {
 	return allProjects
 }
 
+import type { SpeakingMetadata } from '$lib/types'
+export async function getSpeaking(slug: string) {
+	try {
+		const speaking = await import(`./data/speaking/${slug}.md`)
+		const metadata = speaking.metadata as SpeakingMetadata
+		const content = speaking.default
+
+		return {
+			metadata,
+			content
+		}
+	} catch (error) {
+		console.error(`Failed to fetch speaking with slug '${slug}'. Error generated at $lib/index.ts`)
+	}
+}
+export async function getAllSpeaking() {
+	const speakingPosts = import.meta.glob('./data/speaking/*.md')
+	const iterableSpeakingFiles = Object.entries(speakingPosts)
+
+	const allSpeaking = await Promise.all(
+		iterableSpeakingFiles.map(async ([path, resolver]) => {
+			try {
+				const { metadata } = (await resolver()) as { metadata: SpeakingMetadata }
+				const speakingPath = path.replace('./data/speaking/', '/speaking/').replace('.md', '')
+
+				return {
+					metadata: metadata,
+					path: speakingPath
+				}
+			} catch (error) {
+				console.error(`Failed to fetch speaking metadata. Error generated at $lib/index.ts`)
+			}
+		})
+	)
+
+	return allSpeaking
+}
+
 import type { ResearchMetadata } from '$lib/types'
 export async function getResearch(slug: string) {
 	try {

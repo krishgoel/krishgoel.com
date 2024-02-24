@@ -1,7 +1,7 @@
 ---
 title: Vaccine Lad
 type: Microproject
-date: 06.2021
+date: 06.01.2021
 time: June 2021
 description: A Telegram Bot that performs the cron job of checking the CoWIN API Endpoints for any open vaccine slots. Built during the time of COVID-19 vaccines shortage in Delhi in the hopes of automating the appointment process.
 links: [{text: "Documentation", url: "/projects/vaccine-lad"}, {text: "Github", url: "https://github.com/KrishGoel/vaccine-lad"}]

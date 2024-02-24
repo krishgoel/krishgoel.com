@@ -14,7 +14,18 @@ export const GET = async () => {
 		})
 
 		const sortedPosts = filteredPosts.sort((a: PostAPIResponse, b: PostAPIResponse) => {
-			return new Date(b.metadata.date).getTime() - new Date(a.metadata.date).getTime()
+			const dateA = new Date(a.metadata.date)
+			const dateB = new Date(b.metadata.date)
+			const monthA = dateA.getMonth()
+			const yearA = dateA.getFullYear()
+			const monthB = dateB.getMonth()
+			const yearB = dateB.getFullYear()
+
+			if (yearB === yearA) {
+				return monthB - monthA
+			} else {
+				return yearB - yearA
+			}
 		})
 
 		return json(sortedPosts)

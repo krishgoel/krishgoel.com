@@ -1,7 +1,7 @@
 ---
 title: VKYD
 type: Startup Attempt
-date: 01.07.2020
+date: 07.01.2020
 time: July - September 2020
 description: VKYD was the collective effort of 3 of my friends and me fueled by our passion for streetwear. The goal was to make streetwear sustainable while keeping small businesses in the loop.
 links: [{text: "Documentation", url: "/projects/vkyd"}]

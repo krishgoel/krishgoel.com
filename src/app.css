@@ -34,9 +34,13 @@ body {
 .mono, code {
 	font-family: 'SF-Mono';
 }
-.light {
+.light, .card {
 	@apply bg-zinc-300;
 	@apply text-zinc-800;
+}
+.dark, .light .card {
+	@apply bg-zinc-900;
+	@apply text-gray-300;
 }
 .web {
 	background-size: 100px 100px;
@@ -50,7 +54,8 @@ body {
 
 .width-md {
 	@apply mx-auto;
-	@apply md:w-4/6;
+	@apply w-5/6;
+	@apply md:w-1/2;
 }
 
 /* Text and Font Styling */
@@ -76,21 +81,21 @@ h3 {
 }
 
 /* Link styling */
-p a, li a {
+p a, li a, .light .card p a{
 	@apply text-gray-200;
 	box-shadow: inset 0 -8px 0 #81818171;
 	transition: 0.2s;
 }
-p a:hover, li a:hover {
+p a:hover, li a:hover, .light .card p a:hover {
 	@apply text-gray-300;
 	box-shadow: inset 0 -20px 0 #818181;
 }
-.light p a, .light li a {
+.light p a, .light li a, .card p a {
 	@apply text-zinc-700;
 	box-shadow: inset 0 -8px 0 rgba(130, 130, 130, 0.443);
 	transition: 0.2s;
 }
-.light p a:hover, .light li a:hover {
+.light p a:hover, .light li a:hover, .card p a:hover {
 	@apply text-gray-300;
 	box-shadow: inset 0 -20px 0 #282828;
 }
