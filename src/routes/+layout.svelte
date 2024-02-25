@@ -21,7 +21,7 @@
 <nav class="light py-4 shadow-lg sticky top-0 z-10">
 	<div class="width-lg flex justify-between items-center whitespace-nowrap overflow-x-auto">
 		{#if $page.url.pathname != '/'}
-			<a aria-label="Home Page" href="/"><h2 class="mr-4">Krish Goel</h2></a>
+			<a aria-label="Home Page" href="/"><h2 class="mr-4 mt-0">Krish Goel</h2></a>
 		{/if}
 		<div class="whitespace-nowrap overflow-x-auto inline-block space-x-2">
 			<p><a aria-label="Garden" href="/lexicon">Lexicon</a></p>

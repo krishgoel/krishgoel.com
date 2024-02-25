@@ -1,4 +1,4 @@
-<div class="width-md">
+<div class="width-md py-16">
     <h1>You've reached a dead end.</h1>
 	<p>Often referred to as /404 by Programmers (and emo-bois who feel internally-validated and think they sound very cool after captioning their sad sack of shit posts "Error 404: Feelings not found").</p>
 	<p>Not a lot happens here, it's a really boring place and I wouldn't recommend coming here often.</p>
