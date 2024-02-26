@@ -1,0 +1,35 @@
+name: Fetch Top Tracks from Last.FM
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * *"
+
+jobs:
+  fetch-notion-database:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch Notion Database
+        env:
+          LAST_FM_API_KEY: ${{ secrets.LAST_FM_API_KEY }}
+        run: node scripts/fetch-top-tracks.js
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "Krish Goel"
+          git config --global user.email "krishgoel3@gmail.com"
+          git add .
+          git commit -m "Updated Toptracks from Last.FM"
+          git push
