@@ -12,11 +12,11 @@
 	<div class="width-lg">
 		<div class="grid md:grid-cols-2 mb-6">
 			<div>
-				<div>
-					<h1 class="mr-4 inline">Featured Projects</h1>
-					<p class="inline-block"><a href="/projects" aria-label="See all projects">All Projects ></a></p>
-				</div>
-				<p>Below are some of my favourite projects I've worked on so far, these include hackathon submissions, side tinkers, (objectively) failed startup ideas, and non-profits.</p>
+				<!-- <div> -->
+				<h1 class="mr-2 inline">Featured Projects</h1>
+				<p class="inline-block"><a href="/projects" aria-label="See all projects">All Projects ></a></p>
+				<!-- </div> -->
+				<p class="mt-0">Below are some of my favourite projects I've worked on so far, these include hackathon submissions, side tinkers, (objectively) failed startup ideas, and non-profits.</p>
 			</div>
 		</div>
 		<div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">
@@ -55,11 +55,9 @@
 	<div class="width-lg">
 		<div class="grid md:grid-cols-2 mb-6">
 			<div>
-				<div>
-					<h1 class="mr-4 inline">Writing</h1>
-					<p class="inline-block"><a href="/projects" aria-label="See all projects">All Writings ></a></p>
-				</div>
-				<p>This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
+				<h1 class="mr-2 inline">Writing</h1>
+				<p class="inline-block"><a href="/projects" aria-label="See all projects">All Writings ></a></p>
+				<p class="mt-0">This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
 			</div>
 		</div>
 		<div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">
@@ -98,11 +96,9 @@
 	<div class="width-lg">
 		<div class="grid md:grid-cols-2 mb-6">
 			<div>
-				<div>
-					<h1 class="mr-4 inline">Speaking, Teaching and Public Things?</h1>
-					<p class="inline-block"><a href="/projects" aria-label="See all projects">All Projects ></a></p>
-				</div>
-				<p>This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
+				<h1 class="mr-2 inline">Speaking, Teaching and Public Things?</h1>
+				<p class="inline-block"><a href="/projects" aria-label="See all projects">All Projects ></a></p>
+				<p class="mt-0">This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
 			</div>
 		</div>
 		<div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">
@@ -139,13 +135,11 @@
 
 <section class="light py-16">
 	<div class="width-lg">
-		<h1 class="mb-0 inline">Hoping to populate this section soon</h1>
+		<h1 class="mb-0">Hoping to populate this section soon</h1>
 		<!-- <div class="grid md:grid-cols-2 mb-6">
 			<div>
-				<div>
-					<h1 class="mr-4 mb-0 inline">Hoping to populate this section soon</h1>
+					<h1 class="mr-2 mb-0 inline">Hoping to populate this section soon</h1>
 					<p class="inline-block"><a href="/projects" aria-label="See all projects">All Writings ></a></p>
-				</div>
 				<p>This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
 			</div>
 		</div>
@@ -167,27 +161,27 @@
 			{:then data}
 				{#if data.recenttracks?.track && data.recenttracks.track[0]?.hasOwnProperty('@attr')}
 					<div class="flex items-baseline">
-						<div class="music-animation mr-2">
+						<div class="music-animation mr-2 ml-1">
 							<span class="bg-zinc-900" />
 							<span class="bg-zinc-900" />
 							<span class="bg-zinc-900" />
 						</div>
-						<p>Currently listening to</p>
+						<p class="mb-2">Currently listening to</p>
 					</div>
 					<h2>{data.recenttracks.track[0].name}</h2>
-					<p>from <strong>{data.recenttracks.track[0].album['#text']}</strong> by <strong>{data.recenttracks.track[0].artist['#text']}</strong></p>
+					<p class="mb-4">from <strong>{data.recenttracks.track[0].album['#text']}</strong> by <strong>{data.recenttracks.track[0].artist['#text']}</strong></p>
 				{:else}
-					<p>Last listened to</p>
+					<p class="mb-2">Last listened to</p>
 					<h2>{data.recenttracks?.track ? data.recenttracks.track[0].name : 'No track available'}</h2>
-					<p>from <strong>{data.recenttracks?.track ? data.recenttracks.track[0].album['#text'] : 'Unknown'}</strong> by <strong>{data.recenttracks?.track ? data.recenttracks.track[0].artist['#text'] : 'Unknown'}</strong></p>
+					<p class="mb-4">from <strong>{data.recenttracks?.track ? data.recenttracks.track[0].album['#text'] : 'Unknown'}</strong> by <strong>{data.recenttracks?.track ? data.recenttracks.track[0].artist['#text'] : 'Unknown'}</strong></p>
 				{/if}
 			{:catch error}
-				<p>This section is supposed to display my recent listening habits</p>
+				<p class="mb-2">This section is supposed to display my recent listening habits</p>
 				<h2>But</h2>
-				<p>the API it relies on crashed. {error}</p>
+				<p class="mb-4">the API it relies on crashed. {error}</p>
 			{/await}
 
-			<p class="mb-0">Here's what <a href="/listening" aria-label="Listening">I've been listening to lately</a></p>
+			<p>Here's what <a href="/listening" aria-label="Listening">I've been listening to lately</a></p>
 		</div>
 		<div>
 			<h2>Reach Me</h2>

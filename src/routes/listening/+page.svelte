@@ -15,19 +15,19 @@
 	{:then data}
 		{#if data.recenttracks?.track && data.recenttracks.track[0]?.hasOwnProperty('@attr')}
 			<div class="flex items-baseline">
-				<div class="music-animation mr-2">
+				<div class="music-animation mr-2 ml-1">
 					<span class="bg-zinc-900" />
 					<span class="bg-zinc-900" />
 					<span class="bg-zinc-900" />
 				</div>
-				<p>Currently listening to</p>
+				<p class="mb-2">Currently listening to</p>
 			</div>
 			<h2>{data.recenttracks.track[0].name}</h2>
-			<p class="mb-0">from <strong>{data.recenttracks.track[0].album['#text']}</strong> by <strong>{data.recenttracks.track[0].artist['#text']}</strong></p>
+			<p>from <strong>{data.recenttracks.track[0].album['#text']}</strong> by <strong>{data.recenttracks.track[0].artist['#text']}</strong></p>
 		{:else}
-			<p>Last listened to</p>
+			<p class="mb-2">Last listened to</p>
 			<h2>{data.recenttracks?.track ? data.recenttracks.track[0].name : 'No track available'}</h2>
-			<p class="mb-0">from <strong>{data.recenttracks?.track ? data.recenttracks.track[0].album['#text'] : 'Unknown'}</strong> by <strong>{data.recenttracks?.track ? data.recenttracks.track[0].artist['#text'] : 'Unknown'}</strong></p>
+			<p>from <strong>{data.recenttracks?.track ? data.recenttracks.track[0].album['#text'] : 'Unknown'}</strong> by <strong>{data.recenttracks?.track ? data.recenttracks.track[0].artist['#text'] : 'Unknown'}</strong></p>
 		{/if}
 	{:catch error}
 		<p>This section is supposed to display my recent listening habits</p>
@@ -42,7 +42,7 @@
 		<h2>Loading...</h2>
 		<p class="mb-0">Loading...</p>
 	{:then data}
-	<!-- <p>{JSON.stringify(data)}</p> -->
+		<!-- <p>{JSON.stringify(data)}</p> -->
 		{#each data.toptracks.track as track}
 			<div class="py-6">
 				<h3>{track.name}</h3>

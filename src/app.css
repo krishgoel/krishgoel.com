@@ -86,10 +86,10 @@ p:not(nav p) + p {
 h1 + p {
 	@apply mt-2;
 }
-p + h2, ul + h2, ol + h2 {
+p:not(.card p) + h2, ul + h2, ol + h2 {
 	@apply mt-6;
 }
-h2 + p, h2 + ul, h2 + ol {
+h2:not(.card h2) + p, h2 + ul, h2 + ol {
 	@apply mt-2;
 }
 li {
