@@ -12,11 +12,9 @@
 	<div class="width-lg">
 		<div class="grid md:grid-cols-2 mb-6">
 			<div>
-				<!-- <div> -->
 				<h1 class="mr-2 inline">Featured Projects</h1>
 				<p class="inline-block"><a href="/projects" aria-label="See all projects">All Projects ></a></p>
-				<!-- </div> -->
-				<p class="mt-0">Below are some of my favourite projects I've worked on so far, these include hackathon submissions, side tinkers, (objectively) failed startup ideas, and non-profits.</p>
+				<p class="md:mt-0">Below are some of my favourite projects I've worked on so far, these include hackathon submissions, side tinkers, (objectively) failed startup ideas, and non-profits.</p>
 			</div>
 		</div>
 		<div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">
@@ -57,7 +55,7 @@
 			<div>
 				<h1 class="mr-2 inline">Writing</h1>
 				<p class="inline-block"><a href="/projects" aria-label="See all projects">All Writings ></a></p>
-				<p class="mt-0">This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
+				<p class="md:mt-0">This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
 			</div>
 		</div>
 		<div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">
@@ -98,7 +96,7 @@
 			<div>
 				<h1 class="mr-2 inline">Speaking, Teaching and Public Things?</h1>
 				<p class="inline-block"><a href="/projects" aria-label="See all projects">All Projects ></a></p>
-				<p class="mt-0">This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
+				<p class="md:mt-0">This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
 			</div>
 		</div>
 		<div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">
