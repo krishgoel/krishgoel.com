@@ -1,14 +1,16 @@
 import fs from 'fs'
 import path from 'path'
 import axios from 'axios'
-import 'dotenv/config'
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 async function fetchTopTracks() {
 	const lastFmUrl = 'https://ws.audioscrobbler.com/2.0/'
 	const method = 'user.gettoptracks'
 	const period = '7day'
 	const user = 'KrishSkywalker'
-	const apiKey = process.env.LAST_FM_API_KEY;
+	const apiKey = process.env.LAST_FM_API_KEY
 	const format = 'json'
 	const limit = 5
 

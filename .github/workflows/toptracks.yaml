@@ -3,7 +3,7 @@ name: Fetch Top Tracks
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: '0 1 * * *'
 
 jobs:
   fetch_top_tracks:
@@ -18,18 +18,13 @@ jobs:
         with:
           node-version: 14
 
-
       - name: Install dependencies
-        run: |
-          npm install axios
-          npm install fs
-          npm install path
-          npm install dotenv
+        run: npm install axios fs path dotenv
 
       - name: Fetch and save top tracks
+        run: node scripts/fetch-top-tracks.js
         env:
           LAST_FM_API_KEY: ${{ secrets.LAST_FM_API_KEY }}
-        run: node scripts/fetch-top-tracks.js
 
       - name: Commit changes
         run: |
