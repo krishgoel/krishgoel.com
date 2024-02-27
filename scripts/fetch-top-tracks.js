@@ -7,7 +7,7 @@ async function fetchTopTracks() {
 	const method = 'user.gettoptracks'
 	const period = '7day'
 	const user = 'KrishSkywalker'
-	const apiKey = process.env.API_KEY
+	const apiKey = process.env.LAST_FM_API_KEY
 	const format = 'json'
 	const limit = 5
 
