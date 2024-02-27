@@ -14,6 +14,7 @@ export type ProjectMetadata = {
     title: string,
     type: string,
     date: Date,
+    time: string,
     description: string,
     links: { text: string, url: string }[],
     image: string,

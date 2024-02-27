@@ -5,7 +5,7 @@
 	import ProjectCard from '$lib/components/ProjectCard.svelte'
 	import BlogCard from '$lib/components/BlogCard.svelte'
 	import SpeakingCard from '$lib/components/SpeakingCard.svelte'
-	import ResearchCard from '$lib/components/ResearchCard.svelte'
+	// import ResearchCard from '$lib/components/ResearchCard.svelte'
 </script>
 
 <section class="web py-16">
@@ -16,7 +16,7 @@
 					<h1 class="mr-4 inline">Featured Projects</h1>
 					<p class="inline-block"><a href="/projects" aria-label="See all projects">All Projects ></a></p>
 				</div>
-				<p>This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
+				<p>Below are some of my favourite projects I've worked on so far, these include hackathon submissions, side tinkers, (objectively) failed startup ideas, and non-profits.</p>
 			</div>
 		</div>
 		<div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">
@@ -159,37 +159,35 @@
 
 <section class="web py-16" id="contact">
 	<div class="width-lg grid md:grid-cols-2 gap-6 flex items-center">
-		<div class="card rounded-lg py-6 md:px-12 px-6 flex items-center">
-			<div>
-				{#await data.track}
-					<p>Loading my listening habits...</p>
-					<h2>Loading...</h2>
-					<p>Loading...</p>
-				{:then data}
-					{#if data.recenttracks?.track && data.recenttracks.track[0]?.hasOwnProperty('@attr')}
-						<div class="flex items-baseline">
-							<div class="music-animation mr-2">
-								<span class="bg-zinc-900" />
-								<span class="bg-zinc-900" />
-								<span class="bg-zinc-900" />
-							</div>
-							<p>Currently listening to</p>
+		<div class="card rounded-lg py-6 md:px-12 px-6">
+			{#await data.track}
+				<p>Loading my listening habits...</p>
+				<h2>Loading...</h2>
+				<p>Loading...</p>
+			{:then data}
+				{#if data.recenttracks?.track && data.recenttracks.track[0]?.hasOwnProperty('@attr')}
+					<div class="flex items-baseline">
+						<div class="music-animation mr-2">
+							<span class="bg-zinc-900" />
+							<span class="bg-zinc-900" />
+							<span class="bg-zinc-900" />
 						</div>
-						<h2>{data.recenttracks.track[0].name}</h2>
-						<p>by <strong>{data.recenttracks.track[0].artist['#text']}</strong></p>
-					{:else}
-						<p>Last listened to</p>
-						<h2>{data.recenttracks?.track ? data.recenttracks.track[0].name : 'No track available'}</h2>
-						<p>by <strong>{data.recenttracks?.track ? data.recenttracks.track[0].artist['#text'] : 'Unknown'}</strong></p>
-					{/if}
-				{:catch error}
-					<p>This section is supposed to display my recent listening habits</p>
-					<h2>But</h2>
-					<p>the API it relies on crashed. {error}</p>
-				{/await}
+						<p>Currently listening to</p>
+					</div>
+					<h2>{data.recenttracks.track[0].name}</h2>
+					<p>from <strong>{data.recenttracks.track[0].album['#text']}</strong> by <strong>{data.recenttracks.track[0].artist['#text']}</strong></p>
+				{:else}
+					<p>Last listened to</p>
+					<h2>{data.recenttracks?.track ? data.recenttracks.track[0].name : 'No track available'}</h2>
+					<p>from <strong>{data.recenttracks?.track ? data.recenttracks.track[0].album['#text'] : 'Unknown'}</strong> by <strong>{data.recenttracks?.track ? data.recenttracks.track[0].artist['#text'] : 'Unknown'}</strong></p>
+				{/if}
+			{:catch error}
+				<p>This section is supposed to display my recent listening habits</p>
+				<h2>But</h2>
+				<p>the API it relies on crashed. {error}</p>
+			{/await}
 
-				<p class="mb-0">Here's what <a href="/listening" aria-label="Listening">I've been listening to lately</a></p>
-			</div>
+			<p class="mb-0">Here's what <a href="/listening" aria-label="Listening">I've been listening to lately</a></p>
 		</div>
 		<div>
 			<h2>Reach Me</h2>
@@ -210,15 +208,16 @@
 					{#if data?.repo?.name && data?.payload?.commits?.[0]?.sha && data?.payload?.commits?.[0]?.message && data?.created_at}
 						<a href={`https://github.com/${data.repo.name}/commit/${data.payload.commits[0].sha}`} aria-label="My latest commit" target="_blank">
 							{data.payload.commits[0].message}
-						</a> made to
+						</a>
+						made to
 						<a href={`https://github.com/${data.repo.name}`} aria-label="Repo with the latest commit" target="_blank">
 							{data.repo.name}
-						</a> at {new Date(data.created_at).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }).replace(/(am|pm)/i, match => match.toUpperCase())} [IST]
+						</a>
+						at {new Date(data.created_at).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }).replace(/(am|pm)/i, (match) => match.toUpperCase())} [IST]
 					{:else}
 						Commit message unavailable, Repository name unavailable, or Timestamp unavailable.
 					{/if}
 				</p>
-								
 			{:catch error}
 				<p>Failed to retrieve the latest commit information from Github. {error.message || 'Error details unavailable'}.</p>
 			{/await}

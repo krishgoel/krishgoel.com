@@ -1,8 +1,9 @@
 <script lang="ts">
-	export let data
+	import type { ProjectMetadata } from '$lib/types/index.js'
+
+	export let data: ProjectMetadata & { content: any }
 </script>
 
 <article>
-	<h1>{data.title}</h1>
 	<svelte:component this={data.content} />
 </article>

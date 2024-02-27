@@ -7,7 +7,7 @@
 	let year = date.getFullYear()
 </script>
 
-<div class="card rounded-lg">
+<div class="card rounded-lg shadow-lg">
 	<div class="px-8 py-6 pt-6">
 		<h2 class="mb-0">{post.metadata.title}</h2>
 		<p>{month} {year}</p>

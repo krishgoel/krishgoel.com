@@ -31,14 +31,17 @@ body {
 	@apply bg-zinc-900;
 	@apply text-gray-300;
 }
-.mono, code {
+.mono,
+code {
 	font-family: 'SF-Mono';
 }
-.light, .card {
+.light,
+.card {
 	@apply bg-zinc-300;
 	@apply text-zinc-800;
 }
-.dark, .light .card {
+.dark,
+.light .card {
 	@apply bg-zinc-900;
 	@apply text-gray-300;
 }
@@ -59,43 +62,75 @@ body {
 }
 
 /* Text and Font Styling */
-p, li {
+p,
+li {
 	@apply text-base;
-	@apply mb-3;
-	line-height: 1.5;
 }
 h1 {
 	@apply text-3xl;
-	@apply mb-3;
 	font-weight: 700;
 }
 h2 {
 	@apply text-2xl;
-	@apply mb-2;
 	font-weight: 700;
 }
 h3 {
 	@apply text-xl;
-	@apply mb-2;
 	font-weight: 700;
 }
 
+/* General spacing */
+p:not(nav p) + p {
+	@apply mt-4;
+}
+h1 + p {
+	@apply mt-2;
+}
+p + h2, ul + h2, ol + h2 {
+	@apply mt-6;
+}
+h2 + p, h2 + ul, h2 + ol {
+	@apply mt-2;
+}
+li {
+	@apply mt-2;
+}
+ul, ol {
+	@apply my-3;
+}
+.card p + p {
+	@apply mt-0;
+}
+.card p + p + p {
+	@apply mt-2;
+}
+.card p + p + span {
+	@apply mt-4;
+}
 /* Link styling */
-p a, li a, .light .card p a{
+p a,
+li a,
+.light .card p a {
 	@apply text-gray-200;
 	box-shadow: inset 0 -8px 0 #81818171;
 	transition: 0.2s;
 }
-p a:hover, li a:hover, .light .card p a:hover {
+p a:hover,
+li a:hover,
+.light .card p a:hover {
 	@apply text-gray-300;
 	box-shadow: inset 0 -20px 0 #818181;
 }
-.light p a, .light li a, .card p a {
+.light p a,
+.light li a,
+.card p a {
 	@apply text-zinc-700;
 	box-shadow: inset 0 -8px 0 rgba(130, 130, 130, 0.443);
 	transition: 0.2s;
 }
-.light p a:hover, .light li a:hover, .card p a:hover {
+.light p a:hover,
+.light li a:hover,
+.card p a:hover {
 	@apply text-gray-300;
 	box-shadow: inset 0 -20px 0 #282828;
 }
@@ -106,8 +141,49 @@ ol {
 }
 ul {
 	list-style-type: disc;
-} 
-ol, ul {
+}
+ol,
+ul {
 	@apply pl-6;
-	@apply mb-6;
+}
+blockquote {
+	@apply border-l-4;
+	@apply border-gray-300;
+	@apply px-8;
+	@apply py-2;
+	@apply my-3;
+	@apply text-sm;
+	@apply bg-gray-300/20;
+}
+
+/* Article styling and spacing */
+article img {
+	@apply rounded-lg;
+	@apply mx-auto;
+	@apply md:w-5/6;
+}
+article p + p {
+	@apply mt-4;
+}
+article p + h1,
+article p + h2 {
+	@apply mt-8;
+}
+article p + h3 {
+	@apply mt-6;
+}
+article p + img {
+	@apply mt-8;
+}
+article img + h3 {
+	@apply mt-12;
+}
+article img + img {
+	@apply mt-3;
+}
+article h2 + img {
+	@apply mt-6;
+}
+article img + p {
+	@apply mt-6;
 }

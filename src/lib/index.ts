@@ -11,6 +11,7 @@ export async function getPost(slug: string) {
 		}
 	} catch (error) {
 		console.error(`Failed to fetch post with slug '${slug}'. Error generated at $lib/index.ts`)
+		throw new Error(`Failed to fetch post with slug '${slug}'. Error generated at $lib/index.ts`)
 	}
 }
 export async function getAllPosts() {
@@ -49,6 +50,7 @@ export async function getProject(slug: string) {
 		}
 	} catch (error) {
 		console.error(`Failed to fetch project with slug '${slug}'. Error generated at $lib/index.ts`)
+		throw new Error(`Failed to fetch project with slug '${slug}'. Error generated at $lib/index.ts`)
 	}
 }
 export async function getAllProjects() {
@@ -87,6 +89,7 @@ export async function getSpeaking(slug: string) {
 		}
 	} catch (error) {
 		console.error(`Failed to fetch speaking with slug '${slug}'. Error generated at $lib/index.ts`)
+		throw new Error(`Failed to fetch speaking with slug '${slug}'. Error generated at $lib/index.ts`)
 	}
 }
 export async function getAllSpeaking() {
@@ -125,6 +128,7 @@ export async function getResearch(slug: string) {
 		}
 	} catch (error) {
 		console.error(`Failed to fetch research with slug '${slug}'. Error generated at $lib/index.ts`)
+		throw new Error(`Failed to fetch research with slug '${slug}'. Error generated at $lib/index.ts`)
 	}
 }
 export async function getAllResearch() {

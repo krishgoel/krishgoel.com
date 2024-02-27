@@ -22,11 +22,11 @@ The event was judged by [Mr. Anand Chowdhary](http://anandchowdhary.com/) (Cre
 
 Gyaan Academy isn't just another Udemy, it’s the new social network. While searching for solutions, we realized that every sustainable dev goal is a subset of the bigger problem - than lack of an educated population so, targeting this root cause would essentially mean eventually minimizing the others. Mahatama Gandhi described education as the mightiest means to shake the world, gently and that's where our thoughts coincided.
 
-![](/images/projects/gyaan-academy/1.webp)
+<img src="/images/projects/gyaan-academy/1.webp" alt="Gyaan Academy">
 
-![](/images/projects/gyaan-academy/2.webp)
+<img src="/images/projects/gyaan-academy/2.webp" alt="Gyaan Academy">
 
-![](/images/projects/gyaan-academy/3.webp)
+<img src="/images/projects/gyaan-academy/3.webp" alt="Gyaan Academy">
 
 ### Learning what matters more
 
@@ -46,27 +46,28 @@ We understand the importance of having real people in your life and the fact tha
 
 Moving on from what we aim at doing to how we accomplish it
 
-![](/images/projects/gyaan-academy/4.webp)
+<img src="/images/projects/gyaan-academy/4.webp" alt="Gyaan Academy">
 
-![](/images/projects/gyaan-academy/5.webp)
+<img src="/images/projects/gyaan-academy/5.webp" alt="Gyaan Academy">
 
 ### Life Skills Development
 
 First up, we have SUPW Education or Vocational Education and we don’t just restrict ourselves to SUPW, we call it life skills development. Someone said, an ounce of theory is worth a ton of action and we couldn't agree more. When the human brain learns by doing, it learns outside the “ideal-scenario” bubble, it learns where things go wrong and learn the importance of failure for Yoda said, “The greatest teacher failure is”
 
-![](/images/projects/gyaan-academy/6.webp)
+<img src="/images/projects/gyaan-academy/6.webp" alt="Gyaan Academy">
 
 ### Master Classes
 
 While we don’t have much to explain here, learning from the master of your trade comes with its own set of benefits, think about it this way, would you wanna be mentored by someone who’s only well-versed with theory or someone like Stephen Hawking.
 
-![](/images/projects/gyaan-academy/7.webp)
+<img src="/images/projects/gyaan-academy/7.webp" alt="Gyaan Academy">
+
 
 ### Curriculum designed with child psychologists and experts
 
 We work with professionals and child psychologists to make sure you learn what is needed without stressing your brains out, to make learning fun while ensuring no one gets bored. This curriculum is periodically updated to prevent any redundancy in terms of content and goes without saying, we add new careers and professions continuously.
 
-![](/images/projects/gyaan-academy/8.webp)
+<img src="/images/projects/gyaan-academy/8.webp" alt="Gyaan Academy">
 
 ### Creating social connections
 
@@ -74,7 +75,7 @@ I am sure all of us would agree, school isn’t defined by the 5 subjects taught
 
 ## Making it more accessible: The Seekho-Sikhao Programme
 
-![](/images/projects/gyaan-academy/9.webp)
+<img src="/images/projects/gyaan-academy/9.webp" alt="Gyaan Academy">
 
 Coming to, what about the rural, remote areas and the economically backward sections of the society? Bill Gates said that it isn’t your fault if you’re born poor, it is if you die poor, with our Seekho-Sikhao Programme, we’ll be ensuring our level best that we don’t let the poor die poor.
 
@@ -84,9 +85,9 @@ And all of this is done by volunteers from our userbase under the guidance of ou
 
 ## The Plan of Expansion: Plan 2.0
 
-![](/images/projects/gyaan-academy/10.webp)
+<img src="/images/projects/gyaan-academy/10.webp" alt="Gyaan Academy">
 
-![](/images/projects/gyaan-academy/11.webp)
+<img src="/images/projects/gyaan-academy/11.webp" alt="Gyaan Academy">
 
 ### AR/VR Integration
 
@@ -102,11 +103,10 @@ And after a certain period and gaining credibility, we also plan on having Gyaan
 
 ## The econ and the business model
 
-![](/images/projects/gyaan-academy/12.webp)
+<img src="/images/projects/gyaan-academy/12.webp" alt="Gyaan Academy">
+<img src="/images/projects/gyaan-academy/13.webp" alt="Gyaan Academy">
+<img src="/images/projects/gyaan-academy/14.webp" alt="Gyaan Academy">
 
-![](/images/projects/gyaan-academy/13.webp)
-
-![](/images/projects/gyaan-academy/14.webp)
 
 Now comes the part about economics and the funds' usage. Our goal isn’t just to make a strong economy, it’s to make a beautiful, a *sundar* one. While the majority of the funds would go into making the content and development of the tech stack, we’d also need funds for advertisements and promotions. Which I'll be talking about in the coming sections.
 
@@ -132,7 +132,8 @@ Our strategies for customer acquisition would mainly revolve around social media
 
 Because kids have the attention span of a 2-year-old
 
-![](/images/projects/gyaan-academy/15.webp)
+<img src="/images/projects/gyaan-academy/15.webp" alt="Gyaan Academy">
+
 
 Another point raised was, how do we keep the user involved, especially kids who lack the concentration required?
 
@@ -142,7 +143,8 @@ While our core strategy would to be have engaging teaching techniques but that i
 
 Because at the end of it, it's a tech startup.
 
-![](/images/projects/gyaan-academy/16.webp)
+<img src="/images/projects/gyaan-academy/16.webp" alt="Gyaan Academy">
+
 
 While there isn't much to talk about the tech stack here since this is an ideal pitch but no harm in a briefing, so for minimal expenditure, we'll be going for a PWA initially built on Vue.JS with MongoDB and host it on Heroku for functional and smooth cross-platform support. But since nothing beats an old-fashioned mobile application so later on we'll be working on developing those.
 
@@ -158,9 +160,11 @@ While creating the user flows and UX for Gyaan Academy, we wanted to create some
 
 We went for a very simplistic look with pastel green and muted tones of blue, white, and black to exhibit the connection of learning with nature. However, we did play with some gradients to keep the design being dull, to make it more engaging.
 
-![](/images/projects/gyaan-academy/design3.webp)
+<img src="/images/projects/gyaan-academy/design3.webp" alt="Gyaan Academy">
 
-![](/images/projects/gyaan-academy/design4.webp)
+
+<img src="/images/projects/gyaan-academy/design4.webp" alt="Gyaan Academy">
+
 
 ### The Logo
 
@@ -168,26 +172,25 @@ Kartikay revamped our logo design from being a Banyan Tree flat icon to a geomet
 
 The green represents serenity, the container deep blue represents the unknowns of the universe and the green square gives it an illusionistic feel to convey the element of surprises. This was the result and we couldn't be more satisfied with it.
 
-![](/images/projects/gyaan-academy/design5.webp)
+<img src="/images/projects/gyaan-academy/design5.webp" alt="Gyaan Academy">
+<img src="/images/projects/gyaan-academy/design6.webp" alt="Gyaan Academy">
+<img src="/images/projects/gyaan-academy/design7.webp" alt="Gyaan Academy">
 
-![](/images/projects/gyaan-academy/design6.webp)
-
-![](/images/projects/gyaan-academy/design7.webp)
 
 ### Gradient Icons
 
 Amartya brilliantly made over 30 icons to make the deck and pitch more appealing, these are only some of his clean and precise flat icons with make-clipped gradients that bring them to life.
 
-![](/images/projects/gyaan-academy/design8.webp)
+<img src="/images/projects/gyaan-academy/design8.webp" alt="Gyaan Academy">
+
 
 ### The Mockups
 
 Made on Figma and Photoshop. We had to shrink to the size of the mockup screen because of some guidelines, properly rendered mockups coming soon (hopefully).
 
-![](/images/projects/gyaan-academy/mockup1.webp)
+<img src="/images/projects/gyaan-academy/mockup1.webp" alt="Gyaan Academy">
+<img src="/images/projects/gyaan-academy/mockup2.webp" alt="Gyaan Academy">
 
-![](/images/projects/gyaan-academy/mockup2.webp)
 
-![](/images/projects/gyaan-academy/design10.webp)
-
-![](/images/projects/gyaan-academy/design11.webp)
+<img src="/images/projects/gyaan-academy/design10.webp" alt="Gyaan Academy">
+<img src="/images/projects/gyaan-academy/design11.webp" alt="Gyaan Academy">
