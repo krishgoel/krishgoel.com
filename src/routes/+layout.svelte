@@ -5,7 +5,7 @@
 
 {#if $page.url.pathname === '/'}
 	<section class="bg-[url('/images/banner.png')] bg-cover bg-no-repeat" style="background-position: 80% 50%;">
-		<div class="width-lg grid md:grid-cols-2 sm:grid-cols-1 min-h-screen py-4 flex items-center bg-gradient-to-l from-zinc-900 md:from-transparent to-100% to-transparent">
+		<div class="width-lg grid md:grid-cols-2 sm:grid-cols-1 min-h-screen pb-8 pt-2 flex items-center bg-gradient-to-l from-zinc-900 md:from-transparent to-100% to-transparent">
 			<div>
 				<h3>Hi</h3>
 				<h1 class="text-4xl">I'm Krish</h1>
