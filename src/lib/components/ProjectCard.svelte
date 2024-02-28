@@ -12,7 +12,7 @@
         <img src={project.metadata.image} alt="{project.metadata.title}'s cover image" class="w-full rounded-2xl p-3" />
     {/if}
     <div class="p-6 pt-2">
-        <h2 class="{!project.metadata.image ? 'pt-6' : ''} mb-0">{project.metadata.title}</h2>
+        <h2 class="{!project.metadata.image ? 'pt-4' : ''} mb-0">{project.metadata.title}</h2>
         <p class="font-bold">{project.metadata.type}</p>
         <p>{month} {year}</p>
         <p>{project.metadata.description}</p>

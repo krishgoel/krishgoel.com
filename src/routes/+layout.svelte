@@ -24,15 +24,15 @@
 			<a aria-label="Home Page" href="/"><h2 class="mr-4 mt-0">Krish Goel</h2></a>
 		{/if}
 		<div class="whitespace-nowrap overflow-x-auto inline-block space-x-2">
-			<p><a aria-label="Garden" href="/lexicon">Lexicon</a></p>
-			<p><a aria-label="Projects" href="/projects">Projects</a></p>
-			<p><a aria-label="Writing" href="/writing">Writing</a></p>
-			<p><a aria-label="Contact" href="/#contact">Contact</a></p>
+			<p class="mt-0"><a aria-label="Garden" href="/lexicon">Lexicon</a></p>
+			<p class="mt-0"><a aria-label="Projects" href="/projects">Projects</a></p>
+			<p class="mt-0"><a aria-label="Writing" href="/writing">Writing</a></p>
+			<p class="mt-0"><a aria-label="Contact" href="/#contact">Contact</a></p>
 		</div>
 	</div>
 </nav>
 
-<div class="bodyspace {($page.url.pathname.startsWith('/projects/') || $page.url.pathname.startsWith('/writing/') || $page.url.pathname === '/lexicon' || $page.url.pathname === '/thanks' || $page.url.pathname === '/listening') ? 'width-md py-16' : $page.url.pathname === '/' ? '' : 'width-lg'}">
+<div class="bodyspace {($page.url.pathname.startsWith('/projects/') || $page.url.pathname.startsWith('/writing/') || $page.url.pathname === '/lexicon' || $page.url.pathname === '/thanks' || $page.url.pathname === '/listening' || $page.url.pathname === '/bigdonmegaladon') ? 'width-md py-16' : $page.url.pathname === '/' ? '' : 'width-lg'}">
 	<slot />
 </div>
 

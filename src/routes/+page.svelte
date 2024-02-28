@@ -166,11 +166,11 @@
 						</div>
 						<p class="mb-2">Currently listening to</p>
 					</div>
-					<h2>{data.recenttracks.track[0].name}</h2>
+					<h2 class="mt-2">{data.recenttracks.track[0].name}</h2>
 					<p class="mb-4">from <strong>{data.recenttracks.track[0].album['#text']}</strong> by <strong>{data.recenttracks.track[0].artist['#text']}</strong></p>
 				{:else}
 					<p class="mb-2">Last listened to</p>
-					<h2>{data.recenttracks?.track ? data.recenttracks.track[0].name : 'No track available'}</h2>
+					<h2 class="mt-2">{data.recenttracks?.track ? data.recenttracks.track[0].name : 'No track available'}</h2>
 					<p class="mb-4">from <strong>{data.recenttracks?.track ? data.recenttracks.track[0].album['#text'] : 'Unknown'}</strong> by <strong>{data.recenttracks?.track ? data.recenttracks.track[0].artist['#text'] : 'Unknown'}</strong></p>
 				{/if}
 			{:catch error}

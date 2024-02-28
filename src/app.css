@@ -80,13 +80,13 @@ h3 {
 }
 
 /* General spacing */
-p:not(nav p) + p {
+p + p {
 	@apply mt-4;
 }
 h1 + p {
 	@apply mt-2;
 }
-p:not(.card p) + h2, ul + h2, ol + h2 {
+p + h2, ul + h2, ol + h2 {
 	@apply mt-6;
 }
 h2:not(.card h2) + p, h2 + ul, h2 + ol {
@@ -149,9 +149,9 @@ ul {
 blockquote {
 	@apply border-l-4;
 	@apply border-gray-300;
-	@apply px-8;
+	@apply px-6;
 	@apply py-2;
-	@apply my-3;
+	@apply my-4;
 	@apply text-sm;
 	@apply bg-gray-300/20;
 }
