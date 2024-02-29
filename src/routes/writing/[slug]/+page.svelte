@@ -2,13 +2,10 @@
 	import type { PostMetadata } from '$lib/types/index.js'
 
 	export let data: { metadata: PostMetadata; content: any }
-
-	import { dateToString } from '$lib/utils/index'
-    let date = dateToString(data.metadata.date)
 </script>
 
 <h1>{data.metadata.title}</h1>
-<p class="mb-4">{date} | {data.metadata.description}</p>
+<p class="mb-4">{data.metadata.time} | {data.metadata.description}</p>
 {#each data.metadata.tags as tag}
 	<span class="text-sm inline-block mr-2 px-2 py-1 rounded-md space-y-1 {tag.styling}">{tag.text}</span>
 {/each}

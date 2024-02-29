@@ -1,9 +1,6 @@
 <script lang="ts">
     import type { ProjectAPIResponse } from '$lib/types'
     export let project: ProjectAPIResponse
-
-    import { dateToString } from '$lib/utils/index'
-    let date = dateToString(project.metadata.date)
 </script>
 
 <div class="card rounded-lg shadow-lg">
@@ -13,7 +10,7 @@
     <div class="p-6 pt-2">
         <h2 class="{!project.metadata.image ? 'pt-4' : ''} mb-0">{project.metadata.title}</h2>
         <p class="font-bold">{project.metadata.type}</p>
-        <p>{date}</p>
+        <p>{project.metadata.time}</p>
         <p>{project.metadata.description}</p>
         {#each project.metadata.links as link}
             <p class="inline-block mr-2 mb-1"><a href={link.url} target={link.url.startsWith("/") ? "_self" : "_blank"} aria-label="{project.metadata.title} {link.text}">{link.text}</a></p>

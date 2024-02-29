@@ -1,6 +1,7 @@
 export type PostMetadata = {
     title: string,
     date: Date,
+    time: string,
     description: string,
     tags: { text: string, styling: string }[],
     displayOnIndex: boolean
@@ -28,6 +29,7 @@ export type ProjectAPIResponse = {
 export type SpeakingMetadata = {
     title: string,
     date: Date,
+    time: string,
     description: string,
     image: string,
 }
@@ -39,6 +41,7 @@ export type SpeakingAPIResponse = {
 export type ResearchMetadata = {
     title: string,
     date: Date,
+    time: string,
     description: string,
     authors: string[],
     url: string
