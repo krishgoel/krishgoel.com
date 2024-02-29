@@ -17,7 +17,7 @@
         <p>{month} {year}</p>
         <p>{project.metadata.description}</p>
         {#each project.metadata.links as link}
-            <p class="inline-block mr-2 mb-1"><a href={link.url} target="_blank" aria-label="{project.metadata.title} {link.text}">{link.text}</a></p>
+            <p class="inline-block mr-2 mb-1"><a href={link.url} target={link.url.startsWith("/") ? "_self" : "_blank"} aria-label="{project.metadata.title} {link.text}">{link.text}</a></p>
         {/each}
     </div>
 </div>

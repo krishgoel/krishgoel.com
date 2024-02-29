@@ -15,6 +15,6 @@
 		{#each post.metadata.tags as tag}
 			<span class="text-sm inline-block mr-2 px-2 py-1 rounded-md space-y-1 {tag.styling}">{tag.text}</span>
 		{/each}
-		<p class="mt-4 mb-0"><a href={post.path} target="_blank" aria-label="{post.metadata.title} Blog Post">Read More ></a></p>
+		<p class="mt-4 mb-0"><a href={post.path} target={post.path.startsWith("/") ? "_self" : "_blank"} aria-label="{post.metadata.title} Blog Post">Read More ></a></p>
 	</div>
 </div>
