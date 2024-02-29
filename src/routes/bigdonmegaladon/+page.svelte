@@ -1,5 +1,5 @@
 <script lang="ts">
-	import LadCard from "$lib/components/LadCard.svelte"
+	import LadCard from '$lib/components/LadCard.svelte'
 
 	let bois = [
 		{
@@ -58,42 +58,45 @@
 	shuffleArray(bois)
 </script>
 
-<img src="https://i.kym-cdn.com/entries/icons/original/000/032/196/apes.jpg" alt="Apes together strong" class="rounded-lg mb-8 mx-auto" />
-<h1>🍻 This one's fr da Sanskriti dons</h1>
-<p>If you're here because of the yearbook, you need to get better shit to do. If you're mentioned here you should really go kys 'cause you spent your time interacting with me in school but this also means you took away a portion of my time and that isn't something I regret giving to any one of you here. ly ❤️. sorryimbent</p>
-<code>Timestamp: 13th Dec 2020 at 01:59 hrs</code>
-<p>
-	Also, I'm working on an yearbook app ting right now so if going to
-	<a href="https://yearbook.krishgoel.com" class="mono">yearbook.krishgoel.com</a>
-	doesn't give you an error, go and make a profile there.
-</p>
-<h2>👑 ₹2 Memorial</h2>
-<div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">
-    {#each Array(3) as _, j}
-        <div class="hidden lg:block">
-            <div class="space-y-4">
-                {#each bois as lad, i}
-                    {#if i % 3 == j}
-                        <LadCard {lad} />
-                    {/if}
-                {/each}
-            </div>
-        </div>
-    {/each}
-    {#each Array(2) as _, j}
-        <div class="lg:hidden md:block hidden">
-            <div class="space-y-4">
-                {#each bois as lad, i}
-                    {#if i % 2 == j}
-                        <LadCard {lad} />
-                    {/if}
-                {/each}
-            </div>
-        </div>
-    {/each}
-    {#each bois as lad}
-        <div class="md:hidden">
-            <LadCard {lad} />
-        </div>
-    {/each}
-</div>
+
+<section>
+	<img src="https://i.kym-cdn.com/entries/icons/original/000/032/196/apes.jpg" alt="Apes together strong" class="rounded-lg mb-8 mx-auto" />
+	<h1>🍻 This one's fr da Sanskriti dons</h1>
+	<p>If you're here because of the yearbook, you need to get better shit to do. If you're mentioned here you should really go kys 'cause you spent your time interacting with me in school but this also means you took away a portion of my time and that isn't something I regret giving to any one of you here. ly ❤️. sorryimbent</p>
+	<code>Timestamp: 13th Dec 2020 at 01:59 hrs</code>
+	<p>
+		Also, I'm working on an yearbook app ting right now so if going to
+		<a href="https://yearbook.krishgoel.com" class="mono">yearbook.krishgoel.com</a>
+		doesn't give you an error, go and make a profile there.
+	</p>
+	<h2>👑 ₹2 Memorial</h2>
+	<div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">
+		{#each Array(3) as _, j}
+			<div class="hidden lg:block">
+				<div class="space-y-4">
+					{#each bois as lad, i}
+						{#if i % 3 == j}
+							<LadCard {lad} />
+						{/if}
+					{/each}
+				</div>
+			</div>
+		{/each}
+		{#each Array(2) as _, j}
+			<div class="lg:hidden md:block hidden">
+				<div class="space-y-4">
+					{#each bois as lad, i}
+						{#if i % 2 == j}
+							<LadCard {lad} />
+						{/if}
+					{/each}
+				</div>
+			</div>
+		{/each}
+		{#each bois as lad}
+			<div class="md:hidden">
+				<LadCard {lad} />
+			</div>
+		{/each}
+	</div>
+</section>
