@@ -8,7 +8,7 @@
 <div class="py-16">
 	<div class="grid md:grid-cols-3 mb-6">
 		<div>
-			<h1 class="mr-4">Featured Projects</h1>
+			<h1 class="mr-4">Projects Portfolio</h1>
 			<p>This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
 		</div>
 	</div>

@@ -8,8 +8,10 @@
 <div class="py-16">
 	<div class="grid md:grid-cols-2 mb-6">
 		<div>
-			<h1 class="mr-4 inline">Featured Projects</h1>
-			<p>This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
+			<h1 class="mr-4 inline">My Blog</h1>
+			<p>As opposed to all the online productivity gurus telling me to be consistent to "create value", I donot think that I will be updating this space very often (as you can proabably tell by the number of posts here), or at least until I find something that is too cool/important to not be shared.</p>
+			<p>These would mostly be things and ideas that opened up new avenues to thinking for me, and I'll be publishing them in the hopes of recreating the same magic for anyone who reads them.</p>
+			<p>Some of my informally published thoughts can be seen on <a aria-label="Twitter @krshgl" href=https://twitter.com/krshgl target=_blank>my Twitter</a>, and design boards can be found on <a aria-label="Instagram Guides @krshgl" href=https://instagram.com/krshgl/guides target=_blank>my Instagram Guides</a>.</p>
 		</div>
 	</div>
 	<div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">

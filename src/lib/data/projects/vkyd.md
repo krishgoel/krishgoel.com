@@ -6,7 +6,7 @@ time: July - September 2020
 description: VKYD was the collective effort of 3 of my friends and me fueled by our passion for streetwear. The goal was to make streetwear sustainable while keeping small businesses in the loop.
 links: [{text: "Documentation", url: "/projects/vkyd"}]
 image: /images/projects/vkyd/vkydlandingpage.webp
-displayOnIndex: True
+displayOnIndex: False
 ---
 # **VKYD** *( /ˈwɪkɪd/ )*
 
@@ -18,16 +18,12 @@ displayOnIndex: True
 
 ![](images/projects/vkyd/vkyd-goofy.webp)
 
----
 ### Notes
 Re-reading this, here are a couple edits I'd like to make - 
 1. Find a better promotion strategy, paid marketing and targeted ads aren't going to cut it
 2. For anyone willing to pursue anything of similar nature, this is a really competitive space. The major challenges we faced were -
    1. Quality Control is extremely hard, the factories are severely unregulated with bare minimum industry standards. This is further aggravated by unwillingness of the factory owners to communicate (especially with startups demanding small quantities less than 1000 pieces of any garment)
    2. If your product has no breakthrough-developments that benefit the customer directly (aside from the ecological benefits and sustainability), it's going to be hard sell because you'd have to steal away customers from other brands. I conducted a survey on Instagram and you'd be surprised by how less of a shit people give about ecological conciousness or just supporting small businesses in general unless they add 10X value (mostly because of convenience and habituation). Feel free to [hit me up](/contact) for the results of that survey
-
-
----
 
 <br/>
 

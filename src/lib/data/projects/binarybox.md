@@ -6,7 +6,7 @@ time: September 2019
 description: A subscription-based STEM Kits delivery service model that Kartik Gupta and I developed for an IT event.
 links: [{text: "Documentation", url: "/projects/binarybox"}]
 image: /images/projects/binary-box.webp
-displayOnIndex: True
+displayOnIndex: False
 ---
 # BinaryBox
 

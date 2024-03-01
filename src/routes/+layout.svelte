@@ -94,10 +94,10 @@
 			<div>
 				<h3>Hi</h3>
 				<h1 class="text-4xl">I'm Krish</h1>
-				<p>A philosophy and business double-major at heart, currently pursuing every Indian dad's dream for their son - <s>MBA</s> BTech (Hons.) in Computer Science with AI & ML at <a href="https://jaipur.manipal.edu" target="_blank" aria-label="Manipal University Jaipur">Manipal University Jaipur</a>.</p>
-				<p>I spent my summer as a research intern at <a href="https://www.icmr.gov.in/" target="_blank" aria-label="Indian Council of Medical Research">ICMR</a> under <a href="https://scholar.google.co.in/citations?user=EE9ha9MAAAAJ&hl=en" target="_blank" aria-label="Dr. Hapreet Singh's Google Scholar Profile">Dr. Hapreet Singh</a>, where I lead the development of a Clinical Trial Registry in accordance with the <a href="https://apps.who.int/iris/bitstream/handle/10665/274994/9789241514743-eng.pdf" target="_blank" aria-label="International Standards for Clinical Trial Registries">WHO Standardisation Guidelines</a> in Django.</p>
-				<p>I am also the in-house DJ (read <i>President</i>) at <a href="https://www.randomizemuj.com/" target="_blank" aria-label="Randomize Website">Randomize(); - my college's CSE Club</a>. Looking at the bigger picture, I aim to recast the education sector.</p>
-				<p>Welcome to <s>my website</s> the bent side of things (btw irrespective of the kringe, people <strong>USED</strong> to call me <span class="mono">KrishSkywalker</span> &macr;\(ツ)/&macr;). And <a href="https://twitter.com/krshgl" target="_blank" aria-label="Krish Goel on Twitter">I tweet sometimes</a>.</p>
+				<p>A 3rd year at <a href="https://jaipur.manipal.edu" target="_blank" aria-label="Manipal University">Manipal University</a> majoring in Computer Science with a specialisation in AI & ML. I get psyched out by robots, and I am working towards building a career at the intersection of NLP and cyberphysical systems to produce more general-purpose robots.</p>
+				<p>I've been an intern at <a href="https://www.epson.co.in/industrial-robots" target="_blank" aria-label="Epson Robotics India">Epson's Robotics Division</a>, a research intern at the <a href="https://www.icmr.gov.in/" target="_blank" aria-label="Indian Council of Medical Research">Indian Council of Medical Research</a> (under <a href="https://scholar.google.co.in/citations?user=EE9ha9MAAAAJ&hl=en" target="_blank" aria-label="Dr. Hapreet Singh's Google Scholar Profile">Dr. Hapreet Singh</a>), and the <a href="https://iisc.ac.in/" target="_blank" aria-label="Indian Institute of Science">Indian Institute of Science, Bangalore</a>.</p>
+				<p>I am also the in-house DJ (read <i>President</i>) at <a href="https://www.randomizemuj.com/" target="_blank" aria-label="Randomize Website">Randomize(); - my college's CSE Club</a>. I went to <a href="https://www.icmr.gov.in/" target="_blank" aria-label="Indian Council of Medical Research">Sanskriti School, Delhi</a> for my high school where I spent most of my summers teaching kids to code.</p>
+				<p>Looking at the bigger picture, I aim to recast the education sector. Welcome to my website.</p>
 			</div>
 		</div>
 	</section>
@@ -113,6 +113,7 @@
 			<p class="mt-0"><a aria-label="Projects" href="/projects">Projects</a></p>
 			<p class="mt-0"><a aria-label="Writing" href="/writing">Writing</a></p>
 			<p class="mt-0"><a aria-label="Contact" href="/#contact">Contact</a></p>
+			<p class="mt-0"><a aria-label="Resume" href="/resume.pdf" target="_blank">Resume</a></p>
 		</div>
 	</div>
 </nav>

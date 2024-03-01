@@ -12,6 +12,48 @@
 	<div class="width-lg">
 		<div class="grid md:grid-cols-2 mb-6">
 			<div>
+				<h1 class="mr-2 inline">Writing</h1>
+				<p class="inline-block"><a href="/projects" aria-label="See all projects">All Writings ></a></p>
+				<p class="md:mt-0">This is my blog. This will be updated, very infrequently, with anything I believe that's important enough to be shared with everyone; expectedly about tech, any abstract thoughts, or the time I went backpacking to the foothills of mount Tibidabo.</p>
+				<p>Consider checking out my <a href="https://twitter.com/krshgl" target="_blank" aria-label="Krish Goel's Twitter">Twitter/X</a>, I tend to be more aphoristic there.</p>
+			</div>
+		</div>
+		<div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">
+			{#each Array(3) as _, j}
+				<div class="hidden lg:block">
+					<div class="space-y-4">
+						{#each data.posts as post, i}
+							{#if i % 3 == j}
+								<BlogCard {post} />
+							{/if}
+						{/each}
+					</div>
+				</div>
+			{/each}
+			{#each Array(2) as _, j}
+				<div class="lg:hidden md:block hidden">
+					<div class="space-y-4">
+						{#each data.posts as post, i}
+							{#if i % 2 == j}
+								<BlogCard {post} />
+							{/if}
+						{/each}
+					</div>
+				</div>
+			{/each}
+			{#each data.posts as post}
+				<div class="md:hidden">
+					<BlogCard {post} />
+				</div>
+			{/each}
+		</div>
+	</div>
+</section>
+
+<section class="light py-16">
+	<div class="width-lg">
+		<div class="grid md:grid-cols-2 mb-6">
+			<div>
 				<h1 class="mr-2 inline">Featured Projects</h1>
 				<p class="inline-block"><a href="/projects" aria-label="See all projects">All Projects ></a></p>
 				<p class="md:mt-0">Below are some of my favourite projects I've worked on so far, these include hackathon submissions, side tinkers, (objectively) failed startup ideas, and non-profits.</p>
@@ -43,47 +85,6 @@
 			{#each data.projects as project}
 				<div class="md:hidden">
 					<ProjectCard {project} />
-				</div>
-			{/each}
-		</div>
-	</div>
-</section>
-
-<section class="light py-16">
-	<div class="width-lg">
-		<div class="grid md:grid-cols-2 mb-6">
-			<div>
-				<h1 class="mr-2 inline">Writing</h1>
-				<p class="inline-block"><a href="/projects" aria-label="See all projects">All Writings ></a></p>
-				<p class="md:mt-0">This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
-			</div>
-		</div>
-		<div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">
-			{#each Array(3) as _, j}
-				<div class="hidden lg:block">
-					<div class="space-y-4">
-						{#each data.posts as post, i}
-							{#if i % 3 == j}
-								<BlogCard {post} />
-							{/if}
-						{/each}
-					</div>
-				</div>
-			{/each}
-			{#each Array(2) as _, j}
-				<div class="lg:hidden md:block hidden">
-					<div class="space-y-4">
-						{#each data.posts as post, i}
-							{#if i % 2 == j}
-								<BlogCard {post} />
-							{/if}
-						{/each}
-					</div>
-				</div>
-			{/each}
-			{#each data.posts as post}
-				<div class="md:hidden">
-					<BlogCard {post} />
 				</div>
 			{/each}
 		</div>

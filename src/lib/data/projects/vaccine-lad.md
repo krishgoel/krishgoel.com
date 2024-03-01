@@ -6,7 +6,7 @@ time: June 2021
 description: A Telegram Bot that performs the cron job of checking the CoWIN API Endpoints for any open vaccine slots. Built during the time of COVID-19 vaccines shortage in Delhi in the hopes of automating the appointment process.
 links: [{text: "Documentation", url: "/projects/vaccine-lad"}, {text: "Github", url: "https://github.com/KrishGoel/vaccine-lad"}]
 image: False
-displayOnIndex: True
+displayOnIndex: False
 ---
 
 # Vaccine Lad
