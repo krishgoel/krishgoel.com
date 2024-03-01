@@ -118,7 +118,7 @@
 	</div>
 </nav>
 
-<div class="bodyspace {$page.url.pathname.startsWith('/projects/') || $page.url.pathname.startsWith('/writing/') || $page.url.pathname === '/lexicon' || $page.url.pathname === '/thanks' || $page.url.pathname === '/listening' || $page.url.pathname === '/bigdonmegaladon' ? 'width-md py-16' : $page.url.pathname === '/' ? '' : 'width-lg'}">
+<div class="bodyspace {$page.url.pathname.startsWith('/projects/') || $page.url.pathname.startsWith('/writing/') || $page.url.pathname === '/lexicon' || $page.url.pathname === '/thanks' || $page.url.pathname === '/listening' || $page.url.pathname === '/bigdonmegaladon' ? 'width-md md:py-16 py-12' : $page.url.pathname === '/' ? '' : 'width-lg'}">
 	<slot />
 </div>
 
