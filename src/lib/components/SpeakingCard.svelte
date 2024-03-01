@@ -9,7 +9,7 @@
     {/if}
     <div class="p-6 pt-2">
         <h2 class="{!speaking.metadata.image ? 'pt-4' : ''} mb-0">{speaking.metadata.title}</h2>
-        <p>{speaking.metadata.time}</p>
+        <p class="font-bold mb-2">{speaking.metadata.time}</p>
         <p>{speaking.metadata.description}</p>
     </div>
 </div>
