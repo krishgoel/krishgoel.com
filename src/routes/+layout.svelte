@@ -5,6 +5,10 @@
 	import type { ProjectAPIResponse, PostAPIResponse, SpeakingAPIResponse } from '$lib/types'
 	export let data: { projects: ProjectAPIResponse[]; blog: PostAPIResponse[]; speaking: SpeakingAPIResponse[] }
 
+	import { dev } from '$app/environment'
+	import { inject } from '@vercel/analytics'
+	inject({ mode: dev ? 'development' : 'production' })
+
 	const defaultTitle = 'Krish Goel | krishgoel.com'
 	const defaultDescription = 'Hi, welcome to my website. I love robots and AI.'
 
