@@ -73,7 +73,7 @@
         "@attr": {
           "rank": "2"
         },
-        "playcount": "5"
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -81,7 +81,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Hallucinogenics - Stripped",
+        "name": "Bitch, Don’t Kill My Vibe",
         "image": [
           {
             "size": "small",
@@ -101,24 +101,24 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Matt+Maeson",
-          "name": "Matt Maeson",
-          "mbid": "e7bbb0c4-d3cf-4523-b5e1-a01d69d5bc83"
+          "url": "https://www.last.fm/music/Kendrick+Lamar",
+          "name": "Kendrick Lamar",
+          "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
         },
-        "url": "https://www.last.fm/music/Matt+Maeson/_/Hallucinogenics+-+Stripped",
-        "duration": "187",
+        "url": "https://www.last.fm/music/Kendrick+Lamar/_/Bitch,+Don%E2%80%99t+Kill+My+Vibe",
+        "duration": "0",
         "@attr": {
           "rank": "3"
         },
-        "playcount": "4"
+        "playcount": "3"
       },
       {
         "streamable": {
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "56de794e-cf37-4c5e-8a24-46ab6ff4ae3c",
-        "name": "I Just Don't Care That Much - Stripped",
+        "mbid": "983af624-24b8-41e2-a4ab-6be19a30b5f3",
+        "name": "N95",
         "image": [
           {
             "size": "small",
@@ -138,24 +138,24 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Matt+Maeson",
-          "name": "Matt Maeson",
-          "mbid": "e7bbb0c4-d3cf-4523-b5e1-a01d69d5bc83"
+          "url": "https://www.last.fm/music/Kendrick+Lamar",
+          "name": "Kendrick Lamar",
+          "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
         },
-        "url": "https://www.last.fm/music/Matt+Maeson/_/I+Just+Don%27t+Care+That+Much+-+Stripped",
-        "duration": "227",
+        "url": "https://www.last.fm/music/Kendrick+Lamar/_/N95",
+        "duration": "195",
         "@attr": {
           "rank": "4"
         },
-        "playcount": "4"
+        "playcount": "3"
       },
       {
         "streamable": {
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "9f625eaf-93d0-4ed9-89db-a352ad68513d",
-        "name": "Tribulation - Stripped",
+        "mbid": "8295729a-e1e6-4151-9eb1-c6ad734d1d5d",
+        "name": "Kun Faya Kun",
         "image": [
           {
             "size": "small",
@@ -175,23 +175,23 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Matt+Maeson",
-          "name": "Matt Maeson",
-          "mbid": "e7bbb0c4-d3cf-4523-b5e1-a01d69d5bc83"
+          "url": "https://www.last.fm/music/A.R.+Rahman",
+          "name": "A.R. Rahman",
+          "mbid": ""
         },
-        "url": "https://www.last.fm/music/Matt+Maeson/_/Tribulation+-+Stripped",
-        "duration": "185",
+        "url": "https://www.last.fm/music/A.R.+Rahman/_/Kun+Faya+Kun",
+        "duration": "711",
         "@attr": {
           "rank": "5"
         },
-        "playcount": "4"
+        "playcount": "2"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "20",
+      "totalPages": "18",
       "page": "1",
-      "total": "98",
+      "total": "88",
       "perPage": "5"
     }
   }
