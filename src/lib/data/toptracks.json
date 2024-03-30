@@ -73,7 +73,7 @@
         "@attr": {
           "rank": "2"
         },
-        "playcount": "6"
+        "playcount": "5"
       },
       {
         "streamable": {
@@ -155,7 +155,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Lutt Putt Gaya",
+        "name": "O MAAHI",
         "image": [
           {
             "size": "small",
@@ -179,7 +179,7 @@
           "name": "Pritam",
           "mbid": ""
         },
-        "url": "https://www.last.fm/music/Pritam/_/Lutt+Putt+Gaya",
+        "url": "https://www.last.fm/music/Pritam/_/O+MAAHI",
         "duration": "0",
         "@attr": {
           "rank": "5"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "28",
+      "totalPages": "27",
       "page": "1",
-      "total": "136",
+      "total": "132",
       "perPage": "5"
     }
   }
