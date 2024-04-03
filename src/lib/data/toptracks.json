@@ -7,43 +7,6 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Kainchi",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Hanuman+Foundation",
-          "name": "Hanuman Foundation",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Hanuman+Foundation/_/Kainchi",
-        "duration": "368",
-        "@attr": {
-          "rank": "1"
-        },
-        "playcount": "4"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
         "name": "Ala Barfi",
         "image": [
           {
@@ -71,9 +34,46 @@
         "url": "https://www.last.fm/music/Pritam/_/Ala+Barfi",
         "duration": "0",
         "@attr": {
-          "rank": "2"
+          "rank": "1"
         },
         "playcount": "4"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "O MAAHI",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Pritam",
+          "name": "Pritam",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Pritam/_/O+MAAHI",
+        "duration": "0",
+        "@attr": {
+          "rank": "2"
+        },
+        "playcount": "3"
       },
       {
         "streamable": {
@@ -110,7 +110,7 @@
         "@attr": {
           "rank": "3"
         },
-        "playcount": "3"
+        "playcount": "2"
       },
       {
         "streamable": {
@@ -147,7 +147,7 @@
         "@attr": {
           "rank": "4"
         },
-        "playcount": "3"
+        "playcount": "2"
       },
       {
         "streamable": {
@@ -155,7 +155,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Aaj Jane Ki Zid Na Karo - Coke Studio Season 8",
+        "name": "Hanuman Chalisa Superfast",
         "image": [
           {
             "size": "small",
@@ -175,23 +175,23 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Farida+Khanum",
-          "name": "Farida Khanum",
-          "mbid": ""
+          "url": "https://www.last.fm/music/Brijesh+Shandilya",
+          "name": "Brijesh Shandilya",
+          "mbid": "375f68d1-e588-401c-bd72-063cce961cd4"
         },
-        "url": "https://www.last.fm/music/Farida+Khanum/_/Aaj+Jane+Ki+Zid+Na+Karo+-+Coke+Studio+Season+8",
-        "duration": "0",
+        "url": "https://www.last.fm/music/Brijesh+Shandilya/_/Hanuman+Chalisa+Superfast",
+        "duration": "256",
         "@attr": {
           "rank": "5"
         },
-        "playcount": "3"
+        "playcount": "2"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "15",
+      "totalPages": "8",
       "page": "1",
-      "total": "72",
+      "total": "39",
       "perPage": "5"
     }
   }
