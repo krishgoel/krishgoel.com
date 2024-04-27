@@ -6,43 +6,6 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "9f625eaf-93d0-4ed9-89db-a352ad68513d",
-        "name": "Tribulation - Stripped",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Matt+Maeson",
-          "name": "Matt Maeson",
-          "mbid": "e7bbb0c4-d3cf-4523-b5e1-a01d69d5bc83"
-        },
-        "url": "https://www.last.fm/music/Matt+Maeson/_/Tribulation+-+Stripped",
-        "duration": "185",
-        "@attr": {
-          "rank": "1"
-        },
-        "playcount": "3"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
         "mbid": "",
         "name": "Demons - Live London Sessions / 2013",
         "image": [
@@ -71,44 +34,7 @@
         "url": "https://www.last.fm/music/Imagine+Dragons/_/Demons+-+Live+London+Sessions+%2F+2013",
         "duration": "187",
         "@attr": {
-          "rank": "2"
-        },
-        "playcount": "2"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "3145813b-b47d-4ad2-85aa-534ba93a7eab",
-        "name": "Beggar's Song",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Matt+Maeson",
-          "name": "Matt Maeson",
-          "mbid": "e7bbb0c4-d3cf-4523-b5e1-a01d69d5bc83"
-        },
-        "url": "https://www.last.fm/music/Matt+Maeson/_/Beggar%27s+Song",
-        "duration": "0",
-        "@attr": {
-          "rank": "3"
+          "rank": "1"
         },
         "playcount": "2"
       },
@@ -145,7 +71,7 @@
         "url": "https://www.last.fm/music/Matt+Maeson/_/Cringe+-+Stripped",
         "duration": "223",
         "@attr": {
-          "rank": "4"
+          "rank": "2"
         },
         "playcount": "2"
       },
@@ -154,8 +80,8 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "56de794e-cf37-4c5e-8a24-46ab6ff4ae3c",
-        "name": "I Just Don't Care That Much - Stripped",
+        "mbid": "9f625eaf-93d0-4ed9-89db-a352ad68513d",
+        "name": "Tribulation - Stripped",
         "image": [
           {
             "size": "small",
@@ -179,19 +105,93 @@
           "name": "Matt Maeson",
           "mbid": "e7bbb0c4-d3cf-4523-b5e1-a01d69d5bc83"
         },
-        "url": "https://www.last.fm/music/Matt+Maeson/_/I+Just+Don%27t+Care+That+Much+-+Stripped",
-        "duration": "227",
+        "url": "https://www.last.fm/music/Matt+Maeson/_/Tribulation+-+Stripped",
+        "duration": "185",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "2"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Nadaan Parinde",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/A.R.+Rahman",
+          "name": "A.R. Rahman",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/A.R.+Rahman/_/Nadaan+Parinde",
+        "duration": "0",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "1"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Cold Hours",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/aleemrk",
+          "name": "aleemrk",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/aleemrk/_/Cold+Hours",
+        "duration": "0",
         "@attr": {
           "rank": "5"
         },
-        "playcount": "2"
+        "playcount": "1"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
       "totalPages": "5",
       "page": "1",
-      "total": "25",
+      "total": "22",
       "perPage": "5"
     }
   }
