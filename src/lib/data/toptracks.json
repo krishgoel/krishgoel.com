@@ -6,43 +6,6 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "",
-        "name": "Dard - E - Disco",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Sukhwinder+Singh",
-          "name": "Sukhwinder Singh",
-          "mbid": "d5812475-f8e6-4b5c-951f-7e82720ef041"
-        },
-        "url": "https://www.last.fm/music/Sukhwinder+Singh/_/Dard+-+E+-+Disco",
-        "duration": "268",
-        "@attr": {
-          "rank": "1"
-        },
-        "playcount": "4"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
         "mbid": "3cfae970-1365-4b7c-aded-49d7b21dd9ce",
         "name": "Kashi Vishwanath Gange",
         "image": [
@@ -71,9 +34,46 @@
         "url": "https://www.last.fm/music/Krishna+Das/_/Kashi+Vishwanath+Gange",
         "duration": "389",
         "@attr": {
+          "rank": "1"
+        },
+        "playcount": "4"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Dard - E - Disco",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Sukhwinder+Singh",
+          "name": "Sukhwinder Singh",
+          "mbid": "d5812475-f8e6-4b5c-951f-7e82720ef041"
+        },
+        "url": "https://www.last.fm/music/Sukhwinder+Singh/_/Dard+-+E+-+Disco",
+        "duration": "268",
+        "@attr": {
           "rank": "2"
         },
-        "playcount": "3"
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "8",
+      "totalPages": "7",
       "page": "1",
-      "total": "36",
+      "total": "35",
       "perPage": "5"
     }
   }
