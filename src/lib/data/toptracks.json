@@ -155,7 +155,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "O MAAHI",
+        "name": "Kainchi",
         "image": [
           {
             "size": "small",
@@ -175,12 +175,12 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Pritam",
-          "name": "Pritam",
+          "url": "https://www.last.fm/music/Hanuman+Foundation",
+          "name": "Hanuman Foundation",
           "mbid": ""
         },
-        "url": "https://www.last.fm/music/Pritam/_/O+MAAHI",
-        "duration": "0",
+        "url": "https://www.last.fm/music/Hanuman+Foundation/_/Kainchi",
+        "duration": "368",
         "@attr": {
           "rank": "5"
         },
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "8",
+      "totalPages": "9",
       "page": "1",
-      "total": "37",
+      "total": "41",
       "perPage": "5"
     }
   }
