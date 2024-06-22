@@ -201,8 +201,8 @@
 		</div>
 		<div>
 			<h2>Reach Me</h2>
-			<p>I can be found on most social media platforms by <code>@krshgl</code>.</p>
-			<div class="inline space-y-1">
+			<p class="mb-2">I can be found on most social media platforms by <code>@krshgl</code>.</p>
+			<div class="inline space-y-1 mb-2">
 				<p class="inline-block mb-1"><a href="https://twitter.com/krshgl" target="_blank" aria-label="Krish Goel's Twitter">Twitter/X</a></p>
 				<p class="inline-block mb-1"><a href="mailto:krishgoel3@gmail.com" target="_blank" aria-label="Krish Goel's Email">Email</a></p>
 				<p class="inline-block mb-1"><a href="https://github.com/KrishGoel" target="_blank" aria-label="Krish Goel's Github">Github</a></p>

@@ -113,7 +113,7 @@
 			<a aria-label="Home Page" href="/"><h2 class="mr-4 mt-0">Krish Goel</h2></a>
 		{/if}
 		<div class="whitespace-nowrap overflow-x-auto inline-block space-x-2">
-			<p class="mt-0"><a aria-label="Garden" href="/lexicon">Lexicon</a></p>
+			<!-- <p class="mt-0"><a aria-label="Garden" href="/lexicon">Lexicon</a></p> -->
 			<p class="mt-0"><a aria-label="Projects" href="/projects">Projects</a></p>
 			<p class="mt-0"><a aria-label="Writing" href="/writing">Writing</a></p>
 			<p class="mt-0"><a aria-label="Contact" href="/#contact">Contact</a></p>
