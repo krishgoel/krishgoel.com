@@ -22,7 +22,8 @@ export async function load({ fetch }) {
 
 		const projectsToDisplay = await fetchAPI<ProjectAPIResponse[]>('/api/projects', [], fetch).then((projects) => projects.filter((project) => project.metadata.displayOnIndex))
 
-		const speakingToDisplay = await fetchAPI<PostAPIResponse[]>('/api/speaking', [], fetch)
+		// const speakingToDisplay = await fetchAPI<PostAPIResponse[]>('/api/speaking', [], fetch)
+		const speakingToDisplay = {}
 
 		const research = await fetchAPI<ResearchMetadata[]>('/api/research', [], fetch)
 

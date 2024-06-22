@@ -14,7 +14,7 @@ export const GET = async () => {
 		})
 
 		const sortedResearch = filteredResearch.sort((a: ResearchAPIResponse, b: ResearchAPIResponse) => {
-			return new Date(b.metadata.date).getTime() - new Date(a.metadata.date).getTime()
+			return new Date(b.metadata.time).getTime() - new Date(a.metadata.time).getTime()
 		})
 
 		return json(sortedResearch)

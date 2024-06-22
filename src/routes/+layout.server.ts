@@ -12,7 +12,7 @@ export const load = async ({ fetch }) => {
 		return {
 			projects,
             blog,
-            speaking,
+            speaking
 		}
 	} catch (error) {
 		console.error(`Failed to fetch projects. Error generated at +layout.server.ts`)

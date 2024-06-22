@@ -40,14 +40,17 @@ export type SpeakingAPIResponse = {
 
 export type ResearchMetadata = {
     title: string,
-    date: Date,
+    // date: Date,
     time: string,
     description: string,
+    abstract: string,
     authors: string[],
+    published_in: string,
     url: string
 }
 export type ResearchAPIResponse = {
     metadata: ResearchMetadata,
+    // url: string
 }
 
 // There are a shit ton more fields, but I don't really need them

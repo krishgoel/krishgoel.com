@@ -139,11 +139,11 @@ export async function getAllResearch() {
 		iterableResearchFiles.map(async ([path, resolver]) => {
 			try {
 				const { metadata } = (await resolver()) as { metadata: ResearchMetadata }
-				const researchPath = path.replace('./data/research/', '/research/').replace('.md', '')
+				// const researchPath = path.replace('./data/research/', '/research/').replace('.md', '')
 
 				return {
 					metadata: metadata,
-					url: researchPath
+					// url: researchPath
 				}
 			} catch (error) {
 				console.error(`Failed to fetch research metadata. Error generated at $lib/index.ts`)

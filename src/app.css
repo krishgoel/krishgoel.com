@@ -155,6 +155,10 @@ blockquote {
 	@apply text-sm;
 	@apply bg-gray-300/20;
 }
+.web blockquote {
+	@apply border-gray-600;
+	@apply bg-gray-900/10;
+}
 .tweet-container .twitter-tweet {
 	@apply mx-auto;
 	@apply py-6;

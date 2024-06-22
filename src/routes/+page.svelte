@@ -5,10 +5,45 @@
 	import ProjectCard from '$lib/components/ProjectCard.svelte'
 	import BlogCard from '$lib/components/BlogCard.svelte'
 	import SpeakingCard from '$lib/components/SpeakingCard.svelte'
-	// import ResearchCard from '$lib/components/ResearchCard.svelte'
+	import ResearchCard from '$lib/components/ResearchCard.svelte'
 </script>
 
 <section class="web py-16">
+	<div class="width-lg">
+		<div class="grid md:grid-cols-2 mb-6">
+			<div>
+				<h1 class="mr-2 mb-0 inline">Research Publications</h1>
+				<p class="inline-block"><a href="/projects" aria-label="See all projects">Google Scholar ></a></p>
+				<p>This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
+			</div>
+		</div>
+		<!-- <div class="gap-y-4">
+			{#each data.research as research}
+				<ResearchCard {research} />
+			{/each}
+		</div> -->
+		<div class="grid md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4">
+			{#each Array(2) as _, j}
+				<div class="hidden md:block">
+					<div class="space-y-4">
+						{#each data.research as research, i}
+							{#if i % 2 == j}
+								<ResearchCard {research} />
+							{/if}
+						{/each}
+					</div>
+				</div>
+			{/each}
+			{#each data.research as research}
+				<div class="md:hidden">
+					<ResearchCard {research} />
+				</div>
+			{/each}
+		</div>
+	</div>
+</section>
+
+<section class="light py-16">
 	<div class="width-lg">
 		<div class="grid md:grid-cols-2 mb-6">
 			<div>
@@ -50,7 +85,7 @@
 	</div>
 </section>
 
-<section class="light py-16">
+<section class="web py-16">
 	<div class="width-lg">
 		<div class="grid md:grid-cols-2 mb-6">
 			<div>
@@ -91,7 +126,7 @@
 	</div>
 </section>
 
-<section class="web py-16">
+<!-- <section class="light py-16">
 	<div class="width-lg">
 		<div class="grid md:grid-cols-2 mb-6">
 			<div>
@@ -130,25 +165,7 @@
 			{/each}
 		</div>
 	</div>
-</section>
-
-<section class="light py-16">
-	<div class="width-lg">
-		<h1 class="mb-0">Hoping to populate this section soon</h1>
-		<!-- <div class="grid md:grid-cols-2 mb-6">
-			<div>
-					<h1 class="mr-2 mb-0 inline">Hoping to populate this section soon</h1>
-					<p class="inline-block"><a href="/projects" aria-label="See all projects">All Writings ></a></p>
-				<p>This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
-			</div>
-		</div>
-		<div class="gap-y-4">
-			{#each data.research as research}
-				<ResearchCard {research} />
-			{/each}
-		</div> -->
-	</div>
-</section>
+</section> -->
 
 <section class="web py-16" id="contact">
 	<div class="width-lg grid md:grid-cols-2 gap-6 flex items-center">
@@ -185,12 +202,13 @@
 		<div>
 			<h2>Reach Me</h2>
 			<p>I can be found on most social media platforms by <code>@krshgl</code>.</p>
-			<div class="inline">
-				<p class="inline-block mb-1 mr-1"><a href="https://twitter.com/krshgl" target="_blank" aria-label="Krish Goel's Twitter">Twitter/X</a></p>
-				<p class="inline-block mb-1 mr-1"><a href="mailto:krishgoel3@gmail.com" target="_blank" aria-label="Krish Goel's Email">Email</a></p>
-				<p class="inline-block mb-1 mr-1"><a href="https://github.com/KrishGoel" target="_blank" aria-label="Krish Goel's Github">Github</a></p>
-				<p class="inline-block mb-1 mr-1"><a href="https://open.spotify.com/user/39emqovi90p90iq1sfbczkan0?si=5a1dfcc062b44a32" target="_blank" aria-label="Krish Goel's Spotify">Spotify</a></p>
-				<p class="inline-block mb-1 mr-1"><a href="https://www.instagram.com/krshgl/" target="_blank" aria-label="Krish Goel's Instagram">Instagram</a></p>
+			<div class="inline space-y-1">
+				<p class="inline-block mb-1"><a href="https://twitter.com/krshgl" target="_blank" aria-label="Krish Goel's Twitter">Twitter/X</a></p>
+				<p class="inline-block mb-1"><a href="mailto:krishgoel3@gmail.com" target="_blank" aria-label="Krish Goel's Email">Email</a></p>
+				<p class="inline-block mb-1"><a href="https://github.com/KrishGoel" target="_blank" aria-label="Krish Goel's Github">Github</a></p>
+				<p class="inline-block mb-1"><a href="https://open.spotify.com/user/39emqovi90p90iq1sfbczkan0?si=5a1dfcc062b44a32" target="_blank" aria-label="Krish Goel's Spotify">Spotify</a></p>
+				<p class="inline-block mb-1"><a href="https://scholar.google.com/citations?user=5a84VU4AAAAJ&hl=en" target="_blank" aria-label="Krish Goel's Google Scholar">Google Scholar</a></p>
+				<p class="inline-block mb-1"><a href="https://www.instagram.com/krshgl/" target="_blank" aria-label="Krish Goel's Instagram">Instagram</a></p>
 				<p class="inline-block mb-1"><a href="https://www.linkedin.com/in/krishgoel/" target="_blank" aria-label="Krish Goel's LinkedIn">LinkedIn</a></p>
 			</div>
 			{#await data.commit}
