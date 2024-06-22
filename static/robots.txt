@@ -1,5 +1,10 @@
-  
 User-agent: *
 Allow: /
+
+User-agent: Twitterbot
+Allow: /images
+
+User-agent: facebookexternalhit
+Allow: /images
 
 Sitemap: https://krishgoel.com/sitemap.xml
