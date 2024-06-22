@@ -85,7 +85,7 @@
 	</div>
 </section>
 
-<section class="web py-16">
+<!-- <section class="web py-16">
 	<div class="width-lg">
 		<div class="grid md:grid-cols-2 mb-6">
 			<div>
@@ -124,7 +124,7 @@
 			{/each}
 		</div>
 	</div>
-</section>
+</section> -->
 
 <!-- <section class="light py-16">
 	<div class="width-lg">
