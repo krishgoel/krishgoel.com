@@ -155,7 +155,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "m y . l i f e (with 21 Savage & Morray)",
+        "name": "Ve Haaniyaan",
         "image": [
           {
             "size": "small",
@@ -175,11 +175,11 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/J.+Cole",
-          "name": "J. Cole",
+          "url": "https://www.last.fm/music/Danny",
+          "name": "Danny",
           "mbid": ""
         },
-        "url": "https://www.last.fm/music/J.+Cole/_/m+y+.+l+i+f+e+(with+21+Savage+&+Morray)",
+        "url": "https://www.last.fm/music/Danny/_/Ve+Haaniyaan",
         "duration": "0",
         "@attr": {
           "rank": "5"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "2",
+      "totalPages": "3",
       "page": "1",
-      "total": "10",
+      "total": "12",
       "perPage": "5"
     }
   }
