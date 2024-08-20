@@ -81,6 +81,43 @@
           "#text": "0"
         },
         "mbid": "",
+        "name": "Sultan",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Vishal-Shekhar",
+          "name": "Vishal-Shekhar",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Vishal-Shekhar/_/Sultan",
+        "duration": "0",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "6"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
         "name": "Jagga Jiteya",
         "image": [
           {
@@ -108,9 +145,9 @@
         "url": "https://www.last.fm/music/Kumaar/_/Jagga+Jiteya",
         "duration": "0",
         "@attr": {
-          "rank": "3"
+          "rank": "4"
         },
-        "playcount": "4"
+        "playcount": "5"
       },
       {
         "streamable": {
@@ -145,43 +182,6 @@
         "url": "https://www.last.fm/music/Krishna+Das/_/Kashi+Vishwanath+Gange",
         "duration": "389",
         "@attr": {
-          "rank": "4"
-        },
-        "playcount": "3"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Galat Karam",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Panther",
-          "name": "Panther",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Panther/_/Galat+Karam",
-        "duration": "0",
-        "@attr": {
           "rank": "5"
         },
         "playcount": "3"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "6",
+      "totalPages": "9",
       "page": "1",
-      "total": "30",
+      "total": "42",
       "perPage": "5"
     }
   }
