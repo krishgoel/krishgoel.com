@@ -154,8 +154,8 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "08579a38-22f9-4459-b4f3-6a8d16642bbd",
-        "name": "Softly",
+        "mbid": "",
+        "name": "Saari Duniya Jalaa Denge (Extended Film Version) [From \"ANIMAL\"]",
         "image": [
           {
             "size": "small",
@@ -175,12 +175,12 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Karan+Aujla",
-          "name": "Karan Aujla",
-          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
+          "url": "https://www.last.fm/music/Jaani",
+          "name": "Jaani",
+          "mbid": ""
         },
-        "url": "https://www.last.fm/music/Karan+Aujla/_/Softly",
-        "duration": "155",
+        "url": "https://www.last.fm/music/Jaani/_/Saari+Duniya+Jalaa+Denge+(Extended+Film+Version)+%5BFrom+%22ANIMAL%22%5D",
+        "duration": "0",
         "@attr": {
           "rank": "5"
         },
@@ -191,7 +191,7 @@
       "user": "KrishSkywalker",
       "totalPages": "10",
       "page": "1",
-      "total": "50",
+      "total": "49",
       "perPage": "5"
     }
   }
