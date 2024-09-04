@@ -2,8 +2,8 @@ name: Fetch Top Tracks
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: '0 1 * * *'
+  schedule:
+    - cron: '0 1 * * *'
 
 jobs:
   fetch_top_tracks:
