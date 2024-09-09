@@ -36,7 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "10"
+        "playcount": "12"
       },
       {
         "streamable": {
@@ -73,7 +73,7 @@
         "@attr": {
           "rank": "2"
         },
-        "playcount": "7"
+        "playcount": "6"
       },
       {
         "streamable": {
@@ -154,8 +154,8 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "",
-        "name": "Jagga Jiteya",
+        "mbid": "08579a38-22f9-4459-b4f3-6a8d16642bbd",
+        "name": "Softly",
         "image": [
           {
             "size": "small",
@@ -175,12 +175,12 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Kumaar",
-          "name": "Kumaar",
-          "mbid": ""
+          "url": "https://www.last.fm/music/Karan+Aujla",
+          "name": "Karan Aujla",
+          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
         },
-        "url": "https://www.last.fm/music/Kumaar/_/Jagga+Jiteya",
-        "duration": "0",
+        "url": "https://www.last.fm/music/Karan+Aujla/_/Softly",
+        "duration": "155",
         "@attr": {
           "rank": "5"
         },
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "12",
+      "totalPages": "13",
       "page": "1",
-      "total": "59",
+      "total": "65",
       "perPage": "5"
     }
   }
