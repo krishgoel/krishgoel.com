@@ -7,6 +7,80 @@
           "#text": "0"
         },
         "mbid": "",
+        "name": "Sundarakand",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Jai+Uttal",
+          "name": "Jai Uttal",
+          "mbid": "eb6f3fca-c40c-4740-b288-a7f5744c6cec"
+        },
+        "url": "https://www.last.fm/music/Jai+Uttal/_/Sundarakand",
+        "duration": "341",
+        "@attr": {
+          "rank": "1"
+        },
+        "playcount": "2"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Pretty Boy (feat. Lil Yachty)",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Joji",
+          "name": "Joji",
+          "mbid": "8264722b-df00-467a-858e-5c97cda169c9"
+        },
+        "url": "https://www.last.fm/music/Joji/_/Pretty+Boy+(feat.+Lil+Yachty)",
+        "duration": "156",
+        "@attr": {
+          "rank": "2"
+        },
+        "playcount": "2"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
         "name": "NO CAP",
         "image": [
           {
@@ -33,80 +107,6 @@
         },
         "url": "https://www.last.fm/music/Kr$na/_/NO+CAP",
         "duration": "205",
-        "@attr": {
-          "rank": "1"
-        },
-        "playcount": "2"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Arjan Vailly (From \"ANIMAL\")",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Manan+Bhardwaj",
-          "name": "Manan Bhardwaj",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Manan+Bhardwaj/_/Arjan+Vailly+(From+%22ANIMAL%22)",
-        "duration": "0",
-        "@attr": {
-          "rank": "2"
-        },
-        "playcount": "2"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "c605a3fe-750b-43db-a764-243c62c7fc86",
-        "name": "MAIN ZINDAGI KA SAATH NIBHATA CHALA GAYA",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Mohammed+Rafi",
-          "name": "Mohammed Rafi",
-          "mbid": "28365249-f3fd-44db-8131-32cb170970c4"
-        },
-        "url": "https://www.last.fm/music/Mohammed+Rafi/_/MAIN+ZINDAGI+KA+SAATH+NIBHATA+CHALA+GAYA",
-        "duration": "230",
         "@attr": {
           "rank": "3"
         },
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "11",
+      "totalPages": "5",
       "page": "1",
-      "total": "52",
+      "total": "24",
       "perPage": "5"
     }
   }
