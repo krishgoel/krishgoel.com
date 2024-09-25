@@ -36,7 +36,44 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "6"
+        "playcount": "7"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Yellow",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Coldplay",
+          "name": "Coldplay",
+          "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234"
+        },
+        "url": "https://www.last.fm/music/Coldplay/_/Yellow",
+        "duration": "269",
+        "@attr": {
+          "rank": "2"
+        },
+        "playcount": "5"
       },
       {
         "streamable": {
@@ -71,7 +108,7 @@
         "url": "https://www.last.fm/music/Jai+Uttal/_/Sundarakand",
         "duration": "341",
         "@attr": {
-          "rank": "2"
+          "rank": "3"
         },
         "playcount": "5"
       },
@@ -108,54 +145,17 @@
         "url": "https://www.last.fm/music/Radical+Face/_/Welcome+Home",
         "duration": "287",
         "@attr": {
-          "rank": "3"
-        },
-        "playcount": "4"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "5f0d447b-795f-469e-8ced-b6948f3c5d9d",
-        "name": "A Head Full of Dreams",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Coldplay",
-          "name": "Coldplay",
-          "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234"
-        },
-        "url": "https://www.last.fm/music/Coldplay/_/A+Head+Full+of+Dreams",
-        "duration": "224",
-        "@attr": {
           "rank": "4"
         },
-        "playcount": "3"
+        "playcount": "5"
       },
       {
         "streamable": {
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "",
-        "name": "A Sky Full of Stars",
+        "mbid": "0ea9d344-974a-40b6-832b-fb81a0a96c06",
+        "name": "Us Against the World",
         "image": [
           {
             "size": "small",
@@ -179,19 +179,19 @@
           "name": "Coldplay",
           "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234"
         },
-        "url": "https://www.last.fm/music/Coldplay/_/A+Sky+Full+of+Stars",
-        "duration": "268",
+        "url": "https://www.last.fm/music/Coldplay/_/Us+Against+the+World",
+        "duration": "0",
         "@attr": {
           "rank": "5"
         },
-        "playcount": "3"
+        "playcount": "4"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "13",
+      "totalPages": "18",
       "page": "1",
-      "total": "63",
+      "total": "90",
       "perPage": "5"
     }
   }
