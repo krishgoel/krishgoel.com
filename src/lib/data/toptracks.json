@@ -36,81 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "13"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Fix You",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Coldplay",
-          "name": "Coldplay",
-          "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234"
-        },
-        "url": "https://www.last.fm/music/Coldplay/_/Fix+You",
-        "duration": "275",
-        "@attr": {
-          "rank": "2"
-        },
-        "playcount": "9"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Nude Walk",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Harshavardhan+Rameshwar",
-          "name": "Harshavardhan Rameshwar",
-          "mbid": "72b72893-512d-4cea-a6dd-0f2b5ca80fc5"
-        },
-        "url": "https://www.last.fm/music/Harshavardhan+Rameshwar/_/Nude+Walk",
-        "duration": "116",
-        "@attr": {
-          "rank": "3"
-        },
-        "playcount": "7"
+        "playcount": "11"
       },
       {
         "streamable": {
@@ -145,7 +71,7 @@
         "url": "https://www.last.fm/music/Jai+Uttal/_/Sundarakand",
         "duration": "341",
         "@attr": {
-          "rank": "4"
+          "rank": "2"
         },
         "playcount": "7"
       },
@@ -155,7 +81,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Viva la Vida",
+        "name": "Fix You",
         "image": [
           {
             "size": "small",
@@ -179,19 +105,93 @@
           "name": "Coldplay",
           "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234"
         },
-        "url": "https://www.last.fm/music/Coldplay/_/Viva+la+Vida",
-        "duration": "241",
+        "url": "https://www.last.fm/music/Coldplay/_/Fix+You",
+        "duration": "275",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "6"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "02b2a039-760c-365b-a4f8-2bacfd8b02c7",
+        "name": "Tere Bina",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/A.R.+Rahman",
+          "name": "A.R. Rahman",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/A.R.+Rahman/_/Tere+Bina",
+        "duration": "312",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "4"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "3cfae970-1365-4b7c-aded-49d7b21dd9ce",
+        "name": "Kashi Vishwanath Gange",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Krishna+Das",
+          "name": "Krishna Das",
+          "mbid": "9c0d337f-934c-45e9-a24e-c985b8059816"
+        },
+        "url": "https://www.last.fm/music/Krishna+Das/_/Kashi+Vishwanath+Gange",
+        "duration": "389",
         "@attr": {
           "rank": "5"
         },
-        "playcount": "5"
+        "playcount": "4"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "17",
+      "totalPages": "14",
       "page": "1",
-      "total": "83",
+      "total": "66",
       "perPage": "5"
     }
   }
