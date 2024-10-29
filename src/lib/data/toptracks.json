@@ -6,43 +6,6 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "",
-        "name": "Winning Speech",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Karan+Aujla",
-          "name": "Karan Aujla",
-          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
-        },
-        "url": "https://www.last.fm/music/Karan+Aujla/_/Winning+Speech",
-        "duration": "227",
-        "@attr": {
-          "rank": "1"
-        },
-        "playcount": "6"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
         "mbid": "3cfae970-1365-4b7c-aded-49d7b21dd9ce",
         "name": "Kashi Vishwanath Gange",
         "image": [
@@ -71,83 +34,9 @@
         "url": "https://www.last.fm/music/Krishna+Das/_/Kashi+Vishwanath+Gange",
         "duration": "389",
         "@attr": {
-          "rank": "2"
+          "rank": "1"
         },
-        "playcount": "6"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Fix You",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Coldplay",
-          "name": "Coldplay",
-          "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234"
-        },
-        "url": "https://www.last.fm/music/Coldplay/_/Fix+You",
-        "duration": "275",
-        "@attr": {
-          "rank": "3"
-        },
-        "playcount": "4"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Bajrang Baan-Lofi",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj",
-          "name": "Rasraj Ji Maharaj",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
-        "duration": "217",
-        "@attr": {
-          "rank": "4"
-        },
-        "playcount": "4"
+        "playcount": "5"
       },
       {
         "streamable": {
@@ -182,16 +71,127 @@
         "url": "https://www.last.fm/music/Udit+Narayan/_/Mere+Mehboob+Mere+Sanam+(From+%22Bad+Newz%22)",
         "duration": "0",
         "@attr": {
-          "rank": "5"
+          "rank": "2"
         },
         "playcount": "4"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Kainchi",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Hanuman+Foundation",
+          "name": "Hanuman Foundation",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Hanuman+Foundation/_/Kainchi",
+        "duration": "368",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "3"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Winning Speech",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Karan+Aujla",
+          "name": "Karan Aujla",
+          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
+        },
+        "url": "https://www.last.fm/music/Karan+Aujla/_/Winning+Speech",
+        "duration": "227",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "3"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Bajrang Baan-Lofi",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj",
+          "name": "Rasraj Ji Maharaj",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
+        "duration": "217",
+        "@attr": {
+          "rank": "5"
+        },
+        "playcount": "3"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "19",
+      "totalPages": "16",
       "page": "1",
-      "total": "94",
+      "total": "78",
       "perPage": "5"
     }
   }
