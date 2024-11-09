@@ -36,7 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "11"
+        "playcount": "10"
       },
       {
         "streamable": {
@@ -73,7 +73,7 @@
         "@attr": {
           "rank": "2"
         },
-        "playcount": "7"
+        "playcount": "8"
       },
       {
         "streamable": {
@@ -118,6 +118,43 @@
           "#text": "0"
         },
         "mbid": "",
+        "name": "NO CAP",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Kr$na",
+          "name": "Kr$na",
+          "mbid": "86ba68eb-ea24-4e78-a009-b35e99cb6193"
+        },
+        "url": "https://www.last.fm/music/Kr$na/_/NO+CAP",
+        "duration": "205",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "4"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
         "name": "AGAINST ALL ODDS",
         "image": [
           {
@@ -145,43 +182,6 @@
         "url": "https://www.last.fm/music/AP+Dhillon/_/AGAINST+ALL+ODDS",
         "duration": "0",
         "@attr": {
-          "rank": "4"
-        },
-        "playcount": "4"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "G.O.A.T.",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Diljit+Dosanjh",
-          "name": "Diljit Dosanjh",
-          "mbid": "f931c961-b647-4861-be8c-f47d84a4de51"
-        },
-        "url": "https://www.last.fm/music/Diljit+Dosanjh/_/G.O.A.T.",
-        "duration": "223",
-        "@attr": {
           "rank": "5"
         },
         "playcount": "3"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "15",
+      "totalPages": "12",
       "page": "1",
-      "total": "72",
+      "total": "60",
       "perPage": "5"
     }
   }
