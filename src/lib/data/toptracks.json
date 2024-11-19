@@ -36,7 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "8"
+        "playcount": "9"
       },
       {
         "streamable": {
@@ -80,80 +80,6 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "",
-        "name": "NO CAP",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Kr$na",
-          "name": "Kr$na",
-          "mbid": "86ba68eb-ea24-4e78-a009-b35e99cb6193"
-        },
-        "url": "https://www.last.fm/music/Kr$na/_/NO+CAP",
-        "duration": "205",
-        "@attr": {
-          "rank": "3"
-        },
-        "playcount": "6"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "b5e1e12f-8832-4ba4-b772-de15e2db2009",
-        "name": "Alright",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Kendrick+Lamar",
-          "name": "Kendrick Lamar",
-          "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
-        },
-        "url": "https://www.last.fm/music/Kendrick+Lamar/_/Alright",
-        "duration": "219",
-        "@attr": {
-          "rank": "4"
-        },
-        "playcount": "4"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
         "mbid": "e88d6537-e911-405b-9b4b-f39572e7969b",
         "name": "Breathless Hanuman Chalisa",
         "image": [
@@ -182,6 +108,80 @@
         "url": "https://www.last.fm/music/Shankar+Mahadevan/_/Breathless+Hanuman+Chalisa",
         "duration": "225",
         "@attr": {
+          "rank": "3"
+        },
+        "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "dd7e229f-58ca-47c0-a8da-aaf023d7074b",
+        "name": "Take the Money and Run",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Steve+Miller+Band",
+          "name": "Steve Miller Band",
+          "mbid": "e57f0cac-4f56-473c-8d7e-d93f753fd586"
+        },
+        "url": "https://www.last.fm/music/Steve+Miller+Band/_/Take+the+Money+and+Run",
+        "duration": "170",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Winning Speech",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Karan+Aujla",
+          "name": "Karan Aujla",
+          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
+        },
+        "url": "https://www.last.fm/music/Karan+Aujla/_/Winning+Speech",
+        "duration": "227",
+        "@attr": {
           "rank": "5"
         },
         "playcount": "4"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "17",
+      "totalPages": "15",
       "page": "1",
-      "total": "81",
+      "total": "73",
       "perPage": "5"
     }
   }
