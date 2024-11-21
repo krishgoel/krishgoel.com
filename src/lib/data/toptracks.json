@@ -32,48 +32,11 @@
           "mbid": "0fabbc1d-8d94-4a61-bd1d-1099ad1e4559"
         },
         "url": "https://www.last.fm/music/Car+Seat+Headrest/_/Fill+in+the+Blank",
-        "duration": "300",
+        "duration": "286",
         "@attr": {
           "rank": "1"
         },
-        "playcount": "9"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Bajrang Baan-Lofi",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj",
-          "name": "Rasraj Ji Maharaj",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
-        "duration": "217",
-        "@attr": {
-          "rank": "2"
-        },
-        "playcount": "6"
+        "playcount": "8"
       },
       {
         "streamable": {
@@ -108,9 +71,9 @@
         "url": "https://www.last.fm/music/Steve+Miller+Band/_/Take+the+Money+and+Run",
         "duration": "170",
         "@attr": {
-          "rank": "3"
+          "rank": "2"
         },
-        "playcount": "5"
+        "playcount": "6"
       },
       {
         "streamable": {
@@ -145,9 +108,46 @@
         "url": "https://www.last.fm/music/Karan+Aujla/_/Winning+Speech",
         "duration": "227",
         "@attr": {
+          "rank": "3"
+        },
+        "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Bajrang Baan-Lofi",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj",
+          "name": "Rasraj Ji Maharaj",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
+        "duration": "217",
+        "@attr": {
           "rank": "4"
         },
-        "playcount": "4"
+        "playcount": "5"
       },
       {
         "streamable": {
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "15",
+      "totalPages": "18",
       "page": "1",
-      "total": "74",
+      "total": "88",
       "perPage": "5"
     }
   }
