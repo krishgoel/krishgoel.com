@@ -36,7 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "15"
+        "playcount": "11"
       },
       {
         "streamable": {
@@ -73,43 +73,6 @@
         "@attr": {
           "rank": "2"
         },
-        "playcount": "9"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "4b28fa27-3673-4b2c-88a3-64cc57f2b71e",
-        "name": "wacced out murals",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Kendrick+Lamar",
-          "name": "Kendrick Lamar",
-          "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
-        },
-        "url": "https://www.last.fm/music/Kendrick+Lamar/_/wacced+out+murals",
-        "duration": "317",
-        "@attr": {
-          "rank": "3"
-        },
         "playcount": "8"
       },
       {
@@ -118,7 +81,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Abhi Na Jao Chhod Kar",
+        "name": "Winning Speech",
         "image": [
           {
             "size": "small",
@@ -138,14 +101,14 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Asha+Bhosle",
-          "name": "Asha Bhosle",
-          "mbid": ""
+          "url": "https://www.last.fm/music/Karan+Aujla",
+          "name": "Karan Aujla",
+          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
         },
-        "url": "https://www.last.fm/music/Asha+Bhosle/_/Abhi+Na+Jao+Chhod+Kar",
-        "duration": "0",
+        "url": "https://www.last.fm/music/Karan+Aujla/_/Winning+Speech",
+        "duration": "227",
         "@attr": {
-          "rank": "4"
+          "rank": "3"
         },
         "playcount": "6"
       },
@@ -182,6 +145,43 @@
         "url": "https://www.last.fm/music/Kendrick+Lamar/_/Bitch,+Don%E2%80%99t+Kill+My+Vibe",
         "duration": "0",
         "@attr": {
+          "rank": "4"
+        },
+        "playcount": "6"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "NO CAP",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Kr$na",
+          "name": "Kr$na",
+          "mbid": "86ba68eb-ea24-4e78-a009-b35e99cb6193"
+        },
+        "url": "https://www.last.fm/music/Kr$na/_/NO+CAP",
+        "duration": "205",
+        "@attr": {
           "rank": "5"
         },
         "playcount": "6"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "15",
+      "totalPages": "13",
       "page": "1",
-      "total": "73",
+      "total": "65",
       "perPage": "5"
     }
   }
