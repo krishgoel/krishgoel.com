@@ -36,7 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "8"
+        "playcount": "9"
       },
       {
         "streamable": {
@@ -73,7 +73,7 @@
         "@attr": {
           "rank": "2"
         },
-        "playcount": "7"
+        "playcount": "6"
       },
       {
         "streamable": {
@@ -110,15 +110,15 @@
         "@attr": {
           "rank": "3"
         },
-        "playcount": "7"
+        "playcount": "6"
       },
       {
         "streamable": {
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "451690ff-5d48-4724-bd69-56951dbbf733",
-        "name": "squabble up",
+        "mbid": "16acea37-4d8b-484a-a5c9-fa6911d1fdd8",
+        "name": "XXL",
         "image": [
           {
             "size": "small",
@@ -138,16 +138,16 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Kendrick+Lamar",
-          "name": "Kendrick Lamar",
-          "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+          "url": "https://www.last.fm/music/DaBaby",
+          "name": "DaBaby",
+          "mbid": "87ae83df-6173-40cc-a0f2-bad543faa6aa"
         },
-        "url": "https://www.last.fm/music/Kendrick+Lamar/_/squabble+up",
-        "duration": "157",
+        "url": "https://www.last.fm/music/DaBaby/_/XXL",
+        "duration": "153",
         "@attr": {
           "rank": "4"
         },
-        "playcount": "6"
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -155,7 +155,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "NO CAP",
+        "name": "Sundarakand",
         "image": [
           {
             "size": "small",
@@ -175,23 +175,23 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Kr$na",
-          "name": "Kr$na",
-          "mbid": "86ba68eb-ea24-4e78-a009-b35e99cb6193"
+          "url": "https://www.last.fm/music/Jai+Uttal",
+          "name": "Jai Uttal",
+          "mbid": "eb6f3fca-c40c-4740-b288-a7f5744c6cec"
         },
-        "url": "https://www.last.fm/music/Kr$na/_/NO+CAP",
-        "duration": "205",
+        "url": "https://www.last.fm/music/Jai+Uttal/_/Sundarakand",
+        "duration": "341",
         "@attr": {
           "rank": "5"
         },
-        "playcount": "6"
+        "playcount": "3"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "12",
+      "totalPages": "8",
       "page": "1",
-      "total": "57",
+      "total": "39",
       "perPage": "5"
     }
   }
