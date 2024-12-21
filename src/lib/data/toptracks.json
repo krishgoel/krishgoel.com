@@ -73,7 +73,7 @@
         "@attr": {
           "rank": "2"
         },
-        "playcount": "7"
+        "playcount": "8"
       },
       {
         "streamable": {
@@ -110,44 +110,7 @@
         "@attr": {
           "rank": "3"
         },
-        "playcount": "7"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "16acea37-4d8b-484a-a5c9-fa6911d1fdd8",
-        "name": "XXL",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/DaBaby",
-          "name": "DaBaby",
-          "mbid": "87ae83df-6173-40cc-a0f2-bad543faa6aa"
-        },
-        "url": "https://www.last.fm/music/DaBaby/_/XXL",
-        "duration": "153",
-        "@attr": {
-          "rank": "4"
-        },
-        "playcount": "5"
+        "playcount": "8"
       },
       {
         "streamable": {
@@ -182,16 +145,53 @@
         "url": "https://www.last.fm/music/Jai+Uttal/_/Sundarakand",
         "duration": "341",
         "@attr": {
+          "rank": "4"
+        },
+        "playcount": "6"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "16acea37-4d8b-484a-a5c9-fa6911d1fdd8",
+        "name": "XXL",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/DaBaby",
+          "name": "DaBaby",
+          "mbid": "87ae83df-6173-40cc-a0f2-bad543faa6aa"
+        },
+        "url": "https://www.last.fm/music/DaBaby/_/XXL",
+        "duration": "153",
+        "@attr": {
           "rank": "5"
         },
-        "playcount": "4"
+        "playcount": "5"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
       "totalPages": "9",
       "page": "1",
-      "total": "43",
+      "total": "41",
       "perPage": "5"
     }
   }
