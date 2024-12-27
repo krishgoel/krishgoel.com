@@ -6,7 +6,7 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "",
+        "mbid": "696cdf53-d8cf-4973-9f8f-e5b73a6c0f09",
         "name": "Fix You",
         "image": [
           {
@@ -36,7 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "8"
+        "playcount": "10"
       },
       {
         "streamable": {
@@ -154,8 +154,8 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "c8991a8c-1958-4e21-9615-568161d32286",
-        "name": "luther (with SZA)",
+        "mbid": "db1803fb-0000-4ca7-8afb-9f0e21f4f144",
+        "name": "squabble up",
         "image": [
           {
             "size": "small",
@@ -179,8 +179,8 @@
           "name": "Kendrick Lamar",
           "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
         },
-        "url": "https://www.last.fm/music/Kendrick+Lamar/_/luther+(with+SZA)",
-        "duration": "0",
+        "url": "https://www.last.fm/music/Kendrick+Lamar/_/squabble+up",
+        "duration": "157",
         "@attr": {
           "rank": "5"
         },
