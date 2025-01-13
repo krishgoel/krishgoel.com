@@ -6,6 +6,43 @@
           "fulltrack": "0",
           "#text": "0"
         },
+        "mbid": "",
+        "name": "Wavy",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Karan+Aujla",
+          "name": "Karan Aujla",
+          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
+        },
+        "url": "https://www.last.fm/music/Karan+Aujla/_/Wavy",
+        "duration": "161",
+        "@attr": {
+          "rank": "1"
+        },
+        "playcount": "11"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
         "mbid": "e9b374d6-5e66-43b0-8cb8-b2a518a86b1c",
         "name": "On Top",
         "image": [
@@ -34,9 +71,9 @@
         "url": "https://www.last.fm/music/Karan+Aujla/_/On+Top",
         "duration": "183",
         "@attr": {
-          "rank": "1"
+          "rank": "2"
         },
-        "playcount": "8"
+        "playcount": "9"
       },
       {
         "streamable": {
@@ -71,7 +108,7 @@
         "url": "https://www.last.fm/music/Radical+Face/_/Welcome+Home",
         "duration": "287",
         "@attr": {
-          "rank": "2"
+          "rank": "3"
         },
         "playcount": "8"
       },
@@ -81,7 +118,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Wavy",
+        "name": "Winning Speech",
         "image": [
           {
             "size": "small",
@@ -105,45 +142,8 @@
           "name": "Karan Aujla",
           "mbid": "4a779683-5404-4b90-a0d7-242495158265"
         },
-        "url": "https://www.last.fm/music/Karan+Aujla/_/Wavy",
-        "duration": "161",
-        "@attr": {
-          "rank": "3"
-        },
-        "playcount": "7"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Hallucinogenics (feat. Lana Del Rey)",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Matt+Maeson",
-          "name": "Matt Maeson",
-          "mbid": "e7bbb0c4-d3cf-4523-b5e1-a01d69d5bc83"
-        },
-        "url": "https://www.last.fm/music/Matt+Maeson/_/Hallucinogenics+(feat.+Lana+Del+Rey)",
-        "duration": "187",
+        "url": "https://www.last.fm/music/Karan+Aujla/_/Winning+Speech",
+        "duration": "227",
         "@attr": {
           "rank": "4"
         },
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "20",
+      "totalPages": "21",
       "page": "1",
-      "total": "97",
+      "total": "102",
       "perPage": "5"
     }
   }
