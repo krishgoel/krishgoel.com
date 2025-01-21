@@ -7,7 +7,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "4AM Hanuman Chalisa",
+        "name": "Wavy",
         "image": [
           {
             "size": "small",
@@ -27,14 +27,51 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Krishna+Das",
-          "name": "Krishna Das",
-          "mbid": "9c0d337f-934c-45e9-a24e-c985b8059816"
+          "url": "https://www.last.fm/music/Karan+Aujla",
+          "name": "Karan Aujla",
+          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
         },
-        "url": "https://www.last.fm/music/Krishna+Das/_/4AM+Hanuman+Chalisa",
-        "duration": "581",
+        "url": "https://www.last.fm/music/Karan+Aujla/_/Wavy",
+        "duration": "161",
         "@attr": {
           "rank": "1"
+        },
+        "playcount": "4"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "e9b374d6-5e66-43b0-8cb8-b2a518a86b1c",
+        "name": "On Top",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Karan+Aujla",
+          "name": "Karan Aujla",
+          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
+        },
+        "url": "https://www.last.fm/music/Karan+Aujla/_/On+Top",
+        "duration": "183",
+        "@attr": {
+          "rank": "2"
         },
         "playcount": "3"
       },
@@ -43,8 +80,8 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "815a31ca-8adf-4fc4-bcc9-0afa0c87a180",
-        "name": "Summer High",
+        "mbid": "",
+        "name": "Winning Speech",
         "image": [
           {
             "size": "small",
@@ -64,16 +101,16 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/AP+Dhillon",
-          "name": "AP Dhillon",
-          "mbid": "ed29f721-0d40-4a90-9f25-a91c2ccccd5e"
+          "url": "https://www.last.fm/music/Karan+Aujla",
+          "name": "Karan Aujla",
+          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
         },
-        "url": "https://www.last.fm/music/AP+Dhillon/_/Summer+High",
-        "duration": "177",
+        "url": "https://www.last.fm/music/Karan+Aujla/_/Winning+Speech",
+        "duration": "227",
         "@attr": {
-          "rank": "2"
+          "rank": "3"
         },
-        "playcount": "2"
+        "playcount": "3"
       },
       {
         "streamable": {
@@ -108,43 +145,6 @@
         "url": "https://www.last.fm/music/Arijit+Singh/_/Chota+Sa+Fasana",
         "duration": "244",
         "@attr": {
-          "rank": "3"
-        },
-        "playcount": "2"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "The Nights",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Avicii",
-          "name": "Avicii",
-          "mbid": "c85cfd6b-b1e9-4a50-bd55-eb725f04f7d5"
-        },
-        "url": "https://www.last.fm/music/Avicii/_/The+Nights",
-        "duration": "176",
-        "@attr": {
           "rank": "4"
         },
         "playcount": "2"
@@ -154,8 +154,8 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "",
-        "name": "Wavy",
+        "mbid": "e58f27a9-f2f2-452d-bf76-de3555fb3903",
+        "name": "Born to Shine",
         "image": [
           {
             "size": "small",
@@ -175,12 +175,12 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Karan+Aujla",
-          "name": "Karan Aujla",
-          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
+          "url": "https://www.last.fm/music/Diljit+Dosanjh",
+          "name": "Diljit Dosanjh",
+          "mbid": "f931c961-b647-4861-be8c-f47d84a4de51"
         },
-        "url": "https://www.last.fm/music/Karan+Aujla/_/Wavy",
-        "duration": "161",
+        "url": "https://www.last.fm/music/Diljit+Dosanjh/_/Born+to+Shine",
+        "duration": "213",
         "@attr": {
           "rank": "5"
         },
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "10",
+      "totalPages": "9",
       "page": "1",
-      "total": "50",
+      "total": "45",
       "perPage": "5"
     }
   }
