@@ -80,8 +80,8 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "6a067bf5-8259-428f-998d-1d59b001df6f",
-        "name": "Wake Me Up",
+        "mbid": "67f7e843-06c6-468c-a574-112d24798ca3",
+        "name": "Fix You",
         "image": [
           {
             "size": "small",
@@ -101,12 +101,12 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Avicii",
-          "name": "Avicii",
-          "mbid": "c85cfd6b-b1e9-4a50-bd55-eb725f04f7d5"
+          "url": "https://www.last.fm/music/Coldplay",
+          "name": "Coldplay",
+          "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234"
         },
-        "url": "https://www.last.fm/music/Avicii/_/Wake+Me+Up",
-        "duration": "246",
+        "url": "https://www.last.fm/music/Coldplay/_/Fix+You",
+        "duration": "295",
         "@attr": {
           "rank": "3"
         },
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "29",
+      "totalPages": "31",
       "page": "1",
-      "total": "144",
+      "total": "155",
       "perPage": "5"
     }
   }
