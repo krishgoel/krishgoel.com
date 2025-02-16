@@ -80,43 +80,6 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "67f7e843-06c6-468c-a574-112d24798ca3",
-        "name": "Fix You",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Coldplay",
-          "name": "Coldplay",
-          "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234"
-        },
-        "url": "https://www.last.fm/music/Coldplay/_/Fix+You",
-        "duration": "295",
-        "@attr": {
-          "rank": "3"
-        },
-        "playcount": "5"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
         "mbid": "674a8b2d-db38-40a9-8c53-2e7f13ed22ec",
         "name": "Adventure of a Lifetime",
         "image": [
@@ -145,17 +108,17 @@
         "url": "https://www.last.fm/music/Coldplay/_/Adventure+of+a+Lifetime",
         "duration": "222",
         "@attr": {
-          "rank": "4"
+          "rank": "3"
         },
-        "playcount": "4"
+        "playcount": "5"
       },
       {
         "streamable": {
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "",
-        "name": "Yellow",
+        "mbid": "67f7e843-06c6-468c-a574-112d24798ca3",
+        "name": "Fix You",
         "image": [
           {
             "size": "small",
@@ -179,19 +142,56 @@
           "name": "Coldplay",
           "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234"
         },
-        "url": "https://www.last.fm/music/Coldplay/_/Yellow",
-        "duration": "269",
+        "url": "https://www.last.fm/music/Coldplay/_/Fix+You",
+        "duration": "295",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Viva la Vida",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Coldplay",
+          "name": "Coldplay",
+          "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234"
+        },
+        "url": "https://www.last.fm/music/Coldplay/_/Viva+la+Vida",
+        "duration": "242",
         "@attr": {
           "rank": "5"
         },
-        "playcount": "4"
+        "playcount": "5"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "33",
+      "totalPages": "30",
       "page": "1",
-      "total": "161",
+      "total": "147",
       "perPage": "5"
     }
   }
