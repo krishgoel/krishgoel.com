@@ -7,43 +7,6 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Winning Speech",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Karan+Aujla",
-          "name": "Karan Aujla",
-          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
-        },
-        "url": "https://www.last.fm/music/Karan+Aujla/_/Winning+Speech",
-        "duration": "227",
-        "@attr": {
-          "rank": "1"
-        },
-        "playcount": "6"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
         "name": "Bajrang Baan-Lofi",
         "image": [
           {
@@ -71,6 +34,43 @@
         "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
         "duration": "217",
         "@attr": {
+          "rank": "1"
+        },
+        "playcount": "7"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Friend of Mine (feat. Vargas & Lagola)",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Avicii",
+          "name": "Avicii",
+          "mbid": "c85cfd6b-b1e9-4a50-bd55-eb725f04f7d5"
+        },
+        "url": "https://www.last.fm/music/Avicii/_/Friend+of+Mine+(feat.+Vargas+&+Lagola)",
+        "duration": "159",
+        "@attr": {
           "rank": "2"
         },
         "playcount": "6"
@@ -81,7 +81,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Kainchi",
+        "name": "Hey Brother",
         "image": [
           {
             "size": "small",
@@ -101,24 +101,24 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Hanuman+Foundation",
-          "name": "Hanuman Foundation",
-          "mbid": ""
+          "url": "https://www.last.fm/music/Avicii",
+          "name": "Avicii",
+          "mbid": "c85cfd6b-b1e9-4a50-bd55-eb725f04f7d5"
         },
-        "url": "https://www.last.fm/music/Hanuman+Foundation/_/Kainchi",
-        "duration": "368",
+        "url": "https://www.last.fm/music/Avicii/_/Hey+Brother",
+        "duration": "255",
         "@attr": {
           "rank": "3"
         },
-        "playcount": "3"
+        "playcount": "5"
       },
       {
         "streamable": {
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "e9b374d6-5e66-43b0-8cb8-b2a518a86b1c",
-        "name": "On Top",
+        "mbid": "",
+        "name": "Lonely Together (feat. Rita Ora)",
         "image": [
           {
             "size": "small",
@@ -138,24 +138,24 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Karan+Aujla",
-          "name": "Karan Aujla",
-          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
+          "url": "https://www.last.fm/music/Avicii",
+          "name": "Avicii",
+          "mbid": "c85cfd6b-b1e9-4a50-bd55-eb725f04f7d5"
         },
-        "url": "https://www.last.fm/music/Karan+Aujla/_/On+Top",
-        "duration": "183",
+        "url": "https://www.last.fm/music/Avicii/_/Lonely+Together+(feat.+Rita+Ora)",
+        "duration": "181",
         "@attr": {
           "rank": "4"
         },
-        "playcount": "3"
+        "playcount": "5"
       },
       {
         "streamable": {
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "5cb4adfc-1f7b-40b1-b31e-8443554ccd9d",
-        "name": "Fake Tales of San Francisco",
+        "mbid": "6614616b-e0c5-42aa-a1ad-7bad956bb67f",
+        "name": "Wake Me Up",
         "image": [
           {
             "size": "small",
@@ -175,23 +175,23 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Arctic+Monkeys",
-          "name": "Arctic Monkeys",
-          "mbid": "ada7a83c-e3e1-40f1-93f9-3e73dbc9298a"
+          "url": "https://www.last.fm/music/Avicii",
+          "name": "Avicii",
+          "mbid": "c85cfd6b-b1e9-4a50-bd55-eb725f04f7d5"
         },
-        "url": "https://www.last.fm/music/Arctic+Monkeys/_/Fake+Tales+of+San+Francisco",
-        "duration": "177",
+        "url": "https://www.last.fm/music/Avicii/_/Wake+Me+Up",
+        "duration": "246",
         "@attr": {
           "rank": "5"
         },
-        "playcount": "2"
+        "playcount": "5"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "14",
+      "totalPages": "15",
       "page": "1",
-      "total": "67",
+      "total": "71",
       "perPage": "5"
     }
   }
