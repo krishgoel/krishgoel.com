@@ -49,6 +49,10 @@
 		'/bigdonmegaladon': {
 			title: 'Big Don Megaladon',
 			description: 'Sanskriti Batch of 21 Yearbook Gang.'
+		},
+		'/be-me': {
+			title: '> Be me',
+			description: 'A summary of my life and work hitherto.'
 		}
 	}
 
