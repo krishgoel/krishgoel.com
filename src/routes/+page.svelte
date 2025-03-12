@@ -13,7 +13,7 @@
 		<div class="grid md:grid-cols-2 mb-6">
 			<div>
 				<h1 class="mr-2 mb-0 inline">Research Publications</h1>
-				<p class="inline-block"><a href="/projects" aria-label="See all projects">Google Scholar ></a></p>
+				<p class="inline-block"><a href="https://scholar.google.com/citations?user=5a84VU4AAAAJ&hl=en" target="_blank" aria-label="My Google Scholar">Google Scholar ></a></p>
 				<p>This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
 			</div>
 		</div>
