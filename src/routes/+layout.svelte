@@ -1,6 +1,15 @@
 <script lang="ts">
 	import '../app.css'
 	import { page } from '$app/stores'
+	import { derived } from 'svelte/store'
+
+	const bodyClass = derived(page, ($page) => {
+		const path = $page.url.pathname
+		if (path.startsWith('/projects/') || path.startsWith('/writing/') || ['/lexicon', '/thanks', '/listening', '/bigdonmegaladon'].includes(path)) {
+			return 'width-md md:py-16 py-12'
+		}
+		return path === '/' ? '' : 'width-lg'
+	})
 
 	import type { ProjectAPIResponse, PostAPIResponse, SpeakingAPIResponse } from '$lib/types'
 	export let data: { projects: ProjectAPIResponse[]; blog: PostAPIResponse[]; speaking: SpeakingAPIResponse[] }
@@ -117,12 +126,13 @@
 			<p class="mt-0"><a aria-label="Projects" href="/projects">Projects</a></p>
 			<p class="mt-0"><a aria-label="Writing" href="/writing">Writing</a></p>
 			<p class="mt-0"><a aria-label="Contact" href="/#contact">Contact</a></p>
+			<p class="mt-0"><a aria-label="Contact" href="/be-me">>be-me</a></p>
 			<p class="mt-0"><a aria-label="Resume" href="/resume.pdf" target="_blank">Resume</a></p>
 		</div>
 	</div>
 </nav>
 
-<div class="bodyspace {$page.url.pathname.startsWith('/projects/') || $page.url.pathname.startsWith('/writing/') || $page.url.pathname === '/lexicon' || $page.url.pathname === '/thanks' || $page.url.pathname === '/listening' || $page.url.pathname === '/bigdonmegaladon' ? 'width-md md:py-16 py-12' : $page.url.pathname === '/' ? '' : 'width-lg'}">
+<div class="bodyspace {$bodyClass}">
 	<slot />
 </div>
 
