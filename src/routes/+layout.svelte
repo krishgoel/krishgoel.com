@@ -5,7 +5,7 @@
 
 	const bodyClass = derived(page, ($page) => {
 		const path = $page.url.pathname
-		if (path.startsWith('/projects/') || path.startsWith('/writing/') || ['/lexicon', '/thanks', '/listening', '/bigdonmegaladon'].includes(path)) {
+		if (path.startsWith('/projects/') || path.startsWith('/writing/') || ['/lexicon', '/thanks', '/listening', '/bigdonmegaladon', '/be-me'].includes(path)) {
 			return 'width-md md:py-16 py-12'
 		}
 		return path === '/' ? '' : 'width-lg'
@@ -126,7 +126,7 @@
 			<p class="mt-0"><a aria-label="Projects" href="/projects">Projects</a></p>
 			<p class="mt-0"><a aria-label="Writing" href="/writing">Writing</a></p>
 			<p class="mt-0"><a aria-label="Contact" href="/#contact">Contact</a></p>
-			<p class="mt-0"><a aria-label="Contact" href="/be-me">>be-me</a></p>
+			<p class="mt-0"><a aria-label="Contact" href="/be-me">> be-me</a></p>
 			<p class="mt-0"><a aria-label="Resume" href="/resume.pdf" target="_blank">Resume</a></p>
 		</div>
 	</div>
