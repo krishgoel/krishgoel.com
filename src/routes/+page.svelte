@@ -14,7 +14,7 @@
 			<div>
 				<h1 class="mr-2 mb-0 inline">Research Publications</h1>
 				<p class="inline-block"><a href="https://scholar.google.com/citations?user=5a84VU4AAAAJ&hl=en" target="_blank" aria-label="My Google Scholar">Google Scholar ></a></p>
-				<p>This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p>
+				<!-- <p>This is a detailed list of all the projects I've worked on so far, it includes my hackathon submissions, side tinkers, startup ideas, and non-profits.</p> -->
 			</div>
 		</div>
 		<!-- <div class="gap-y-4">
