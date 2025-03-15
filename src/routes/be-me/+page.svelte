@@ -19,7 +19,7 @@
     > build <a href="/projects/covaid" aria-label="CovAID">CovAID</a> with 5 friends - assemble a team of 40, build SOPs, train, deploy webapp, provide verified leads, save lives<br/>
     > get acknowledged by <a href="https://www.instagram.com/covaid.resources/" target="_blank" aria-label="CovAID Instagram">celebrities</a> and <a href="/images/projects/covaid/covaid-hindustan-times.webp" target="_blank" aria-label="CovAID in Hindustan Times">newspaper media</a><br/>
     > 12th grade boards (95.6%)<br/>
-    > somehow make it to <a href="https://www.manipal.edu/mit.html" target="_blank" aria-label="Manipal Institute of Technology">Manipal, Mangalore</a> to study mechantronics<br/>
+    > somehow make it to <a href="https://www.manipal.edu/mit.html" target="_blank" aria-label="Manipal Institute of Technology">Manipal, Mangalore</a> to study Mechatronics<br/>
     > start liking finance, plan for MBA<br/>
     > 2022, medical condition, need to be closer to home<br/>
     > switch to <a href="https://jaipur.manipal.edu" target="_blank" aria-label="Manipal University Jaipur">Manipal, Jaipur</a> to study CS with AI & ML hons.<br/>
@@ -29,11 +29,11 @@
     > realise I need research publications<br/>
     > become a research intern at <a href="https://www.icmr.gov.in/" target="_blank" aria-label="Indian Council of Medical Research">ICMR</a> under <a href="https://scholar.google.co.in/citations?user=EE9ha9MAAAAJ&hl=en" target="_blank" aria-label="Dr. Hapreet Singh's Google Scholar Profile">Dr. Hapreet Singh</a>, for building a CTR acc. to WHO standards<br/>
     > learn Django, ship code, get <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5a84VU4AAAAJ&citation_for_view=5a84VU4AAAAJ:Y0pCki6q_DkC" target="_blank" aria-label="Design and Development of an Open-Source Clinical Trial Registry (CTR) Template Aligned with Who International Standards">first publication from desperation</a>, CTR platform distributed to 70+ attending countries at G20 under digital goods<br/>
-    > propelled to <a href="https://iisc.ac.in/" target="_blank" aria-label="Indian Institute of Science, Bangalore">IISc</a> to work on structring gold-standard medical imaging datasets at <a href="https://midas.iisc.ac.in/landing-page" target="_blank" aria-label="MIDAS Lab">Project MIDAS</a><br/>
+    > propelled to <a href="https://iisc.ac.in/" target="_blank" aria-label="Indian Institute of Science, Bangalore">IISc</a> to work on structuring gold-standard medical imaging datasets at <a href="https://midas.iisc.ac.in/landing-page" target="_blank" aria-label="MIDAS Lab">Project MIDAS</a><br/>
     > become president at <a href="https://www.instagram.com/randomizemuj/" target="_blank" aria-label="Randomize's Instagram">Randomize();</a> - my college's CSE Club<br/>
-    > meet cool people, write a lot of code, run the most successful marketing campaign in college history, onbaord 250+ paying members, teach student-filled auditoriums git, competitive programming and building neural nets from scratch<br/>
+    > meet cool people, write a lot of code, run the most successful marketing campaign in college history, onboard 250+ paying members, teach student-filled auditoriums git, competitive programming and building neural nets from scratch<br/>
     > intern at <a href="https://www.epson.co.in/industrial-robots" target="_blank" aria-label="Epson Robotics India">Epson Robotics India</a> - implement CV to a SCARA-L robot for a client, get bored<br/>
-    > 2024, organise the biggest student club college fest with 1600+ attendees. DJ at the fest, crowd loses contrl, suffer from success<br/>
+    > 2024, organise the biggest student club college fest with 1600+ attendees. DJ at the fest, crowd loses control, suffer from success<br/>
     > realise no good publications for MS apps + no one replying to 50+ research internship cold emails<br/>
     > read <a href="https://arxiv.org/abs/2401.18059" target="_blank" aria-label="RAPTOR">RAPTOR</a>, figure out a retrieval optimisation<br/>
     > write first actual research publication with <a href="https://www.linkedin.com/in/mahek-chandak" target="_blank" aria-label="Mahek Chandak's LinkedIn">Mahek Chandak</a> without any professor or supervision<br/>
