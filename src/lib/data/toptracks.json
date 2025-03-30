@@ -6,117 +6,6 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "5f65db97-3355-4ee1-ac51-f1773593bb42",
-        "name": "Carry That Weight - Remastered 2009",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/The+Beatles",
-          "name": "The Beatles",
-          "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
-        },
-        "url": "https://www.last.fm/music/The+Beatles/_/Carry+That+Weight+-+Remastered+2009",
-        "duration": "96",
-        "@attr": {
-          "rank": "1"
-        },
-        "playcount": "8"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "2f2879da-0f96-4352-b203-f2afb68d8a12",
-        "name": "You've Got To Hide Your Love Away - Remastered 2009",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/The+Beatles",
-          "name": "The Beatles",
-          "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
-        },
-        "url": "https://www.last.fm/music/The+Beatles/_/You%27ve+Got+To+Hide+Your+Love+Away+-+Remastered+2009",
-        "duration": "132",
-        "@attr": {
-          "rank": "2"
-        },
-        "playcount": "6"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "ccfdd180-22e1-49b9-bd81-b5fcf2c6474e",
-        "name": "Stairway to Heaven - Remaster",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Led+Zeppelin",
-          "name": "Led Zeppelin",
-          "mbid": "678d88b2-87b0-403b-b63d-5da7465aecc3"
-        },
-        "url": "https://www.last.fm/music/Led+Zeppelin/_/Stairway+to+Heaven+-+Remaster",
-        "duration": "482",
-        "@attr": {
-          "rank": "3"
-        },
-        "playcount": "5"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
         "mbid": "",
         "name": "Bajrang Baan-Lofi",
         "image": [
@@ -145,9 +34,120 @@
         "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
         "duration": "217",
         "@attr": {
-          "rank": "4"
+          "rank": "1"
+        },
+        "playcount": "8"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Kainchi",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Hanuman+Foundation",
+          "name": "Hanuman Foundation",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Hanuman+Foundation/_/Kainchi",
+        "duration": "368",
+        "@attr": {
+          "rank": "2"
         },
         "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Nowhere Man - Remastered 2009",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/The+Beatles",
+          "name": "The Beatles",
+          "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
+        },
+        "url": "https://www.last.fm/music/The+Beatles/_/Nowhere+Man+-+Remastered+2009",
+        "duration": "163",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Ranvijay's Entry Medley (From \"ANIMAL\")",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/A.R.+Rahman",
+          "name": "A.R. Rahman",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/A.R.+Rahman/_/Ranvijay%27s+Entry+Medley+(From+%22ANIMAL%22)",
+        "duration": "0",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "12",
+      "totalPages": "15",
       "page": "1",
-      "total": "57",
+      "total": "74",
       "perPage": "5"
     }
   }
