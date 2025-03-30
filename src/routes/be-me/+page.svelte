@@ -6,14 +6,16 @@
     > 2009, get a computer, play FarmVille, get bored<br/>
     > 2015, track runner + school football team captain <br/>
     > 2017, work ass off to join one of the <a href="https://sanskritischool.edu.in/" target="_blank" aria-label="Sanskriti School">finest schools</a> in India<br/>
-    > 2018, 10th grade boards (92.2%)<br/>
+    > 2018, spend summer break teaching kids how to code, make $150<br/>
+    > 10th grade boards (92.2%)<br/>
     > 2019, become VP of school's <a href="https://projectbeta.club" target="_blank" aria-label="ProjectBeta">CS + Entrepreneurship club</a>, lead teams and win hackathons + pitching events<br/>
-    > academic rebel, miss all PCM classes and JEE coaching to build 7 iterations of krishgoel.com and party with seniors<br/>
+    > academic rebel, miss all PCM classes and JEE coaching to build 7 iterations of krishgoel.com and party<br/>
     > drop out of Python at school, take up physical education to play football all day<br/>
     > 2020, covid hit, school's online<br/>
     > miss all online classes and learn RL<br/>
     > launch a <a href="/projects/vkyd" aria-label="VKYD Fashion">clothing brand to battle fast fashion</a> with 2 friends, fail miserably<br/>
     > no hopes of going to college<br/>
+    > teach cousin and 5 kids Python online<br/>
     > build a <a href="https://eyena.krishgoel.com" target="_blank" aria-label="Eyena">smart mirror with temperature detection</a> for public spaces aftermath of the pandemic<br/>
     > 2021, second wave hits<br/>
     > build <a href="/projects/covaid" aria-label="CovAID">CovAID</a> with 5 friends - assemble a team of 40, build SOPs, train, deploy webapp, provide verified leads, save lives<br/>
@@ -32,16 +34,16 @@
     > propelled to <a href="https://iisc.ac.in/" target="_blank" aria-label="Indian Institute of Science, Bangalore">IISc</a> to work on structuring gold-standard medical imaging datasets at <a href="https://midas.iisc.ac.in/landing-page" target="_blank" aria-label="MIDAS Lab">Project MIDAS</a><br/>
     > become president at <a href="https://www.instagram.com/randomizemuj/" target="_blank" aria-label="Randomize's Instagram">Randomize();</a> - my college's CSE Club<br/>
     > meet cool people, write a lot of code, run the most successful marketing campaign in college history, onboard 250+ paying members, teach student-filled auditoriums git, competitive programming and building neural nets from scratch<br/>
-    > intern at <a href="https://www.epson.co.in/industrial-robots" target="_blank" aria-label="Epson Robotics India">Epson Robotics India</a> - implement CV to a SCARA-L robot for a client, get bored<br/>
+    > intern at <a href="https://www.epson.co.in/industrial-robots" target="_blank" aria-label="Epson Robotics India">Epson Robotics India</a> - implement CV on a SCARA-L robot for a client, get bored<br/>
     > 2024, organise the biggest student club college fest with 1600+ attendees. DJ at the fest, crowd loses control, suffer from success<br/>
-    > realise no good publications for MS apps + no one replying to 50+ research internship cold emails<br/>
+    > realise I have no good publications for MS apps + no one replying to 50+ research internship cold emails<br/>
     > read <a href="https://arxiv.org/abs/2401.18059" target="_blank" aria-label="RAPTOR">RAPTOR</a>, figure out a retrieval optimisation<br/>
     > write first actual research publication with <a href="https://www.linkedin.com/in/mahek-chandak" target="_blank" aria-label="Mahek Chandak's LinkedIn">Mahek Chandak</a> without any professor or supervision<br/>
-    > convince professors to miss classes, get GPU lab access, figure out LaTeX and writing a publication from scratch<br/>
+    > convince professors to miss classes, get GPU lab access, figure out LaTeX and write a publication from scratch<br/>
     > <a href="https://arxiv.org/abs/2406.09979" target="_blank" aria-label="HIRO">HIRO preprint</a> goes live, get <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5a84VU4AAAAJ&citation_for_view=5a84VU4AAAAJ:zYLM7Y9cAGgC" target="_blank" aria-label="HIRO on Google Scholar">2 citations organically</a><br/>
     > intern at <a href="https://www.machanirobotics.com" target="_blank" aria-label="Machani Robotics">Machani Robotics in blr</a>, to work <a href="https://x.com/krshgl/status/1896777057675432181" target="_blank" aria-label="">on AI and speech in humanoids</a><br/>
-    > build realtime speaker diarization + transcription, <a href="https://github.com/krishgoel/realtime-facial-profiling" target="_blank" aria-label="Realtime Facial Profiling">facial profiling</a>, multi-agent duplex conversation pipelines, and solve for behaviour, interruption-handling and proactivity have the best time ever<br/>
-    > take semester off from college (under the internship banner)<br/>
+    > build realtime speaker diarization + transcription, <a href="https://github.com/krishgoel/realtime-facial-profiling" target="_blank" aria-label="Realtime Facial Profiling">facial profiling</a>, multi-agent duplex conversation pipelines, and solve for behaviour, interruption-handling and proactivity. have the best time ever<br/>
+    > take semester off from college (self proclaimed internship)<br/>
     > start thinking about version control for context in conversations with LLMs<br/>
     > start building an interface with version control for context, call it <a href="https://projectendgame.tech" target="_blank" aria-label="Project Endgame">Endgame</a><br/>
     > pause development for college home-assignments<br/>
