@@ -4,6 +4,7 @@
 <p>
     > Be me, 0 (2003)<br/>
     > 2009, get a computer, play FarmVille, get bored<br/>
+    > 2014, spend the entire summer at my dad's startup (a smart watch with no digital screens), get into Arduinos and ECE<br/>
     > 2015, track runner + school football team captain <br/>
     > 2017, work ass off to join one of the <a href="https://sanskritischool.edu.in/" target="_blank" aria-label="Sanskriti School">finest schools</a> in India<br/>
     > 2018, spend summer break teaching kids how to code, make $150<br/>
