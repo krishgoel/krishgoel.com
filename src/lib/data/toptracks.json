@@ -118,7 +118,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Nowhere Man - Remastered 2009",
+        "name": "Wavy",
         "image": [
           {
             "size": "small",
@@ -138,12 +138,12 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/The+Beatles",
-          "name": "The Beatles",
-          "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
+          "url": "https://www.last.fm/music/Karan+Aujla",
+          "name": "Karan Aujla",
+          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
         },
-        "url": "https://www.last.fm/music/The+Beatles/_/Nowhere+Man+-+Remastered+2009",
-        "duration": "163",
+        "url": "https://www.last.fm/music/Karan+Aujla/_/Wavy",
+        "duration": "161",
         "@attr": {
           "rank": "4"
         },
@@ -191,7 +191,7 @@
       "user": "KrishSkywalker",
       "totalPages": "15",
       "page": "1",
-      "total": "75",
+      "total": "73",
       "perPage": "5"
     }
   }
