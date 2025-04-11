@@ -39,7 +39,7 @@
 	"dependencies": {
 		"@vercel/analytics": "^1.2.2",
 		"axios": "^1.8.4",
-		"dotenv": "^16.4.7",
+		"dotenv": "^16.5.0",
 		"fs": "0.0.1-security",
 		"path": "^0.12.7"
 	}
