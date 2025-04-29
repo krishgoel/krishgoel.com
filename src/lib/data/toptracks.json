@@ -110,44 +110,7 @@
         "@attr": {
           "rank": "3"
         },
-        "playcount": "5"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Humare Sath Shri Raghunath To Kis Baat Ki Chinta",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Prem+Bhushan+Maharaj",
-          "name": "Prem Bhushan Maharaj",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Prem+Bhushan+Maharaj/_/Humare+Sath+Shri+Raghunath+To+Kis+Baat+Ki+Chinta",
-        "duration": "0",
-        "@attr": {
-          "rank": "4"
-        },
-        "playcount": "5"
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -182,6 +145,43 @@
         "url": "https://www.last.fm/music/Krishna+Das/_/4AM+Hanuman+Chalisa",
         "duration": "581",
         "@attr": {
+          "rank": "4"
+        },
+        "playcount": "4"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Humare Sath Shri Raghunath To Kis Baat Ki Chinta",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Prem+Bhushan+Maharaj",
+          "name": "Prem Bhushan Maharaj",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Prem+Bhushan+Maharaj/_/Humare+Sath+Shri+Raghunath+To+Kis+Baat+Ki+Chinta",
+        "duration": "0",
+        "@attr": {
           "rank": "5"
         },
         "playcount": "4"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "12",
+      "totalPages": "11",
       "page": "1",
-      "total": "60",
+      "total": "53",
       "perPage": "5"
     }
   }
