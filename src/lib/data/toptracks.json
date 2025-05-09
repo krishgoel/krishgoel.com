@@ -180,7 +180,7 @@
           "mbid": "793b8f58-80ab-49b3-b5ae-d94034dab10c"
         },
         "url": "https://www.last.fm/music/Kishore+Kumar/_/Kuchh+to+Log+Kahenge",
-        "duration": "260",
+        "duration": "389",
         "@attr": {
           "rank": "5"
         },
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "8",
+      "totalPages": "12",
       "page": "1",
-      "total": "40",
+      "total": "56",
       "perPage": "5"
     }
   }
