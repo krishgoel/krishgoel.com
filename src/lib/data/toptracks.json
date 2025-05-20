@@ -6,80 +6,6 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "",
-        "name": "Bajrang Baan-Lofi",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj",
-          "name": "Rasraj Ji Maharaj",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
-        "duration": "217",
-        "@attr": {
-          "rank": "1"
-        },
-        "playcount": "3"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "374ee28c-536e-4ad4-918d-c447cde15f21",
-        "name": "Golden Slumbers - Remastered 2009",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/The+Beatles",
-          "name": "The Beatles",
-          "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
-        },
-        "url": "https://www.last.fm/music/The+Beatles/_/Golden+Slumbers+-+Remastered+2009",
-        "duration": "91",
-        "@attr": {
-          "rank": "2"
-        },
-        "playcount": "3"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
         "mbid": "3d4c58ae-e9c1-42d9-a87c-2b3b36b3bb9a",
         "name": "Trophies",
         "image": [
@@ -108,7 +34,7 @@
         "url": "https://www.last.fm/music/Young+Money/_/Trophies",
         "duration": "190",
         "@attr": {
-          "rank": "3"
+          "rank": "1"
         },
         "playcount": "3"
       },
@@ -117,8 +43,8 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "",
-        "name": "AGAINST ALL ODDS",
+        "mbid": "f8153de3-4df5-483f-87a1-6ca23ac9d4c8",
+        "name": "Blessings",
         "image": [
           {
             "size": "small",
@@ -138,12 +64,86 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/AP+Dhillon",
-          "name": "AP Dhillon",
-          "mbid": "ed29f721-0d40-4a90-9f25-a91c2ccccd5e"
+          "url": "https://www.last.fm/music/Big+Sean",
+          "name": "Big Sean",
+          "mbid": "942a9807-9c1a-4a0e-a285-1fde2c5be9d1"
         },
-        "url": "https://www.last.fm/music/AP+Dhillon/_/AGAINST+ALL+ODDS",
-        "duration": "0",
+        "url": "https://www.last.fm/music/Big+Sean/_/Blessings",
+        "duration": "252",
+        "@attr": {
+          "rank": "2"
+        },
+        "playcount": "2"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "ccfdd180-22e1-49b9-bd81-b5fcf2c6474e",
+        "name": "Stairway to Heaven - Remaster",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Led+Zeppelin",
+          "name": "Led Zeppelin",
+          "mbid": "678d88b2-87b0-403b-b63d-5da7465aecc3"
+        },
+        "url": "https://www.last.fm/music/Led+Zeppelin/_/Stairway+to+Heaven+-+Remaster",
+        "duration": "482",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "2"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "d1d50107-6205-4297-84f6-73f41fb67b1f",
+        "name": "High Hopes",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Panic!+at+the+Disco",
+          "name": "Panic! at the Disco",
+          "mbid": "b9472588-93f3-4922-a1a2-74082cdf9ce8"
+        },
+        "url": "https://www.last.fm/music/Panic!+at+the+Disco/_/High+Hopes",
+        "duration": "191",
         "@attr": {
           "rank": "4"
         },
@@ -155,7 +155,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "True Stories",
+        "name": "Bajrang Baan-Lofi",
         "image": [
           {
             "size": "small",
@@ -175,12 +175,12 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/AP+Dhillon",
-          "name": "AP Dhillon",
-          "mbid": "ed29f721-0d40-4a90-9f25-a91c2ccccd5e"
+          "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj",
+          "name": "Rasraj Ji Maharaj",
+          "mbid": ""
         },
-        "url": "https://www.last.fm/music/AP+Dhillon/_/True+Stories",
-        "duration": "117",
+        "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
+        "duration": "217",
         "@attr": {
           "rank": "5"
         },
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "9",
+      "totalPages": "6",
       "page": "1",
-      "total": "44",
+      "total": "27",
       "perPage": "5"
     }
   }
