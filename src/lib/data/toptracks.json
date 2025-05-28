@@ -7,43 +7,6 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Tere Hawaale (From \"Laal Singh Chaddha\")",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Pritam",
-          "name": "Pritam",
-          "mbid": "52db98c1-0cc9-4aab-9f2d-ea8d359234f3"
-        },
-        "url": "https://www.last.fm/music/Pritam/_/Tere+Hawaale+(From+%22Laal+Singh+Chaddha%22)",
-        "duration": "346",
-        "@attr": {
-          "rank": "1"
-        },
-        "playcount": "6"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
         "name": "Bajrang Baan-Lofi",
         "image": [
           {
@@ -71,9 +34,9 @@
         "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
         "duration": "217",
         "@attr": {
-          "rank": "2"
+          "rank": "1"
         },
-        "playcount": "6"
+        "playcount": "5"
       },
       {
         "streamable": {
@@ -108,44 +71,7 @@
         "url": "https://www.last.fm/music/Karan+Aujla/_/Wavy",
         "duration": "161",
         "@attr": {
-          "rank": "3"
-        },
-        "playcount": "5"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Atrangi Yaari",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Rochak+Kohli",
-          "name": "Rochak Kohli",
-          "mbid": "50fd3c55-9c32-490c-bfd5-679208483901"
-        },
-        "url": "https://www.last.fm/music/Rochak+Kohli/_/Atrangi+Yaari",
-        "duration": "221",
-        "@attr": {
-          "rank": "4"
+          "rank": "2"
         },
         "playcount": "4"
       },
@@ -154,8 +80,8 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "",
-        "name": "Winning Speech",
+        "mbid": "ffe09345-f085-496b-929b-38aaa1e7708f",
+        "name": "Alright",
         "image": [
           {
             "size": "small",
@@ -175,12 +101,86 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Karan+Aujla",
-          "name": "Karan Aujla",
-          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
+          "url": "https://www.last.fm/music/Kendrick+Lamar",
+          "name": "Kendrick Lamar",
+          "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
         },
-        "url": "https://www.last.fm/music/Karan+Aujla/_/Winning+Speech",
-        "duration": "227",
+        "url": "https://www.last.fm/music/Kendrick+Lamar/_/Alright",
+        "duration": "248",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "3"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "443d5eb0-06bd-302f-8769-c3cbb18b7311",
+        "name": "Mere Samnewali Khidki Mein",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Kishore+Kumar",
+          "name": "Kishore Kumar",
+          "mbid": "793b8f58-80ab-49b3-b5ae-d94034dab10c"
+        },
+        "url": "https://www.last.fm/music/Kishore+Kumar/_/Mere+Samnewali+Khidki+Mein",
+        "duration": "172",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "3"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "e88d6537-e911-405b-9b4b-f39572e7969b",
+        "name": "Breathless Hanuman Chalisa",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Shankar+Mahadevan",
+          "name": "Shankar Mahadevan",
+          "mbid": "bdbafa57-cf3f-4b7e-b956-fb6e0071ecd4"
+        },
+        "url": "https://www.last.fm/music/Shankar+Mahadevan/_/Breathless+Hanuman+Chalisa",
+        "duration": "225",
         "@attr": {
           "rank": "5"
         },
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "19",
+      "totalPages": "13",
       "page": "1",
-      "total": "92",
+      "total": "63",
       "perPage": "5"
     }
   }
