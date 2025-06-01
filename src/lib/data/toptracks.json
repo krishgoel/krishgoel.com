@@ -44,7 +44,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Wavy",
+        "name": "Khatta Flow",
         "image": [
           {
             "size": "small",
@@ -64,12 +64,12 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Karan+Aujla",
-          "name": "Karan Aujla",
-          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
+          "url": "https://www.last.fm/music/Seedhe+Maut",
+          "name": "Seedhe Maut",
+          "mbid": ""
         },
-        "url": "https://www.last.fm/music/Karan+Aujla/_/Wavy",
-        "duration": "161",
+        "url": "https://www.last.fm/music/Seedhe+Maut/_/Khatta+Flow",
+        "duration": "0",
         "@attr": {
           "rank": "2"
         },
@@ -117,8 +117,8 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "e9b374d6-5e66-43b0-8cb8-b2a518a86b1c",
-        "name": "On Top",
+        "mbid": "",
+        "name": "Wavy",
         "image": [
           {
             "size": "small",
@@ -142,8 +142,8 @@
           "name": "Karan Aujla",
           "mbid": "4a779683-5404-4b90-a0d7-242495158265"
         },
-        "url": "https://www.last.fm/music/Karan+Aujla/_/On+Top",
-        "duration": "183",
+        "url": "https://www.last.fm/music/Karan+Aujla/_/Wavy",
+        "duration": "161",
         "@attr": {
           "rank": "4"
         },
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "12",
+      "totalPages": "8",
       "page": "1",
-      "total": "58",
+      "total": "38",
       "perPage": "5"
     }
   }
