@@ -36,7 +36,81 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "3"
+        "playcount": "4"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Kainchi",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Hanuman+Foundation",
+          "name": "Hanuman Foundation",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Hanuman+Foundation/_/Kainchi",
+        "duration": "368",
+        "@attr": {
+          "rank": "2"
+        },
+        "playcount": "2"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Sundarakand",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Jai+Uttal",
+          "name": "Jai Uttal",
+          "mbid": "eb6f3fca-c40c-4740-b288-a7f5744c6cec"
+        },
+        "url": "https://www.last.fm/music/Jai+Uttal/_/Sundarakand",
+        "duration": "341",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "2"
       },
       {
         "streamable": {
@@ -71,7 +145,7 @@
         "url": "https://www.last.fm/music/The+Beatles/_/Blackbird+-+Remastered+2009",
         "duration": "138",
         "@attr": {
-          "rank": "2"
+          "rank": "4"
         },
         "playcount": "2"
       },
@@ -108,80 +182,6 @@
         "url": "https://www.last.fm/music/AP+Dhillon/_/True+Stories",
         "duration": "117",
         "@attr": {
-          "rank": "3"
-        },
-        "playcount": "1"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Hanuman Chalisa Superfast",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Brijesh+Shandilya",
-          "name": "Brijesh Shandilya",
-          "mbid": "375f68d1-e588-401c-bd72-063cce961cd4"
-        },
-        "url": "https://www.last.fm/music/Brijesh+Shandilya/_/Hanuman+Chalisa+Superfast",
-        "duration": "256",
-        "@attr": {
-          "rank": "4"
-        },
-        "playcount": "1"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "e58f27a9-f2f2-452d-bf76-de3555fb3903",
-        "name": "Born to Shine",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Diljit+Dosanjh",
-          "name": "Diljit Dosanjh",
-          "mbid": "f931c961-b647-4861-be8c-f47d84a4de51"
-        },
-        "url": "https://www.last.fm/music/Diljit+Dosanjh/_/Born+to+Shine",
-        "duration": "213",
-        "@attr": {
           "rank": "5"
         },
         "playcount": "1"
@@ -191,7 +191,7 @@
       "user": "KrishSkywalker",
       "totalPages": "6",
       "page": "1",
-      "total": "28",
+      "total": "26",
       "perPage": "5"
     }
   }
