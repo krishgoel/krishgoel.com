@@ -81,7 +81,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Sundarakand",
+        "name": "Wavy",
         "image": [
           {
             "size": "small",
@@ -101,14 +101,51 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Jai+Uttal",
-          "name": "Jai Uttal",
-          "mbid": "eb6f3fca-c40c-4740-b288-a7f5744c6cec"
+          "url": "https://www.last.fm/music/Karan+Aujla",
+          "name": "Karan Aujla",
+          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
         },
-        "url": "https://www.last.fm/music/Jai+Uttal/_/Sundarakand",
-        "duration": "341",
+        "url": "https://www.last.fm/music/Karan+Aujla/_/Wavy",
+        "duration": "161",
         "@attr": {
           "rank": "3"
+        },
+        "playcount": "2"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Winning Speech",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Karan+Aujla",
+          "name": "Karan Aujla",
+          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
+        },
+        "url": "https://www.last.fm/music/Karan+Aujla/_/Winning+Speech",
+        "duration": "227",
+        "@attr": {
+          "rank": "4"
         },
         "playcount": "2"
       },
@@ -145,53 +182,16 @@
         "url": "https://www.last.fm/music/The+Beatles/_/Blackbird+-+Remastered+2009",
         "duration": "138",
         "@attr": {
-          "rank": "4"
-        },
-        "playcount": "2"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "True Stories",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/AP+Dhillon",
-          "name": "AP Dhillon",
-          "mbid": "ed29f721-0d40-4a90-9f25-a91c2ccccd5e"
-        },
-        "url": "https://www.last.fm/music/AP+Dhillon/_/True+Stories",
-        "duration": "117",
-        "@attr": {
           "rank": "5"
         },
-        "playcount": "1"
+        "playcount": "2"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "6",
+      "totalPages": "8",
       "page": "1",
-      "total": "26",
+      "total": "36",
       "perPage": "5"
     }
   }
