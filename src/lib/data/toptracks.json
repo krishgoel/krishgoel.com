@@ -36,7 +36,118 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "4"
+        "playcount": "6"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "05638f06-5750-4071-9f4d-0d97bd35b1c4",
+        "name": "FML",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Arizona+Zervas",
+          "name": "Arizona Zervas",
+          "mbid": "aa4296e3-f61c-46b5-b4fa-abce5bb62ffb"
+        },
+        "url": "https://www.last.fm/music/Arizona+Zervas/_/FML",
+        "duration": "222",
+        "@attr": {
+          "rank": "2"
+        },
+        "playcount": "3"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Bajrang Baan-Lofi",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj",
+          "name": "Rasraj Ji Maharaj",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
+        "duration": "217",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "3"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "AGAINST ALL ODDS",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/AP+Dhillon",
+          "name": "AP Dhillon",
+          "mbid": "ed29f721-0d40-4a90-9f25-a91c2ccccd5e"
+        },
+        "url": "https://www.last.fm/music/AP+Dhillon/_/AGAINST+ALL+ODDS",
+        "duration": "0",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "2"
       },
       {
         "streamable": {
@@ -71,117 +182,6 @@
         "url": "https://www.last.fm/music/AP+Dhillon/_/Old+Money",
         "duration": "128",
         "@attr": {
-          "rank": "2"
-        },
-        "playcount": "2"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Wavy",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Karan+Aujla",
-          "name": "Karan Aujla",
-          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
-        },
-        "url": "https://www.last.fm/music/Karan+Aujla/_/Wavy",
-        "duration": "161",
-        "@attr": {
-          "rank": "3"
-        },
-        "playcount": "2"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Winning Speech",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Karan+Aujla",
-          "name": "Karan Aujla",
-          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
-        },
-        "url": "https://www.last.fm/music/Karan+Aujla/_/Winning+Speech",
-        "duration": "227",
-        "@attr": {
-          "rank": "4"
-        },
-        "playcount": "2"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "7b36b5c8-066c-492a-b897-6766e16248c2",
-        "name": "Beggar's Song",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Matt+Maeson",
-          "name": "Matt Maeson",
-          "mbid": "e7bbb0c4-d3cf-4523-b5e1-a01d69d5bc83"
-        },
-        "url": "https://www.last.fm/music/Matt+Maeson/_/Beggar%27s+Song",
-        "duration": "208",
-        "@attr": {
           "rank": "5"
         },
         "playcount": "2"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "12",
+      "totalPages": "11",
       "page": "1",
-      "total": "57",
+      "total": "54",
       "perPage": "5"
     }
   }
