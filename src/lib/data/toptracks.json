@@ -36,7 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "12"
+        "playcount": "10"
       },
       {
         "streamable": {
@@ -110,44 +110,7 @@
         "@attr": {
           "rank": "3"
         },
-        "playcount": "3"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "05638f06-5750-4071-9f4d-0d97bd35b1c4",
-        "name": "FML",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Arizona+Zervas",
-          "name": "Arizona Zervas",
-          "mbid": "aa4296e3-f61c-46b5-b4fa-abce5bb62ffb"
-        },
-        "url": "https://www.last.fm/music/Arizona+Zervas/_/FML",
-        "duration": "222",
-        "@attr": {
-          "rank": "4"
-        },
-        "playcount": "3"
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -182,6 +145,43 @@
         "url": "https://www.last.fm/music/Big+Sean/_/Blessings",
         "duration": "252",
         "@attr": {
+          "rank": "4"
+        },
+        "playcount": "3"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "983af624-24b8-41e2-a4ab-6be19a30b5f3",
+        "name": "N95",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Kendrick+Lamar",
+          "name": "Kendrick Lamar",
+          "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+        },
+        "url": "https://www.last.fm/music/Kendrick+Lamar/_/N95",
+        "duration": "195",
+        "@attr": {
           "rank": "5"
         },
         "playcount": "3"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "16",
+      "totalPages": "15",
       "page": "1",
-      "total": "80",
+      "total": "71",
       "perPage": "5"
     }
   }
