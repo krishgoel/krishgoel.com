@@ -6,8 +6,8 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "c869f926-e366-4411-8bb5-1cc98840af39",
-        "name": "Tere Bina Na Guzara E",
+        "mbid": "",
+        "name": "'Kal ki Chinta' (Lazy anthem of the Century)",
         "image": [
           {
             "size": "small",
@@ -27,16 +27,16 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Josh+Brar",
-          "name": "Josh Brar",
+          "url": "https://www.last.fm/music/Rajat+Sood+%27Yaara%27",
+          "name": "Rajat Sood 'Yaara'",
           "mbid": ""
         },
-        "url": "https://www.last.fm/music/Josh+Brar/_/Tere+Bina+Na+Guzara+E",
-        "duration": "216",
+        "url": "https://www.last.fm/music/Rajat+Sood+%27Yaara%27/_/%27Kal+ki+Chinta%27+(Lazy+anthem+of+the+Century)",
+        "duration": "0",
         "@attr": {
           "rank": "1"
         },
-        "playcount": "5"
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -117,43 +117,6 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "853abc60-4255-484a-b2ee-6b368774ca16",
-        "name": "euphoria",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Kendrick+Lamar",
-          "name": "Kendrick Lamar",
-          "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
-        },
-        "url": "https://www.last.fm/music/Kendrick+Lamar/_/euphoria",
-        "duration": "383",
-        "@attr": {
-          "rank": "4"
-        },
-        "playcount": "3"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
         "mbid": "",
         "name": "Qayde Se (From \"Metro ... In Dino\")",
         "image": [
@@ -182,16 +145,53 @@
         "url": "https://www.last.fm/music/Pritam/_/Qayde+Se+(From+%22Metro+...+In+Dino%22)",
         "duration": "0",
         "@attr": {
-          "rank": "5"
+          "rank": "4"
         },
         "playcount": "3"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "10205381-d4cf-4fbf-a961-ec498d00f2b1",
+        "name": "Tose Naina",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Arijit+Singh",
+          "name": "Arijit Singh",
+          "mbid": "ed3f4831-e3e0-4dc0-9381-f5649e9df221"
+        },
+        "url": "https://www.last.fm/music/Arijit+Singh/_/Tose+Naina",
+        "duration": "263",
+        "@attr": {
+          "rank": "5"
+        },
+        "playcount": "2"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "13",
+      "totalPages": "11",
       "page": "1",
-      "total": "61",
+      "total": "54",
       "perPage": "5"
     }
   }
