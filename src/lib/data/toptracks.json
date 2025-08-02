@@ -7,6 +7,80 @@
           "#text": "0"
         },
         "mbid": "",
+        "name": "Jatt Mehkma",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Yo+Yo+Honey+Singh",
+          "name": "Yo Yo Honey Singh",
+          "mbid": "0dc9c4bc-8bcc-42f1-9033-bec41160377f"
+        },
+        "url": "https://www.last.fm/music/Yo+Yo+Honey+Singh/_/Jatt+Mehkma",
+        "duration": "195",
+        "@attr": {
+          "rank": "1"
+        },
+        "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "66cccac7-2eca-4a50-a3b7-7db1e38a6c29",
+        "name": "Fix You",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Coldplay",
+          "name": "Coldplay",
+          "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234"
+        },
+        "url": "https://www.last.fm/music/Coldplay/_/Fix+You",
+        "duration": "428",
+        "@attr": {
+          "rank": "2"
+        },
+        "playcount": "4"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
         "name": "'Kal ki Chinta' (Lazy anthem of the Century)",
         "image": [
           {
@@ -34,7 +108,7 @@
         "url": "https://www.last.fm/music/Rajat+Sood+%27Yaara%27/_/%27Kal+ki+Chinta%27+(Lazy+anthem+of+the+Century)",
         "duration": "0",
         "@attr": {
-          "rank": "1"
+          "rank": "3"
         },
         "playcount": "4"
       },
@@ -71,83 +145,9 @@
         "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
         "duration": "217",
         "@attr": {
-          "rank": "2"
-        },
-        "playcount": "4"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Jatt Mehkma",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Yo+Yo+Honey+Singh",
-          "name": "Yo Yo Honey Singh",
-          "mbid": "0dc9c4bc-8bcc-42f1-9033-bec41160377f"
-        },
-        "url": "https://www.last.fm/music/Yo+Yo+Honey+Singh/_/Jatt+Mehkma",
-        "duration": "195",
-        "@attr": {
-          "rank": "3"
-        },
-        "playcount": "4"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Qayde Se (From \"Metro ... In Dino\")",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Pritam",
-          "name": "Pritam",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Pritam/_/Qayde+Se+(From+%22Metro+...+In+Dino%22)",
-        "duration": "0",
-        "@attr": {
           "rank": "4"
         },
-        "playcount": "3"
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -184,14 +184,14 @@
         "@attr": {
           "rank": "5"
         },
-        "playcount": "2"
+        "playcount": "3"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "11",
+      "totalPages": "13",
       "page": "1",
-      "total": "54",
+      "total": "65",
       "perPage": "5"
     }
   }
