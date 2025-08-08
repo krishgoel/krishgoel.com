@@ -36,44 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "8"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "'Kal ki Chinta' (Lazy anthem of the Century)",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Rajat+Sood+%27Yaara%27",
-          "name": "Rajat Sood 'Yaara'",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Rajat+Sood+%27Yaara%27/_/%27Kal+ki+Chinta%27+(Lazy+anthem+of+the+Century)",
-        "duration": "0",
-        "@attr": {
-          "rank": "2"
-        },
-        "playcount": "5"
+        "playcount": "7"
       },
       {
         "streamable": {
@@ -108,17 +71,17 @@
         "url": "https://www.last.fm/music/Diljit+Dosanjh/_/G.O.A.T.",
         "duration": "223",
         "@attr": {
-          "rank": "3"
+          "rank": "2"
         },
-        "playcount": "4"
+        "playcount": "5"
       },
       {
         "streamable": {
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "f8153de3-4df5-483f-87a1-6ca23ac9d4c8",
-        "name": "Blessings",
+        "mbid": "",
+        "name": "Jatt Mehkma",
         "image": [
           {
             "size": "small",
@@ -138,24 +101,61 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Big+Sean",
-          "name": "Big Sean",
-          "mbid": "942a9807-9c1a-4a0e-a285-1fde2c5be9d1"
+          "url": "https://www.last.fm/music/Yo+Yo+Honey+Singh",
+          "name": "Yo Yo Honey Singh",
+          "mbid": "0dc9c4bc-8bcc-42f1-9033-bec41160377f"
         },
-        "url": "https://www.last.fm/music/Big+Sean/_/Blessings",
-        "duration": "252",
+        "url": "https://www.last.fm/music/Yo+Yo+Honey+Singh/_/Jatt+Mehkma",
+        "duration": "195",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "a791de4a-849c-41cd-a45e-076c8eb128f7",
+        "name": "Millionaire",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Yo+Yo+Honey+Singh",
+          "name": "Yo Yo Honey Singh",
+          "mbid": "0dc9c4bc-8bcc-42f1-9033-bec41160377f"
+        },
+        "url": "https://www.last.fm/music/Yo+Yo+Honey+Singh/_/Millionaire",
+        "duration": "199",
         "@attr": {
           "rank": "4"
         },
-        "playcount": "3"
+        "playcount": "5"
       },
       {
         "streamable": {
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "66cccac7-2eca-4a50-a3b7-7db1e38a6c29",
-        "name": "Fix You",
+        "mbid": "",
+        "name": "Kainchi",
         "image": [
           {
             "size": "small",
@@ -175,23 +175,23 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Coldplay",
-          "name": "Coldplay",
-          "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234"
+          "url": "https://www.last.fm/music/Hanuman+Foundation",
+          "name": "Hanuman Foundation",
+          "mbid": ""
         },
-        "url": "https://www.last.fm/music/Coldplay/_/Fix+You",
-        "duration": "428",
+        "url": "https://www.last.fm/music/Hanuman+Foundation/_/Kainchi",
+        "duration": "368",
         "@attr": {
           "rank": "5"
         },
-        "playcount": "3"
+        "playcount": "4"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "16",
+      "totalPages": "17",
       "page": "1",
-      "total": "79",
+      "total": "85",
       "perPage": "5"
     }
   }
