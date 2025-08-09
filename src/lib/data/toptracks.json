@@ -44,7 +44,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "G.O.A.T.",
+        "name": "Kainchi",
         "image": [
           {
             "size": "small",
@@ -64,12 +64,12 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Diljit+Dosanjh",
-          "name": "Diljit Dosanjh",
-          "mbid": "f931c961-b647-4861-be8c-f47d84a4de51"
+          "url": "https://www.last.fm/music/Hanuman+Foundation",
+          "name": "Hanuman Foundation",
+          "mbid": ""
         },
-        "url": "https://www.last.fm/music/Diljit+Dosanjh/_/G.O.A.T.",
-        "duration": "223",
+        "url": "https://www.last.fm/music/Hanuman+Foundation/_/Kainchi",
+        "duration": "368",
         "@attr": {
           "rank": "2"
         },
@@ -155,7 +155,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Kainchi",
+        "name": "G.O.A.T.",
         "image": [
           {
             "size": "small",
@@ -175,12 +175,12 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Hanuman+Foundation",
-          "name": "Hanuman Foundation",
-          "mbid": ""
+          "url": "https://www.last.fm/music/Diljit+Dosanjh",
+          "name": "Diljit Dosanjh",
+          "mbid": "f931c961-b647-4861-be8c-f47d84a4de51"
         },
-        "url": "https://www.last.fm/music/Hanuman+Foundation/_/Kainchi",
-        "duration": "368",
+        "url": "https://www.last.fm/music/Diljit+Dosanjh/_/G.O.A.T.",
+        "duration": "223",
         "@attr": {
           "rank": "5"
         },
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "17",
+      "totalPages": "14",
       "page": "1",
-      "total": "85",
+      "total": "69",
       "perPage": "5"
     }
   }
