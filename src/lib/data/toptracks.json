@@ -6,6 +6,43 @@
           "fulltrack": "0",
           "#text": "0"
         },
+        "mbid": "",
+        "name": "Bajrang Baan-Lofi",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj",
+          "name": "Rasraj Ji Maharaj",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
+        "duration": "217",
+        "@attr": {
+          "rank": "1"
+        },
+        "playcount": "7"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
         "mbid": "34267512-ae72-42c5-9850-4b4b8e74592b",
         "name": "Norwegian Wood (This Bird Has Flown) - Remastered 2009",
         "image": [
@@ -34,7 +71,7 @@
         "url": "https://www.last.fm/music/The+Beatles/_/Norwegian+Wood+(This+Bird+Has+Flown)+-+Remastered+2009",
         "duration": "124",
         "@attr": {
-          "rank": "1"
+          "rank": "2"
         },
         "playcount": "7"
       },
@@ -71,83 +108,9 @@
         "url": "https://www.last.fm/music/Diljit+Dosanjh/_/G.O.A.T.",
         "duration": "223",
         "@attr": {
-          "rank": "2"
-        },
-        "playcount": "6"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Bajrang Baan-Lofi",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj",
-          "name": "Rasraj Ji Maharaj",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
-        "duration": "217",
-        "@attr": {
           "rank": "3"
         },
-        "playcount": "6"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Nowhere Man - Remastered 2009",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/The+Beatles",
-          "name": "The Beatles",
-          "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
-        },
-        "url": "https://www.last.fm/music/The+Beatles/_/Nowhere+Man+-+Remastered+2009",
-        "duration": "163",
-        "@attr": {
-          "rank": "4"
-        },
-        "playcount": "6"
+        "playcount": "5"
       },
       {
         "streamable": {
@@ -182,6 +145,43 @@
         "url": "https://www.last.fm/music/The+Beatles/_/I%27ve+Just+Seen+A+Face+-+Remastered+2009",
         "duration": "125",
         "@attr": {
+          "rank": "4"
+        },
+        "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Nowhere Man - Remastered 2009",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/The+Beatles",
+          "name": "The Beatles",
+          "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
+        },
+        "url": "https://www.last.fm/music/The+Beatles/_/Nowhere+Man+-+Remastered+2009",
+        "duration": "163",
+        "@attr": {
           "rank": "5"
         },
         "playcount": "5"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "16",
+      "totalPages": "12",
       "page": "1",
-      "total": "79",
+      "total": "57",
       "perPage": "5"
     }
   }
