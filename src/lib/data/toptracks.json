@@ -6,43 +6,6 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "6b8acced-bc44-4aa0-8b7d-73faa7cb53ce",
-        "name": "UP!",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Forrest+Frank",
-          "name": "Forrest Frank",
-          "mbid": "355112bc-a977-4ea4-abab-0c7814cdbcb6"
-        },
-        "url": "https://www.last.fm/music/Forrest+Frank/_/UP!",
-        "duration": "136",
-        "@attr": {
-          "rank": "1"
-        },
-        "playcount": "7"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
         "mbid": "0f9b73c0-b505-4aa0-877b-90a567f5c81e",
         "name": "Succession (Main Title Theme)",
         "image": [
@@ -71,9 +34,120 @@
         "url": "https://www.last.fm/music/Nicholas+Britell/_/Succession+(Main+Title+Theme)",
         "duration": "102",
         "@attr": {
+          "rank": "1"
+        },
+        "playcount": "10"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "6b8acced-bc44-4aa0-8b7d-73faa7cb53ce",
+        "name": "UP!",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Forrest+Frank",
+          "name": "Forrest Frank",
+          "mbid": "355112bc-a977-4ea4-abab-0c7814cdbcb6"
+        },
+        "url": "https://www.last.fm/music/Forrest+Frank/_/UP!",
+        "duration": "136",
+        "@attr": {
           "rank": "2"
         },
-        "playcount": "6"
+        "playcount": "9"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "40bd0203-bc3f-4b15-9ab3-ceeb2ef35d7a",
+        "name": "Hotel California - 2013 Remaster",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Eagles",
+          "name": "Eagles",
+          "mbid": "f46bd570-5768-462e-b84c-c7c993bbf47e"
+        },
+        "url": "https://www.last.fm/music/Eagles/_/Hotel+California+-+2013+Remaster",
+        "duration": "390",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "8"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "2e9664c6-3e14-4968-b881-fa7a078126ef",
+        "name": "Caravan",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/John+Wasson",
+          "name": "John Wasson",
+          "mbid": "a71e248f-4aef-4318-bcb7-2563b7d2c421"
+        },
+        "url": "https://www.last.fm/music/John+Wasson/_/Caravan",
+        "duration": "0",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "8"
       },
       {
         "streamable": {
@@ -108,90 +182,16 @@
         "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Ghafoor",
         "duration": "0",
         "@attr": {
-          "rank": "3"
-        },
-        "playcount": "6"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "45ee1f85-ba27-4c4a-a002-7a99c58a7f97",
-        "name": "Mast Baharon Ka Main Aashiq",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Mohammed+Rafi",
-          "name": "Mohammed Rafi",
-          "mbid": "28365249-f3fd-44db-8131-32cb170970c4"
-        },
-        "url": "https://www.last.fm/music/Mohammed+Rafi/_/Mast+Baharon+Ka+Main+Aashiq",
-        "duration": "380",
-        "@attr": {
-          "rank": "4"
-        },
-        "playcount": "5"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "76c47f56-4830-4f3a-b572-5e21de50a0b8",
-        "name": "The View from the Afternoon",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Arctic+Monkeys",
-          "name": "Arctic Monkeys",
-          "mbid": "ada7a83c-e3e1-40f1-93f9-3e73dbc9298a"
-        },
-        "url": "https://www.last.fm/music/Arctic+Monkeys/_/The+View+from+the+Afternoon",
-        "duration": "214",
-        "@attr": {
           "rank": "5"
         },
-        "playcount": "4"
+        "playcount": "8"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "7",
+      "totalPages": "6",
       "page": "1",
-      "total": "33",
+      "total": "26",
       "perPage": "5"
     }
   }
