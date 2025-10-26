@@ -6,43 +6,6 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "0f9b73c0-b505-4aa0-877b-90a567f5c81e",
-        "name": "Succession (Main Title Theme)",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Nicholas+Britell",
-          "name": "Nicholas Britell",
-          "mbid": "afa80039-cd8a-47ae-947e-538df896586f"
-        },
-        "url": "https://www.last.fm/music/Nicholas+Britell/_/Succession+(Main+Title+Theme)",
-        "duration": "102",
-        "@attr": {
-          "rank": "1"
-        },
-        "playcount": "13"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
         "mbid": "40bd0203-bc3f-4b15-9ab3-ceeb2ef35d7a",
         "name": "Hotel California - 2013 Remaster",
         "image": [
@@ -71,9 +34,46 @@
         "url": "https://www.last.fm/music/Eagles/_/Hotel+California+-+2013+Remaster",
         "duration": "390",
         "@attr": {
+          "rank": "1"
+        },
+        "playcount": "15"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "0f9b73c0-b505-4aa0-877b-90a567f5c81e",
+        "name": "Succession (Main Title Theme)",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Nicholas+Britell",
+          "name": "Nicholas Britell",
+          "mbid": "afa80039-cd8a-47ae-947e-538df896586f"
+        },
+        "url": "https://www.last.fm/music/Nicholas+Britell/_/Succession+(Main+Title+Theme)",
+        "duration": "102",
+        "@attr": {
           "rank": "2"
         },
-        "playcount": "12"
+        "playcount": "13"
       },
       {
         "streamable": {
@@ -110,7 +110,7 @@
         "@attr": {
           "rank": "3"
         },
-        "playcount": "10"
+        "playcount": "11"
       },
       {
         "streamable": {
@@ -147,7 +147,7 @@
         "@attr": {
           "rank": "4"
         },
-        "playcount": "8"
+        "playcount": "10"
       },
       {
         "streamable": {
@@ -155,7 +155,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Ghafoor",
+        "name": "Talwinder - Wishes - Remake",
         "image": [
           {
             "size": "small",
@@ -175,23 +175,23 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Shashwat+Sachdev",
-          "name": "Shashwat Sachdev",
+          "url": "https://www.last.fm/music/Raiyan",
+          "name": "Raiyan",
           "mbid": ""
         },
-        "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Ghafoor",
+        "url": "https://www.last.fm/music/Raiyan/_/Talwinder+-+Wishes+-+Remake",
         "duration": "0",
         "@attr": {
           "rank": "5"
         },
-        "playcount": "8"
+        "playcount": "10"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "7",
+      "totalPages": "8",
       "page": "1",
-      "total": "32",
+      "total": "40",
       "perPage": "5"
     }
   }
