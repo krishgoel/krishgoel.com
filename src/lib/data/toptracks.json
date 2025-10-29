@@ -36,44 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "25"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "40bd0203-bc3f-4b15-9ab3-ceeb2ef35d7a",
-        "name": "Hotel California - 2013 Remaster",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Eagles",
-          "name": "Eagles",
-          "mbid": "f46bd570-5768-462e-b84c-c7c993bbf47e"
-        },
-        "url": "https://www.last.fm/music/Eagles/_/Hotel+California+-+2013+Remaster",
-        "duration": "390",
-        "@attr": {
-          "rank": "2"
-        },
-        "playcount": "17"
+        "playcount": "27"
       },
       {
         "streamable": {
@@ -108,9 +71,46 @@
         "url": "https://www.last.fm/music/Nicholas+Britell/_/Succession+(Main+Title+Theme)",
         "duration": "102",
         "@attr": {
+          "rank": "2"
+        },
+        "playcount": "14"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "40bd0203-bc3f-4b15-9ab3-ceeb2ef35d7a",
+        "name": "Hotel California - 2013 Remaster",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Eagles",
+          "name": "Eagles",
+          "mbid": "f46bd570-5768-462e-b84c-c7c993bbf47e"
+        },
+        "url": "https://www.last.fm/music/Eagles/_/Hotel+California+-+2013+Remaster",
+        "duration": "390",
+        "@attr": {
           "rank": "3"
         },
-        "playcount": "16"
+        "playcount": "13"
       },
       {
         "streamable": {
@@ -147,15 +147,15 @@
         "@attr": {
           "rank": "4"
         },
-        "playcount": "13"
+        "playcount": "10"
       },
       {
         "streamable": {
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "2e9664c6-3e14-4968-b881-fa7a078126ef",
-        "name": "Caravan",
+        "mbid": "21ba6df4-1777-466f-b73f-dba00624a1d3",
+        "name": "Empire State of Mind",
         "image": [
           {
             "size": "small",
@@ -175,23 +175,23 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/John+Wasson",
-          "name": "John Wasson",
-          "mbid": "a71e248f-4aef-4318-bcb7-2563b7d2c421"
+          "url": "https://www.last.fm/music/JAY-Z",
+          "name": "JAY-Z",
+          "mbid": ""
         },
-        "url": "https://www.last.fm/music/John+Wasson/_/Caravan",
-        "duration": "0",
+        "url": "https://www.last.fm/music/JAY-Z/_/Empire+State+of+Mind",
+        "duration": "277",
         "@attr": {
           "rank": "5"
         },
-        "playcount": "12"
+        "playcount": "9"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "11",
+      "totalPages": "12",
       "page": "1",
-      "total": "51",
+      "total": "57",
       "perPage": "5"
     }
   }
