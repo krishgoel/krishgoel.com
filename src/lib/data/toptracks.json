@@ -36,81 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "20"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "0f9b73c0-b505-4aa0-877b-90a567f5c81e",
-        "name": "Succession (Main Title Theme)",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Nicholas+Britell",
-          "name": "Nicholas Britell",
-          "mbid": "afa80039-cd8a-47ae-947e-538df896586f"
-        },
-        "url": "https://www.last.fm/music/Nicholas+Britell/_/Succession+(Main+Title+Theme)",
-        "duration": "102",
-        "@attr": {
-          "rank": "2"
-        },
-        "playcount": "8"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "6055a03d-dd41-3c0a-be4c-a3534980e232",
-        "name": "Township Krishna",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Krishna+Das",
-          "name": "Krishna Das",
-          "mbid": "9c0d337f-934c-45e9-a24e-c985b8059816"
-        },
-        "url": "https://www.last.fm/music/Krishna+Das/_/Township+Krishna",
-        "duration": "532",
-        "@attr": {
-          "rank": "3"
-        },
-        "playcount": "7"
+        "playcount": "12"
       },
       {
         "streamable": {
@@ -145,9 +71,83 @@
         "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
         "duration": "217",
         "@attr": {
-          "rank": "4"
+          "rank": "2"
         },
         "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "e88d6537-e911-405b-9b4b-f39572e7969b",
+        "name": "Breathless Hanuman Chalisa",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Shankar+Mahadevan",
+          "name": "Shankar Mahadevan",
+          "mbid": "bdbafa57-cf3f-4b7e-b956-fb6e0071ecd4"
+        },
+        "url": "https://www.last.fm/music/Shankar+Mahadevan/_/Breathless+Hanuman+Chalisa",
+        "duration": "225",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "0f9b73c0-b505-4aa0-877b-90a567f5c81e",
+        "name": "Succession (Main Title Theme)",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Nicholas+Britell",
+          "name": "Nicholas Britell",
+          "mbid": "afa80039-cd8a-47ae-947e-538df896586f"
+        },
+        "url": "https://www.last.fm/music/Nicholas+Britell/_/Succession+(Main+Title+Theme)",
+        "duration": "102",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -184,14 +184,14 @@
         "@attr": {
           "rank": "5"
         },
-        "playcount": "4"
+        "playcount": "3"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
       "totalPages": "12",
       "page": "1",
-      "total": "58",
+      "total": "57",
       "perPage": "5"
     }
   }
