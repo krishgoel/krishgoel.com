@@ -36,44 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "6"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Abhi Na Jao Chhod Kar",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Asha+Bhosle",
-          "name": "Asha Bhosle",
-          "mbid": "79c5547a-e098-495c-8dac-7e99546aa46b"
-        },
-        "url": "https://www.last.fm/music/Asha+Bhosle/_/Abhi+Na+Jao+Chhod+Kar",
-        "duration": "257",
-        "@attr": {
-          "rank": "2"
-        },
-        "playcount": "4"
+        "playcount": "8"
       },
       {
         "streamable": {
@@ -108,7 +71,81 @@
         "url": "https://www.last.fm/music/Raiyan/_/Talwinder+-+Wishes+-+Remake",
         "duration": "0",
         "@attr": {
+          "rank": "2"
+        },
+        "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Abhi Na Jao Chhod Kar",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Asha+Bhosle",
+          "name": "Asha Bhosle",
+          "mbid": "79c5547a-e098-495c-8dac-7e99546aa46b"
+        },
+        "url": "https://www.last.fm/music/Asha+Bhosle/_/Abhi+Na+Jao+Chhod+Kar",
+        "duration": "257",
+        "@attr": {
           "rank": "3"
+        },
+        "playcount": "4"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "40bd0203-bc3f-4b15-9ab3-ceeb2ef35d7a",
+        "name": "Hotel California - 2013 Remaster",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Eagles",
+          "name": "Eagles",
+          "mbid": "f46bd570-5768-462e-b84c-c7c993bbf47e"
+        },
+        "url": "https://www.last.fm/music/Eagles/_/Hotel+California+-+2013+Remaster",
+        "duration": "390",
+        "@attr": {
+          "rank": "4"
         },
         "playcount": "4"
       },
@@ -145,53 +182,16 @@
         "url": "https://www.last.fm/music/Shankar-Ehsaan-Loy/_/Sajde",
         "duration": "0",
         "@attr": {
-          "rank": "4"
-        },
-        "playcount": "4"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "a3612ec6-d89c-3b36-a633-976e00fd6bf3",
-        "name": "Jashn-E-Bahaaraa",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/A.R.+Rahman",
-          "name": "A.R. Rahman",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/A.R.+Rahman/_/Jashn-E-Bahaaraa",
-        "duration": "317",
-        "@attr": {
           "rank": "5"
         },
-        "playcount": "3"
+        "playcount": "4"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "12",
+      "totalPages": "14",
       "page": "1",
-      "total": "56",
+      "total": "68",
       "perPage": "5"
     }
   }
