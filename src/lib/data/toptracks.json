@@ -36,7 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "17"
+        "playcount": "19"
       },
       {
         "streamable": {
@@ -73,7 +73,44 @@
         "@attr": {
           "rank": "2"
         },
-        "playcount": "8"
+        "playcount": "9"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Thunderstruck",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/AC%2FDC",
+          "name": "AC/DC",
+          "mbid": "66c662b6-6e2f-4930-8610-912e24c63ed1"
+        },
+        "url": "https://www.last.fm/music/AC%2FDC/_/Thunderstruck",
+        "duration": "321",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "6"
       },
       {
         "streamable": {
@@ -108,7 +145,7 @@
         "url": "https://www.last.fm/music/Black+Eyed+Peas/_/Pump+It",
         "duration": "187",
         "@attr": {
-          "rank": "3"
+          "rank": "4"
         },
         "playcount": "6"
       },
@@ -145,43 +182,6 @@
         "url": "https://www.last.fm/music/AC%2FDC/_/Highway+to+Hell",
         "duration": "235",
         "@attr": {
-          "rank": "4"
-        },
-        "playcount": "5"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Don't Stop Me Now - Remastered 2011",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Queen",
-          "name": "Queen",
-          "mbid": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3"
-        },
-        "url": "https://www.last.fm/music/Queen/_/Don%27t+Stop+Me+Now+-+Remastered+2011",
-        "duration": "209",
-        "@attr": {
           "rank": "5"
         },
         "playcount": "5"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "17",
+      "totalPages": "18",
       "page": "1",
-      "total": "81",
+      "total": "90",
       "perPage": "5"
     }
   }
