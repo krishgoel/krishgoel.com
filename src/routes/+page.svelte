@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { PostAPIResponse, ProjectAPIResponse, SpeakingAPIResponse, ResearchAPIResponse, GitHubEvent } from '$lib/types'
-	export let data: { posts: PostAPIResponse[]; projects: ProjectAPIResponse[]; speaking: SpeakingAPIResponse[]; research: ResearchAPIResponse[]; track: any; commit: GitHubEvent }
+	import type { PageData } from './$types'
+	export let data: PageData
 
 	import ProjectCard from '$lib/components/ProjectCard.svelte'
 	import BlogCard from '$lib/components/BlogCard.svelte'
@@ -174,8 +174,8 @@
 				<p>Loading my listening habits...</p>
 				<h2>Loading...</h2>
 				<p>Loading...</p>
-			{:then data}
-				{#if data.recenttracks?.track && data.recenttracks.track[0]?.hasOwnProperty('@attr')}
+			{:then trackData}
+				{#if trackData.recenttracks?.track && trackData.recenttracks.track[0]?.hasOwnProperty('@attr')}
 					<div class="flex items-baseline">
 						<div class="music-animation mr-2 ml-1">
 							<span class="bg-zinc-900" />
@@ -184,12 +184,12 @@
 						</div>
 						<p class="mb-2">Currently listening to</p>
 					</div>
-					<h2 class="mt-2">{data.recenttracks.track[0].name}</h2>
-					<p class="mb-4">from <strong>{data.recenttracks.track[0].album['#text']}</strong> by <strong>{data.recenttracks.track[0].artist['#text']}</strong></p>
+					<h2 class="mt-2">{trackData.recenttracks.track[0].name}</h2>
+					<p class="mb-4">from <strong>{trackData.recenttracks.track[0].album['#text']}</strong> by <strong>{trackData.recenttracks.track[0].artist['#text']}</strong></p>
 				{:else}
 					<p class="mb-2">Last listened to</p>
-					<h2 class="mt-2">{data.recenttracks?.track ? data.recenttracks.track[0].name : 'No track available'}</h2>
-					<p class="mb-4">from <strong>{data.recenttracks?.track ? data.recenttracks.track[0].album['#text'] : 'Unknown'}</strong> by <strong>{data.recenttracks?.track ? data.recenttracks.track[0].artist['#text'] : 'Unknown'}</strong></p>
+					<h2 class="mt-2">{trackData.recenttracks?.track ? trackData.recenttracks.track[0].name : 'No track available'}</h2>
+					<p class="mb-4">from <strong>{trackData.recenttracks?.track ? trackData.recenttracks.track[0].album['#text'] : 'Unknown'}</strong> by <strong>{trackData.recenttracks?.track ? trackData.recenttracks.track[0].artist['#text'] : 'Unknown'}</strong></p>
 				{/if}
 			{:catch error}
 				<p class="mb-2">This section is supposed to display my recent listening habits</p>
@@ -213,18 +213,18 @@
 			</div>
 			{#await data.commit}
 				<p>Loading latest commit information...</p>
-			{:then data}
+			{:then commitEvent}
 				<p class="mt-2 mb-0">
 					My latest GitHub Commit:
-					{#if data?.repo?.name && data?.payload?.commits?.[0]?.sha && data?.payload?.commits?.[0]?.message && data?.created_at}
-						<a href={`https://github.com/${data.repo.name}/commit/${data.payload.commits[0].sha}`} aria-label="My latest commit" target="_blank">
-							{data.payload.commits[0].message}
+					{#if commitEvent?.repo?.name && commitEvent?.payload?.commits?.[0]?.sha && commitEvent?.payload?.commits?.[0]?.message && commitEvent?.created_at}
+						<a href={`https://github.com/${commitEvent.repo.name}/commit/${commitEvent.payload.commits[0].sha}`} aria-label="My latest commit" target="_blank">
+							{commitEvent.payload.commits[0].message}
 						</a>
 						made to
-						<a href={`https://github.com/${data.repo.name}`} aria-label="Repo with the latest commit" target="_blank">
-							{data.repo.name}
+						<a href={`https://github.com/${commitEvent.repo.name}`} aria-label="Repo with the latest commit" target="_blank">
+							{commitEvent.repo.name}
 						</a>
-						at {new Date(data.created_at).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }).replace(/(am|pm)/i, (match) => match.toUpperCase())} [IST]
+						at {new Date(commitEvent.created_at).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }).replace(/(am|pm)/i, (match) => match.toUpperCase())} [IST]
 					{:else}
 						Commit message unavailable, Repository name unavailable, or Timestamp unavailable.
 					{/if}
