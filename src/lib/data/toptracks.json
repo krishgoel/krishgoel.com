@@ -6,43 +6,6 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "2cfad207-3f55-4aec-8120-86cf66e34d59",
-        "name": "Immigrant Song - Remaster",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Led+Zeppelin",
-          "name": "Led Zeppelin",
-          "mbid": "678d88b2-87b0-403b-b63d-5da7465aecc3"
-        },
-        "url": "https://www.last.fm/music/Led+Zeppelin/_/Immigrant+Song+-+Remaster",
-        "duration": "146",
-        "@attr": {
-          "rank": "1"
-        },
-        "playcount": "6"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
         "mbid": "",
         "name": "Bajrang Baan-Lofi",
         "image": [
@@ -70,6 +33,43 @@
         },
         "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
         "duration": "217",
+        "@attr": {
+          "rank": "1"
+        },
+        "playcount": "7"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "2cfad207-3f55-4aec-8120-86cf66e34d59",
+        "name": "Immigrant Song - Remaster",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Led+Zeppelin",
+          "name": "Led Zeppelin",
+          "mbid": "678d88b2-87b0-403b-b63d-5da7465aecc3"
+        },
+        "url": "https://www.last.fm/music/Led+Zeppelin/_/Immigrant+Song+-+Remaster",
+        "duration": "146",
         "@attr": {
           "rank": "2"
         },
@@ -118,7 +118,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Highway to Hell",
+        "name": "Dhurandhar - Title Track",
         "image": [
           {
             "size": "small",
@@ -138,24 +138,24 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/AC%2FDC",
-          "name": "AC/DC",
-          "mbid": "66c662b6-6e2f-4930-8610-912e24c63ed1"
+          "url": "https://www.last.fm/music/Shashwat+Sachdev",
+          "name": "Shashwat Sachdev",
+          "mbid": ""
         },
-        "url": "https://www.last.fm/music/AC%2FDC/_/Highway+to+Hell",
-        "duration": "235",
+        "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Dhurandhar+-+Title+Track",
+        "duration": "0",
         "@attr": {
           "rank": "4"
         },
-        "playcount": "3"
+        "playcount": "6"
       },
       {
         "streamable": {
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "50095f55-c5bb-4fb4-b6d6-41ff71cb0bed",
-        "name": "Welcome to the Jungle",
+        "mbid": "3cfae970-1365-4b7c-aded-49d7b21dd9ce",
+        "name": "Kashi Vishwanath Gange",
         "image": [
           {
             "size": "small",
@@ -175,23 +175,23 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Guns+N%27+Roses",
-          "name": "Guns N' Roses",
-          "mbid": "eeb1195b-f213-4ce1-b28c-8565211f8e43"
+          "url": "https://www.last.fm/music/Krishna+Das",
+          "name": "Krishna Das",
+          "mbid": "9c0d337f-934c-45e9-a24e-c985b8059816"
         },
-        "url": "https://www.last.fm/music/Guns+N%27+Roses/_/Welcome+to+the+Jungle",
-        "duration": "379",
+        "url": "https://www.last.fm/music/Krishna+Das/_/Kashi+Vishwanath+Gange",
+        "duration": "389",
         "@attr": {
           "rank": "5"
         },
-        "playcount": "3"
+        "playcount": "4"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "9",
+      "totalPages": "13",
       "page": "1",
-      "total": "44",
+      "total": "62",
       "perPage": "5"
     }
   }
