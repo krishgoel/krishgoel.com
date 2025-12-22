@@ -6,6 +6,21 @@
 	import BlogCard from '$lib/components/BlogCard.svelte'
 	import SpeakingCard from '$lib/components/SpeakingCard.svelte'
 	import ResearchCard from '$lib/components/ResearchCard.svelte'
+
+	function formatIndianTimestamp(timestamp: string): string {
+		return new Date(timestamp)
+			.toLocaleString('en-IN', {
+				timeZone: 'Asia/Kolkata',
+				day: '2-digit',
+				month: '2-digit',
+				year: 'numeric',
+				hour: '2-digit',
+				minute: '2-digit',
+				second: '2-digit',
+				hour12: true
+			})
+			.replace(/(am|pm)/i, (match) => match.toUpperCase())
+	}
 </script>
 
 <section class="web py-16">
@@ -213,20 +228,20 @@
 			</div>
 			{#await data.commit}
 				<p>Loading latest commit information...</p>
-			{:then commitEvent}
+			{:then latestGitHubCommit}
 				<p class="mt-2 mb-0">
 					My latest GitHub Commit:
-					{#if commitEvent?.repo?.name && commitEvent?.payload?.commits?.[0]?.sha && commitEvent?.payload?.commits?.[0]?.message && commitEvent?.created_at}
-						<a href={`https://github.com/${commitEvent.repo.name}/commit/${commitEvent.payload.commits[0].sha}`} aria-label="My latest commit" target="_blank">
-							{commitEvent.payload.commits[0].message}
+					{#if latestGitHubCommit}
+						<a href={latestGitHubCommit.commitUrl} aria-label="My latest commit" target="_blank">
+							{latestGitHubCommit.commitMessage}
 						</a>
 						made to
-						<a href={`https://github.com/${commitEvent.repo.name}`} aria-label="Repo with the latest commit" target="_blank">
-							{commitEvent.repo.name}
+						<a href={latestGitHubCommit.repositoryUrl} aria-label="Repo with the latest commit" target="_blank">
+							{latestGitHubCommit.repositoryName}
 						</a>
-						at {new Date(commitEvent.created_at).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }).replace(/(am|pm)/i, (match) => match.toUpperCase())} [IST]
+						at {formatIndianTimestamp(latestGitHubCommit.timestamp)} [IST]
 					{:else}
-						Commit message unavailable, Repository name unavailable, or Timestamp unavailable.
+						I couldn't retrieve the latest public commit right now.
 					{/if}
 				</p>
 			{:catch error}
