@@ -44,43 +44,6 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Dhurandhar - Title Track",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Shashwat+Sachdev",
-          "name": "Shashwat Sachdev",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Dhurandhar+-+Title+Track",
-        "duration": "0",
-        "@attr": {
-          "rank": "2"
-        },
-        "playcount": "10"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
         "name": "Bajrang Baan-Lofi",
         "image": [
           {
@@ -108,46 +71,9 @@
         "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
         "duration": "217",
         "@attr": {
-          "rank": "3"
+          "rank": "2"
         },
-        "playcount": "9"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Sundarakand",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Jai+Uttal",
-          "name": "Jai Uttal",
-          "mbid": "eb6f3fca-c40c-4740-b288-a7f5744c6cec"
-        },
-        "url": "https://www.last.fm/music/Jai+Uttal/_/Sundarakand",
-        "duration": "341",
-        "@attr": {
-          "rank": "4"
-        },
-        "playcount": "6"
+        "playcount": "8"
       },
       {
         "streamable": {
@@ -182,16 +108,90 @@
         "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Ramba+Ho",
         "duration": "0",
         "@attr": {
+          "rank": "3"
+        },
+        "playcount": "8"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "8521b35e-4dd6-4a42-941a-b010eca40ed8",
+        "name": "Zinda",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Amit+Trivedi",
+          "name": "Amit Trivedi",
+          "mbid": "78830f6e-5832-443d-9e93-0e308238406e"
+        },
+        "url": "https://www.last.fm/music/Amit+Trivedi/_/Zinda",
+        "duration": "241",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Sundarakand",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Jai+Uttal",
+          "name": "Jai Uttal",
+          "mbid": "eb6f3fca-c40c-4740-b288-a7f5744c6cec"
+        },
+        "url": "https://www.last.fm/music/Jai+Uttal/_/Sundarakand",
+        "duration": "341",
+        "@attr": {
           "rank": "5"
         },
-        "playcount": "6"
+        "playcount": "5"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "21",
+      "totalPages": "19",
       "page": "1",
-      "total": "105",
+      "total": "95",
       "perPage": "5"
     }
   }
