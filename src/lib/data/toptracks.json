@@ -7,6 +7,43 @@
           "#text": "0"
         },
         "mbid": "",
+        "name": "Dhurandhar - Title Track",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Shashwat+Sachdev",
+          "name": "Shashwat Sachdev",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Dhurandhar+-+Title+Track",
+        "duration": "0",
+        "@attr": {
+          "rank": "1"
+        },
+        "playcount": "10"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
         "name": "Ramba Ho",
         "image": [
           {
@@ -34,7 +71,44 @@
         "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Ramba+Ho",
         "duration": "0",
         "@attr": {
-          "rank": "1"
+          "rank": "2"
+        },
+        "playcount": "10"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Run Down The City - Monica",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Shashwat+Sachdev",
+          "name": "Shashwat Sachdev",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Run+Down+The+City+-+Monica",
+        "duration": "0",
+        "@attr": {
+          "rank": "3"
         },
         "playcount": "9"
       },
@@ -71,83 +145,9 @@
         "url": "https://www.last.fm/music/Flipperachi/_/FA9LA",
         "duration": "105",
         "@attr": {
-          "rank": "2"
-        },
-        "playcount": "8"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Dhurandhar - Title Track",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Shashwat+Sachdev",
-          "name": "Shashwat Sachdev",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Dhurandhar+-+Title+Track",
-        "duration": "0",
-        "@attr": {
-          "rank": "3"
-        },
-        "playcount": "8"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Run Down The City - Monica",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Shashwat+Sachdev",
-          "name": "Shashwat Sachdev",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Run+Down+The+City+-+Monica",
-        "duration": "0",
-        "@attr": {
           "rank": "4"
         },
-        "playcount": "7"
+        "playcount": "8"
       },
       {
         "streamable": {
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "24",
+      "totalPages": "25",
       "page": "1",
-      "total": "117",
+      "total": "123",
       "perPage": "5"
     }
   }
