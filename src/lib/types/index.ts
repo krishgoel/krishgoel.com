@@ -53,11 +53,20 @@ export type ResearchAPIResponse = {
     // url: string
 }
 
+export type LatestGitHubCommit = {
+	repositoryName: string
+	repositoryUrl: string
+	commitMessage: string
+	commitUrl: string
+	timestamp: string
+}
+
 // There are a shit ton more fields, but I don't really need them
 export type GitHubEvent = {
 	type: string
 	created_at: string
 	payload: {
+		head?: string
 		commits: {
             sha: string,
             message: string
