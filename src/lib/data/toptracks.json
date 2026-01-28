@@ -44,43 +44,6 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Kainchi",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Hanuman+Foundation",
-          "name": "Hanuman Foundation",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Hanuman+Foundation/_/Kainchi",
-        "duration": "368",
-        "@attr": {
-          "rank": "2"
-        },
-        "playcount": "3"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
         "name": "Bajrang Baan-Lofi",
         "image": [
           {
@@ -108,7 +71,81 @@
         "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
         "duration": "217",
         "@attr": {
+          "rank": "2"
+        },
+        "playcount": "4"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Kainchi",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Hanuman+Foundation",
+          "name": "Hanuman Foundation",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Hanuman+Foundation/_/Kainchi",
+        "duration": "368",
+        "@attr": {
           "rank": "3"
+        },
+        "playcount": "3"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Lutt Le Gaya",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Shashwat+Sachdev",
+          "name": "Shashwat Sachdev",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Lutt+Le+Gaya",
+        "duration": "0",
+        "@attr": {
+          "rank": "4"
         },
         "playcount": "3"
       },
@@ -145,43 +182,6 @@
         "url": "https://www.last.fm/music/ABBA/_/Gimme!+Gimme!+Gimme!+(A+Man+After+Midnight)",
         "duration": "289",
         "@attr": {
-          "rank": "4"
-        },
-        "playcount": "2"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "59e71714-9171-4290-93ad-70e278ecb53f",
-        "name": "Homecoming",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Josh+Ritter",
-          "name": "Josh Ritter",
-          "mbid": "ac53c83c-c969-477f-9564-769e1ed80519"
-        },
-        "url": "https://www.last.fm/music/Josh+Ritter/_/Homecoming",
-        "duration": "366",
-        "@attr": {
           "rank": "5"
         },
         "playcount": "2"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "11",
+      "totalPages": "13",
       "page": "1",
-      "total": "51",
+      "total": "61",
       "perPage": "5"
     }
   }
