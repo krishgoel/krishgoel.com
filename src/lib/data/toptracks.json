@@ -36,7 +36,44 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "7"
+        "playcount": "8"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Fire Fire",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/SHIMZA",
+          "name": "SHIMZA",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/SHIMZA/_/Fire+Fire",
+        "duration": "0",
+        "@attr": {
+          "rank": "2"
+        },
+        "playcount": "8"
       },
       {
         "streamable": {
@@ -71,9 +108,9 @@
         "url": "https://www.last.fm/music/Hanuman+Foundation/_/Kainchi",
         "duration": "368",
         "@attr": {
-          "rank": "2"
+          "rank": "3"
         },
-        "playcount": "5"
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -108,7 +145,7 @@
         "url": "https://www.last.fm/music/Whisnu+Santika/_/Sahara",
         "duration": "181",
         "@attr": {
-          "rank": "3"
+          "rank": "4"
         },
         "playcount": "3"
       },
@@ -117,8 +154,8 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "c97f8417-93b8-3db8-a763-0e98ffb2c2fd",
-        "name": "Ki Banu Duniya Da",
+        "mbid": "0accfb66-427b-4305-bb2c-3fcdef81fe42",
+        "name": "Glitter & Gold",
         "image": [
           {
             "size": "small",
@@ -138,49 +175,12 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Gurdas+Maan",
-          "name": "Gurdas Maan",
-          "mbid": "2e27b26c-f92b-48aa-b758-ee564d1da868"
+          "url": "https://www.last.fm/music/Barns+Courtney",
+          "name": "Barns Courtney",
+          "mbid": "510fcf21-a1f3-40af-9087-40593af86f7f"
         },
-        "url": "https://www.last.fm/music/Gurdas+Maan/_/Ki+Banu+Duniya+Da",
-        "duration": "184",
-        "@attr": {
-          "rank": "4"
-        },
-        "playcount": "2"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Believer",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Imagine+Dragons",
-          "name": "Imagine Dragons",
-          "mbid": "012151a8-0f9a-44c9-997f-ebd68b5389f9"
-        },
-        "url": "https://www.last.fm/music/Imagine+Dragons/_/Believer",
-        "duration": "204",
+        "url": "https://www.last.fm/music/Barns+Courtney/_/Glitter+&+Gold",
+        "duration": "176",
         "@attr": {
           "rank": "5"
         },
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "8",
+      "totalPages": "9",
       "page": "1",
-      "total": "37",
+      "total": "42",
       "perPage": "5"
     }
   }
