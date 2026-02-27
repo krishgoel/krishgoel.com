@@ -1,5 +1,5 @@
-import fs from 'fs'
-import path from 'path'
+import fs from 'node:fs'
+import path from 'node:path'
 import axios from 'axios'
 import dotenv from 'dotenv'
 
@@ -10,17 +10,21 @@ async function fetchTopTracks() {
 	const method = 'user.gettoptracks'
 	const period = '7day'
 	const user = 'KrishSkywalker'
-	const apiKey = process.env.LAST_FM_API_KEY
+	const lastFmApiKey = process.env.LAST_FM_API_KEY
 	const format = 'json'
-	const limit = 5
+	const maximumTrackCount = 10
+
+	if (!lastFmApiKey) {
+		throw new Error('LAST_FM_API_KEY is required to fetch top tracks.')
+	}
 
 	const queryParams = new URLSearchParams({
 		method,
 		period,
 		user,
-		api_key: apiKey,
+		api_key: lastFmApiKey,
 		format,
-		limit
+		limit: String(maximumTrackCount)
 	})
 
 	try {
