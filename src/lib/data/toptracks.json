@@ -80,43 +80,6 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "5098d5cd-7f48-4cd7-8928-43e4f84cae0f",
-        "name": "DtMF",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Bad+Bunny",
-          "name": "Bad Bunny",
-          "mbid": "89aa5ecb-59ad-46f5-b3eb-2d424e941f19"
-        },
-        "url": "https://www.last.fm/music/Bad+Bunny/_/DtMF",
-        "duration": "237",
-        "@attr": {
-          "rank": "3"
-        },
-        "playcount": "5"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
         "mbid": "",
         "name": "Jamaican (Bam Bam)",
         "image": [
@@ -145,9 +108,46 @@
         "url": "https://www.last.fm/music/Hugel/_/Jamaican+(Bam+Bam)",
         "duration": "0",
         "@attr": {
-          "rank": "4"
+          "rank": "3"
         },
         "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "5098d5cd-7f48-4cd7-8928-43e4f84cae0f",
+        "name": "DtMF",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Bad+Bunny",
+          "name": "Bad Bunny",
+          "mbid": "89aa5ecb-59ad-46f5-b3eb-2d424e941f19"
+        },
+        "url": "https://www.last.fm/music/Bad+Bunny/_/DtMF",
+        "duration": "237",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -191,7 +191,7 @@
       "user": "KrishSkywalker",
       "totalPages": "9",
       "page": "1",
-      "total": "41",
+      "total": "42",
       "perPage": "5"
     }
   }
