@@ -73,7 +73,7 @@
         "@attr": {
           "rank": "2"
         },
-        "playcount": "7"
+        "playcount": "6"
       },
       {
         "streamable": {
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "7",
+      "totalPages": "8",
       "page": "1",
-      "total": "33",
+      "total": "37",
       "perPage": "5"
     }
   }
