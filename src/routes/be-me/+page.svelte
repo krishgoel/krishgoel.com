@@ -53,6 +53,11 @@
     > decide to build the world's first benchmark to instill a sense of time in machines, develop a paramteric representation of a continuous P(validity) over time<br/>
     > 2025, opt out of placements and take another semester off from college to do something off my own<br/>
     > <a href="https://x.com/krshgl/status/1884480430981931430" target="_blank" aria-label="Annotator Recruitment">recruit 12 annotators</a> to annotate the benchmark, synthetically generate samples, build the annotation platform, write guidelines, train annots, and build + train <a href="https://github.com/krishgoel/chronocept-baseline-models" target="_blank" aria-label="Chronocept Baseline Models">baseline models</a><br/>
-    > publish dataset to <a href="https://huggingface.co/datasets/krishgoel/chronocept" target="_blank" aria-label="Chronocept">HuggingFace</a> (preprint goes live soon)<br/>
-    > building <a href="https://projectendgame.tech" target="_blank" aria-label="Project Endgame">Endgame</a> full-time
+    > publish dataset to <a href="https://huggingface.co/datasets/krishgoel/chronocept" target="_blank" aria-label="Chronocept">HuggingFace</a><br/>
+    > building <a href="https://projectendgame.tech" target="_blank" aria-label="Project Endgame">Endgame</a> full-time<br/>
+    > Chronocept goes <a href="https://x.com/krshgl/status/1922347453614875111" target="_blank" aria-label="Chronocept viral on X">viral on X</a>, get reshared by <a href="https://x.com/vijayshekhar/status/1922994164964237395?s=20" target="_blank" aria-label="VSS's X">VSS</a>, <a href="https://x.com/krshgl/status/1922560483120279657?s=20" target="_blank" aria-label="Paras Chopra's X">Paras Chopra</a> and so many more smart people<br/>
+    > stop Endgame, join <a href="https://littlebird.ai" target="_blank" aria-label="Littlebird AI">Littlebird AI</a> full-time to build long-term memory for personal superintelligence e2e<br/>
+    > finish college, graduate from <a href="https://jaipur.manipal.edu" target="_blank" aria-label="Manipal University Jaipur">Manipal University Jaipur</a> after attending for a grand-total for 1.5 years lol<br/>
+    > 2026, Chronocept accepted to <a href="https://2026.eacl.org/" target="_blank" aria-label="EACL 2026">EACL 2026</a><br/>
+    > get deboarded from a plane to Morocco for EACL 2026 to present Chronocept and get stranded in Bangalore; fly back to Delhi in 2 hours and help <a href="https://x.com/krshgl/status/2036127925813248412?s=20" target="_blank" aria-label="Littlebird's X">launch Littlebird</a>
 </p>
