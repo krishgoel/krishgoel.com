@@ -1,0 +1,10 @@
+---
+title: "Chronocept: Instilling a Sense of Time in Machines"
+authors: ["Krish Goel", "Sanskar Pandey", "KS Mahadevan", "Harsh Kumar", "Vishesh Khadaria"]
+published_in: "Proceedings of EACL 2026"
+abstract: "Human cognition is deeply intertwined with a sense of time, known as Chronoception. This sense allows us to judge how long facts remain valid and when knowledge becomes outdated. Despite progress in vision, language, and motor control, AI still struggles to reason about temporal validity. We introduce Chronocept, the first benchmark to model temporal validity as a continuous probability distribution over time. Using skew-normal curves fitted along semantically decomposed temporal axes, Chronocept captures nuanced patterns of emergence, decay, and peak relevance. It includes two datasets: Benchmark I (atomic facts) and Benchmark II (multi-sentence passages). Annotations show strong inter-annotator agreement (84% and 89%). Our baselines predict curve parameters - location, scale, and skewness - enabling interpretable, generalizable learning and outperforming classification-based approaches. Chronocept fills a foundational gap in AI's temporal reasoning, supporting applications in knowledge grounding, fact-checking, retrieval-augmented generation (RAG), and proactive agents. Code and data are publicly available."
+# date: 17.06.2024
+time: May 2025
+description: 'Realised we had no explicit signals to build "proactivity" triggers while working on social humanoids @ Machani, convinced 4 of the boys to join, and without any labs or supervision, we went [viral on X](https://x.com/krshgl/status/1922347453614875111), got reshared by so many smart people (including [VSS](https://x.com/vijayshekhar/status/1922994164964237395?s=20) and [Paras Chopra](https://x.com/krshgl/status/1922560483120279657?s=20)) and then made it to EACL 2026.'
+url: https://arxiv.org/abs/2505.07637
+---
