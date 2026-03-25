@@ -155,7 +155,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "SAJDAA",
+        "name": "Dhurandhar - Title Track",
         "image": [
           {
             "size": "small",
@@ -175,12 +175,12 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Shankar-Ehsaan-Loy",
-          "name": "Shankar-Ehsaan-Loy",
+          "url": "https://www.last.fm/music/Shashwat+Sachdev",
+          "name": "Shashwat Sachdev",
           "mbid": ""
         },
-        "url": "https://www.last.fm/music/Shankar-Ehsaan-Loy/_/SAJDAA",
-        "duration": "365",
+        "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Dhurandhar+-+Title+Track",
+        "duration": "0",
         "@attr": {
           "rank": "5"
         },
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "17",
+      "totalPages": "18",
       "page": "1",
-      "total": "82",
+      "total": "88",
       "perPage": "5"
     }
   }
