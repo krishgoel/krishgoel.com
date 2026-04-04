@@ -53,19 +53,32 @@ export type ResearchAPIResponse = {
     // url: string
 }
 
-// There are a shit ton more fields, but I don't really need them
-export type GitHubEvent = {
-	type: string
-	created_at: string
-	payload: {
-		commits: {
-            sha: string,
-            message: string
-        }[]
+/** Minimal fields from GET /repos/{owner}/{repo}/commits (GitHub REST API). */
+export type GitHubCommitListItem = {
+	sha: string
+	html_url: string
+	commit: {
+		message: string
+		author: { date: string | null } | null
+		committer: { date: string | null } | null
 	}
-    repo : {
-        id: number,
-        name: string,
-        url: string
-    }
+}
+
+/** Minimal fields from GET /users/{username}/repos. */
+export type GitHubUserRepo = {
+	name: string
+	full_name: string
+	private: boolean
+	fork: boolean
+	pushed_at: string | null
+}
+
+/** Resolved latest public commit authored by the configured user (cross-repo). */
+export type LatestPublicGitHubCommit = {
+	repositoryFullName: string
+	repositoryHtmlUrl: string
+	commitShortSha: string
+	commitHtmlUrl: string
+	messageFirstLine: string
+	committedAtIso: string
 }
