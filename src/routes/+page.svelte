@@ -220,7 +220,6 @@
 						<a href={latestCommit.commitHtmlUrl} aria-label="My latest public commit on GitHub" target="_blank" rel="noopener noreferrer">
 							{latestCommit.messageFirstLine}
 						</a>
-						<span class="text-zinc-500"> ({latestCommit.commitShortSha})</span>
 						{' '}in{' '}
 						<a href={latestCommit.repositoryHtmlUrl} aria-label="Repository for the latest commit" target="_blank" rel="noopener noreferrer">
 							{latestCommit.repositoryFullName}

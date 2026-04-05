@@ -77,7 +77,6 @@ export type GitHubUserRepo = {
 export type LatestPublicGitHubCommit = {
 	repositoryFullName: string
 	repositoryHtmlUrl: string
-	commitShortSha: string
 	commitHtmlUrl: string
 	messageFirstLine: string
 	committedAtIso: string

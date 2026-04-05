@@ -101,7 +101,6 @@ async function resolveLatestPublicGitHubCommit(fetchFn: typeof fetch): Promise<L
 		best = {
 			repositoryFullName: repository.full_name,
 			repositoryHtmlUrl: `https://github.com/${repository.full_name}`,
-			commitShortSha: headCommit.sha.slice(0, 7),
 			commitHtmlUrl: headCommit.html_url,
 			messageFirstLine: firstLineOfCommitMessage(headCommit.commit.message),
 			committedAtIso
