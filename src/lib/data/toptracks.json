@@ -73,7 +73,7 @@
         "@attr": {
           "rank": "2"
         },
-        "playcount": "4"
+        "playcount": "5"
       },
       {
         "streamable": {
@@ -118,7 +118,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Jaiye Sajana",
+        "name": "Fire Fire",
         "image": [
           {
             "size": "small",
@@ -138,16 +138,16 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Shashwat+Sachdev",
-          "name": "Shashwat Sachdev",
-          "mbid": "26da2fd6-329a-4b0a-b5c2-35e73eaa36fc"
+          "url": "https://www.last.fm/music/SHIMZA",
+          "name": "SHIMZA",
+          "mbid": ""
         },
-        "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Jaiye+Sajana",
-        "duration": "180",
+        "url": "https://www.last.fm/music/SHIMZA/_/Fire+Fire",
+        "duration": "0",
         "@attr": {
           "rank": "4"
         },
-        "playcount": "3"
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -184,14 +184,14 @@
         "@attr": {
           "rank": "5"
         },
-        "playcount": "2"
+        "playcount": "3"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "8",
+      "totalPages": "14",
       "page": "1",
-      "total": "36",
+      "total": "70",
       "perPage": "5"
     }
   }
