@@ -11,15 +11,15 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: 14
+          node-version: 20
 
       - name: Install dependencies
-        run: npm install axios fs path dotenv
+        run: npm install --no-audit --no-fund
 
       - name: Fetch and save top tracks
         run: node scripts/fetch-top-tracks.js
@@ -28,8 +28,12 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global user.name "Krish Goel"
-          git config --global user.email "krishgoel3@gmail.com"
-          git add .
-          git commit -m "Updated Toptracks from Last.FM"
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "Krish Goel"
+          git config user.email "krishgoel3@gmail.com"
+          git add src/lib/data/toptracks.json
+          git commit -m "chore: update top tracks from Last.fm"
           git push
