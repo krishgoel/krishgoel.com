@@ -213,20 +213,20 @@
 			</div>
 			{#await data.commit}
 				<p>Loading latest commit information...</p>
-			{:then commitEvent}
+			{:then latestCommit}
 				<p class="mt-2 mb-0">
-					My latest GitHub Commit:
-					{#if commitEvent?.repo?.name && commitEvent?.payload?.commits?.[0]?.sha && commitEvent?.payload?.commits?.[0]?.message && commitEvent?.created_at}
-						<a href={`https://github.com/${commitEvent.repo.name}/commit/${commitEvent.payload.commits[0].sha}`} aria-label="My latest commit" target="_blank">
-							{commitEvent.payload.commits[0].message}
+					My latest public GitHub commit:
+					{#if latestCommit?.commitHtmlUrl && latestCommit.messageFirstLine && latestCommit.repositoryFullName && latestCommit.repositoryHtmlUrl && latestCommit.committedAtIso}
+						<a href={latestCommit.commitHtmlUrl} aria-label="My latest public commit on GitHub" target="_blank" rel="noopener noreferrer">
+							{latestCommit.messageFirstLine}
 						</a>
-						made to
-						<a href={`https://github.com/${commitEvent.repo.name}`} aria-label="Repo with the latest commit" target="_blank">
-							{commitEvent.repo.name}
+						{' '}in{' '}
+						<a href={latestCommit.repositoryHtmlUrl} aria-label="Repository for the latest commit" target="_blank" rel="noopener noreferrer">
+							{latestCommit.repositoryFullName}
 						</a>
-						at {new Date(commitEvent.created_at).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }).replace(/(am|pm)/i, (match) => match.toUpperCase())} [IST]
+						at {new Date(latestCommit.committedAtIso).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }).replace(/(am|pm)/i, (match) => match.toUpperCase())} [IST]
 					{:else}
-						Commit message unavailable, Repository name unavailable, or Timestamp unavailable.
+						Could not load a recent public commit (GitHub API limit or no matching commits on default branches).
 					{/if}
 				</p>
 			{:catch error}
