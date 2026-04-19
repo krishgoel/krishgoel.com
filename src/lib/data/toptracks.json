@@ -36,7 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "29"
+        "playcount": "30"
       },
       {
         "streamable": {
@@ -155,7 +155,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Hum Pyaar Karne Wale (From \"Dhurandhar The Revenge\")",
+        "name": "Dhurandhar The Revenge - Aari Aari (From \"Dhurandhar The Revenge\")",
         "image": [
           {
             "size": "small",
@@ -179,7 +179,7 @@
           "name": "Shashwat Sachdev",
           "mbid": ""
         },
-        "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Hum+Pyaar+Karne+Wale+(From+%22Dhurandhar+The+Revenge%22)",
+        "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Dhurandhar+The+Revenge+-+Aari+Aari+(From+%22Dhurandhar+The+Revenge%22)",
         "duration": "0",
         "@attr": {
           "rank": "5"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "18",
+      "totalPages": "21",
       "page": "1",
-      "total": "88",
+      "total": "101",
       "perPage": "5"
     }
   }
