@@ -81,6 +81,43 @@
           "#text": "0"
         },
         "mbid": "",
+        "name": "Bairan",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/BANJAARE",
+          "name": "BANJAARE",
+          "mbid": "4148e7d8-fec9-4af3-9e87-8b1b2cea126d"
+        },
+        "url": "https://www.last.fm/music/BANJAARE/_/Bairan",
+        "duration": "0",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "3"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
         "name": "Total",
         "image": [
           {
@@ -108,7 +145,7 @@
         "url": "https://www.last.fm/music/Rawme+Hooda/_/Total",
         "duration": "0",
         "@attr": {
-          "rank": "3"
+          "rank": "4"
         },
         "playcount": "3"
       },
@@ -145,53 +182,16 @@
         "url": "https://www.last.fm/music/The+Beatles/_/Penny+Lane+-+Remastered+2009",
         "duration": "182",
         "@attr": {
-          "rank": "4"
-        },
-        "playcount": "3"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "c5eee37f-9f97-48c9-b2e9-ffd20a6bb06e",
-        "name": "NUEVAYoL",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Bad+Bunny",
-          "name": "Bad Bunny",
-          "mbid": "89aa5ecb-59ad-46f5-b3eb-2d424e941f19"
-        },
-        "url": "https://www.last.fm/music/Bad+Bunny/_/NUEVAYoL",
-        "duration": "182",
-        "@attr": {
           "rank": "5"
         },
-        "playcount": "2"
+        "playcount": "3"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
       "totalPages": "10",
       "page": "1",
-      "total": "49",
+      "total": "46",
       "perPage": "5"
     }
   }
