@@ -1,7 +1,7 @@
 <script lang="ts">
-	export let data: { track: any; topTracks: any }
+	import type { PageData } from './$types'
 
-	console.log(data)
+	export let data: PageData
 </script>
 
 <h1>Top Tracks from this week</h1>
@@ -12,8 +12,8 @@
 		<p>Loading my listening habits...</p>
 		<h2>Loading...</h2>
 		<p class="mb-0">Loading...</p>
-	{:then data}
-		{#if data.recenttracks?.track && data.recenttracks.track[0]?.hasOwnProperty('@attr')}
+	{:then recentTracksResponse}
+		{#if recentTracksResponse.recenttracks?.track?.[0]?.['@attr']}
 			<div class="flex items-baseline">
 				<div class="music-animation mr-2 ml-1">
 					<span class="bg-zinc-900" />
@@ -22,12 +22,26 @@
 				</div>
 				<p class="mb-2">Currently listening to</p>
 			</div>
-			<h2>{data.recenttracks.track[0].name}</h2>
-			<p>from <strong>{data.recenttracks.track[0].album['#text']}</strong> by <strong>{data.recenttracks.track[0].artist['#text']}</strong></p>
+			<h2>{recentTracksResponse.recenttracks.track[0].name}</h2>
+			<p>
+				from <strong>{recentTracksResponse.recenttracks.track[0].album['#text']}</strong> by
+				<strong>{recentTracksResponse.recenttracks.track[0].artist['#text']}</strong>
+			</p>
 		{:else}
 			<p class="mb-2">Last listened to</p>
-			<h2 class="mt-0">{data.recenttracks?.track ? data.recenttracks.track[0].name : 'No track available'}</h2>
-			<p>from <strong>{data.recenttracks?.track ? data.recenttracks.track[0].album['#text'] : 'Unknown'}</strong> by <strong>{data.recenttracks?.track ? data.recenttracks.track[0].artist['#text'] : 'Unknown'}</strong></p>
+			<h2 class="mt-0">
+				{recentTracksResponse.recenttracks?.track ? recentTracksResponse.recenttracks.track[0].name : 'No track available'}
+			</h2>
+			<p>
+				from
+				<strong>
+					{recentTracksResponse.recenttracks?.track ? recentTracksResponse.recenttracks.track[0].album['#text'] : 'Unknown'}
+				</strong>
+				by
+				<strong>
+					{recentTracksResponse.recenttracks?.track ? recentTracksResponse.recenttracks.track[0].artist['#text'] : 'Unknown'}
+				</strong>
+			</p>
 		{/if}
 	{:catch error}
 		<p>This section is supposed to display my recent listening habits</p>
@@ -41,9 +55,9 @@
 		<p>Loading my listening habits...</p>
 		<h2>Loading...</h2>
 		<p class="mb-0">Loading...</p>
-	{:then data}
+	{:then topTracksResponse}
 		<!-- <p>{JSON.stringify(data)}</p> -->
-		{#each data.toptracks.track as track}
+		{#each topTracksResponse.toptracks.track.slice(0, 10) as track}
 			<div class="py-6">
 				<h3>{track.name}</h3>
 				<p class="mb-0">by <strong>{track.artist.name}</strong> [{track.playcount} Plays]</p>
