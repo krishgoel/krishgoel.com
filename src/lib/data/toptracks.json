@@ -36,7 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "7"
+        "playcount": "8"
       },
       {
         "streamable": {
@@ -73,44 +73,7 @@
         "@attr": {
           "rank": "2"
         },
-        "playcount": "4"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "7a04b6f9-25ed-4f60-b17b-cfc560d7fcca",
-        "name": "She's Thunderstorms",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Arctic+Monkeys",
-          "name": "Arctic Monkeys",
-          "mbid": "ada7a83c-e3e1-40f1-93f9-3e73dbc9298a"
-        },
-        "url": "https://www.last.fm/music/Arctic+Monkeys/_/She%27s+Thunderstorms",
-        "duration": "316",
-        "@attr": {
-          "rank": "3"
-        },
-        "playcount": "3"
+        "playcount": "5"
       },
       {
         "streamable": {
@@ -145,9 +108,9 @@
         "url": "https://www.last.fm/music/Bad+Bunny/_/NUEVAYoL",
         "duration": "182",
         "@attr": {
-          "rank": "4"
+          "rank": "3"
         },
-        "playcount": "3"
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -182,16 +145,53 @@
         "url": "https://www.last.fm/music/BANJAARE/_/Bairan",
         "duration": "0",
         "@attr": {
-          "rank": "5"
+          "rank": "4"
         },
         "playcount": "3"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "7a04b6f9-25ed-4f60-b17b-cfc560d7fcca",
+        "name": "She's Thunderstorms",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Arctic+Monkeys",
+          "name": "Arctic Monkeys",
+          "mbid": "ada7a83c-e3e1-40f1-93f9-3e73dbc9298a"
+        },
+        "url": "https://www.last.fm/music/Arctic+Monkeys/_/She%27s+Thunderstorms",
+        "duration": "316",
+        "@attr": {
+          "rank": "5"
+        },
+        "playcount": "2"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "16",
+      "totalPages": "11",
       "page": "1",
-      "total": "76",
+      "total": "55",
       "perPage": "5"
     }
   }
