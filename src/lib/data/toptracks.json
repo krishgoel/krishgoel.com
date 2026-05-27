@@ -73,15 +73,15 @@
         "@attr": {
           "rank": "2"
         },
-        "playcount": "6"
+        "playcount": "7"
       },
       {
         "streamable": {
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "c5eee37f-9f97-48c9-b2e9-ffd20a6bb06e",
-        "name": "NUEVAYoL",
+        "mbid": "33411802-9833-455d-b72c-d65fd96a3199",
+        "name": "Man Atkeia Beparwah De Naal",
         "image": [
           {
             "size": "small",
@@ -101,16 +101,16 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Bad+Bunny",
-          "name": "Bad Bunny",
-          "mbid": "89aa5ecb-59ad-46f5-b3eb-2d424e941f19"
+          "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan",
+          "name": "Nusrat Fateh Ali Khan",
+          "mbid": "5968383c-11c1-4c5b-ada0-504a38cec8e7"
         },
-        "url": "https://www.last.fm/music/Bad+Bunny/_/NUEVAYoL",
-        "duration": "182",
+        "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan/_/Man+Atkeia+Beparwah+De+Naal",
+        "duration": "867",
         "@attr": {
           "rank": "3"
         },
-        "playcount": "4"
+        "playcount": "3"
       },
       {
         "streamable": {
@@ -118,7 +118,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Bairan",
+        "name": "Destiny - Mann Atkeya",
         "image": [
           {
             "size": "small",
@@ -138,16 +138,16 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/BANJAARE",
-          "name": "BANJAARE",
-          "mbid": "4148e7d8-fec9-4af3-9e87-8b1b2cea126d"
+          "url": "https://www.last.fm/music/Shashwat+Sachdev",
+          "name": "Shashwat Sachdev",
+          "mbid": "26da2fd6-329a-4b0a-b5c2-35e73eaa36fc"
         },
-        "url": "https://www.last.fm/music/BANJAARE/_/Bairan",
-        "duration": "0",
+        "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Destiny+-+Mann+Atkeya",
+        "duration": "226",
         "@attr": {
           "rank": "4"
         },
-        "playcount": "4"
+        "playcount": "3"
       },
       {
         "streamable": {
@@ -191,7 +191,7 @@
       "user": "KrishSkywalker",
       "totalPages": "20",
       "page": "1",
-      "total": "100",
+      "total": "97",
       "perPage": "5"
     }
   }
