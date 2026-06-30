@@ -33,9 +33,10 @@
 				imageUrl={getTrackImageUrl(trackData.recenttracks.track[0], 'extralarge')}
 				imageAlt="{trackData.recenttracks.track[0].name} album art"
 				artworkSizeClass="h-[3.45rem] w-[3.45rem]"
+				artworkInset="3.45rem"
 			>
-				<h2 class="mt-0 mb-0">{trackData.recenttracks.track[0].name}</h2>
-				<p class="mb-0">
+				<h2 slot="title" class="mt-0 mb-0 leading-tight">{trackData.recenttracks.track[0].name}</h2>
+				<p slot="details" class="mb-0">
 					from <strong>{trackData.recenttracks.track[0].album['#text']}</strong> by
 					<strong>{trackData.recenttracks.track[0].artist['#text']}</strong>
 				</p>
@@ -48,9 +49,12 @@
 					: null}
 				imageAlt="{trackData.recenttracks?.track?.[0]?.name ?? 'Track'} album art"
 				artworkSizeClass="h-[3.45rem] w-[3.45rem]"
+				artworkInset="3.45rem"
 			>
-				<h2 class="mt-0 mb-0">{trackData.recenttracks?.track?.[0]?.name ?? 'No track available'}</h2>
-				<p class="mb-0">
+				<h2 slot="title" class="mt-0 mb-0 leading-tight">
+					{trackData.recenttracks?.track?.[0]?.name ?? 'No track available'}
+				</h2>
+				<p slot="details" class="mb-0">
 					from <strong>{trackData.recenttracks?.track?.[0]?.album['#text'] ?? 'Unknown'}</strong> by
 					<strong>{trackData.recenttracks?.track?.[0]?.artist['#text'] ?? 'Unknown'}</strong>
 				</p>
@@ -75,8 +79,8 @@
 					imageUrl={getTrackImageUrl(track, 'large')}
 					imageAlt="{track.name} album art"
 				>
-					<h3 class="mb-0">{track.name}</h3>
-					<p class="mb-0">by <strong>{track.artist.name}</strong> [{track.playcount} Plays]</p>
+					<h3 slot="title" class="mb-0 leading-tight">{track.name}</h3>
+					<p slot="details" class="mb-0">by <strong>{track.artist.name}</strong> [{track.playcount} Plays]</p>
 				</TrackWithArtwork>
 			</div>
 		{/each}
