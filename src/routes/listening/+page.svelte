@@ -1,5 +1,12 @@
 <script lang="ts">
-	export let data: { track: any; topTracks: any }
+	import TrackWithArtwork from '$lib/components/TrackWithArtwork.svelte'
+	import type { LastFmRecentTracksResponse, LastFmTopTracksResponse } from '$lib/types/lastfm'
+	import { getTrackImageUrl } from '$lib/utils/lastfm'
+
+	export let data: {
+		track: LastFmRecentTracksResponse
+		topTracks: LastFmTopTracksResponse
+	}
 
 	console.log(data)
 </script>
@@ -12,8 +19,8 @@
 		<p>Loading my listening habits...</p>
 		<h2>Loading...</h2>
 		<p class="mb-0">Loading...</p>
-	{:then data}
-		{#if data.recenttracks?.track && data.recenttracks.track[0]?.hasOwnProperty('@attr')}
+	{:then trackData}
+		{#if trackData.recenttracks?.track?.[0]?.hasOwnProperty('@attr')}
 			<div class="flex items-baseline">
 				<div class="music-animation mr-2 ml-1">
 					<span class="bg-zinc-900" />
@@ -22,12 +29,32 @@
 				</div>
 				<p class="mb-2">Currently listening to</p>
 			</div>
-			<h2>{data.recenttracks.track[0].name}</h2>
-			<p>from <strong>{data.recenttracks.track[0].album['#text']}</strong> by <strong>{data.recenttracks.track[0].artist['#text']}</strong></p>
+			<TrackWithArtwork
+				imageUrl={getTrackImageUrl(trackData.recenttracks.track[0], 'extralarge')}
+				imageAlt="{trackData.recenttracks.track[0].name} album art"
+				artworkSizeClass="h-[3.45rem] w-[3.45rem]"
+			>
+				<h2 class="mt-0 mb-0">{trackData.recenttracks.track[0].name}</h2>
+				<p class="mb-0">
+					from <strong>{trackData.recenttracks.track[0].album['#text']}</strong> by
+					<strong>{trackData.recenttracks.track[0].artist['#text']}</strong>
+				</p>
+			</TrackWithArtwork>
 		{:else}
 			<p class="mb-2">Last listened to</p>
-			<h2 class="mt-0">{data.recenttracks?.track ? data.recenttracks.track[0].name : 'No track available'}</h2>
-			<p>from <strong>{data.recenttracks?.track ? data.recenttracks.track[0].album['#text'] : 'Unknown'}</strong> by <strong>{data.recenttracks?.track ? data.recenttracks.track[0].artist['#text'] : 'Unknown'}</strong></p>
+			<TrackWithArtwork
+				imageUrl={trackData.recenttracks?.track?.[0]
+					? getTrackImageUrl(trackData.recenttracks.track[0], 'extralarge')
+					: null}
+				imageAlt="{trackData.recenttracks?.track?.[0]?.name ?? 'Track'} album art"
+				artworkSizeClass="h-[3.45rem] w-[3.45rem]"
+			>
+				<h2 class="mt-0 mb-0">{trackData.recenttracks?.track?.[0]?.name ?? 'No track available'}</h2>
+				<p class="mb-0">
+					from <strong>{trackData.recenttracks?.track?.[0]?.album['#text'] ?? 'Unknown'}</strong> by
+					<strong>{trackData.recenttracks?.track?.[0]?.artist['#text'] ?? 'Unknown'}</strong>
+				</p>
+			</TrackWithArtwork>
 		{/if}
 	{:catch error}
 		<p>This section is supposed to display my recent listening habits</p>
@@ -41,12 +68,16 @@
 		<p>Loading my listening habits...</p>
 		<h2>Loading...</h2>
 		<p class="mb-0">Loading...</p>
-	{:then data}
-		<!-- <p>{JSON.stringify(data)}</p> -->
-		{#each data.toptracks.track as track}
+	{:then topTracksData}
+		{#each topTracksData.toptracks.track as track}
 			<div class="py-6">
-				<h3>{track.name}</h3>
-				<p class="mb-0">by <strong>{track.artist.name}</strong> [{track.playcount} Plays]</p>
+				<TrackWithArtwork
+					imageUrl={getTrackImageUrl(track, 'large')}
+					imageAlt="{track.name} album art"
+				>
+					<h3 class="mb-0">{track.name}</h3>
+					<p class="mb-0">by <strong>{track.artist.name}</strong> [{track.playcount} Plays]</p>
+				</TrackWithArtwork>
 			</div>
 		{/each}
 	{:catch error}
