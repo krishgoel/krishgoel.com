@@ -51,3 +51,12 @@ export type LastFmTopTracksResponse = {
 		track: LastFmTopTrack[]
 	}
 }
+
+export type LastFmTrackInfoResponse = {
+	track?: {
+		album?: {
+			image?: LastFmImage[]
+		}
+		image?: LastFmImage[]
+	}
+}
