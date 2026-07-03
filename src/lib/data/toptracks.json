@@ -36,7 +36,44 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "16"
+        "playcount": "19"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "33411802-9833-455d-b72c-d65fd96a3199",
+        "name": "Man Atkeia Beparwah De Naal",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan",
+          "name": "Nusrat Fateh Ali Khan",
+          "mbid": "5968383c-11c1-4c5b-ada0-504a38cec8e7"
+        },
+        "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan/_/Man+Atkeia+Beparwah+De+Naal",
+        "duration": "867",
+        "@attr": {
+          "rank": "2"
+        },
+        "playcount": "7"
       },
       {
         "streamable": {
@@ -71,46 +108,9 @@
         "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
         "duration": "217",
         "@attr": {
-          "rank": "2"
-        },
-        "playcount": "8"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Patakha Guddi",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Alessa+Khin",
-          "name": "Alessa Khin",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Alessa+Khin/_/Patakha+Guddi",
-        "duration": "0",
-        "@attr": {
           "rank": "3"
         },
-        "playcount": "6"
+        "playcount": "7"
       },
       {
         "streamable": {
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "15",
+      "totalPages": "17",
       "page": "1",
-      "total": "74",
+      "total": "81",
       "perPage": "5"
     }
   }
