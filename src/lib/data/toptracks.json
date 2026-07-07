@@ -36,7 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "24"
+        "playcount": "19"
       },
       {
         "streamable": {
@@ -110,7 +110,44 @@
         "@attr": {
           "rank": "3"
         },
-        "playcount": "9"
+        "playcount": "10"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "9e46ca9c-b6f8-4ae2-9d67-f71d1d753c02",
+        "name": "GOAT",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Sidhu+Moose+Wala",
+          "name": "Sidhu Moose Wala",
+          "mbid": "119a6864-622b-4e6c-8aab-a422080530c6"
+        },
+        "url": "https://www.last.fm/music/Sidhu+Moose+Wala/_/GOAT",
+        "duration": "80",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "8"
       },
       {
         "streamable": {
@@ -145,43 +182,6 @@
         "url": "https://www.last.fm/music/Pawan+Dhanda/_/Wass+Good",
         "duration": "0",
         "@attr": {
-          "rank": "4"
-        },
-        "playcount": "7"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Bajrang Baan-Lofi",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj",
-          "name": "Rasraj Ji Maharaj",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
-        "duration": "217",
-        "@attr": {
           "rank": "5"
         },
         "playcount": "7"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "18",
+      "totalPages": "17",
       "page": "1",
-      "total": "87",
+      "total": "82",
       "perPage": "5"
     }
   }
