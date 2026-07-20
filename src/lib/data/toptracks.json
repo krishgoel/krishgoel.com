@@ -36,7 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "9"
+        "playcount": "8"
       },
       {
         "streamable": {
@@ -73,7 +73,7 @@
         "@attr": {
           "rank": "2"
         },
-        "playcount": "8"
+        "playcount": "7"
       },
       {
         "streamable": {
@@ -110,7 +110,7 @@
         "@attr": {
           "rank": "3"
         },
-        "playcount": "6"
+        "playcount": "5"
       },
       {
         "streamable": {
@@ -155,7 +155,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Wass Good",
+        "name": "Wzr Tank",
         "image": [
           {
             "size": "small",
@@ -175,11 +175,11 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Pawan+Dhanda",
-          "name": "Pawan Dhanda",
+          "url": "https://www.last.fm/music/Wazir+Patar",
+          "name": "Wazir Patar",
           "mbid": ""
         },
-        "url": "https://www.last.fm/music/Pawan+Dhanda/_/Wass+Good",
+        "url": "https://www.last.fm/music/Wazir+Patar/_/Wzr+Tank",
         "duration": "0",
         "@attr": {
           "rank": "5"
@@ -191,7 +191,7 @@
       "user": "KrishSkywalker",
       "totalPages": "8",
       "page": "1",
-      "total": "37",
+      "total": "38",
       "perPage": "5"
     }
   }
