@@ -36,7 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "7"
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -44,7 +44,81 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Dhurandhar The Revenge - Aari Aari (From \"Dhurandhar The Revenge\")",
+        "name": "Bajrang Baan-Lofi",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj",
+          "name": "Rasraj Ji Maharaj",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
+        "duration": "217",
+        "@attr": {
+          "rank": "2"
+        },
+        "playcount": "1"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "e88d6537-e911-405b-9b4b-f39572e7969b",
+        "name": "Breathless Hanuman Chalisa",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Shankar+Mahadevan",
+          "name": "Shankar Mahadevan",
+          "mbid": "bdbafa57-cf3f-4b7e-b956-fb6e0071ecd4"
+        },
+        "url": "https://www.last.fm/music/Shankar+Mahadevan/_/Breathless+Hanuman+Chalisa",
+        "duration": "225",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "1"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Gehra Hua",
         "image": [
           {
             "size": "small",
@@ -68,12 +142,12 @@
           "name": "Shashwat Sachdev",
           "mbid": ""
         },
-        "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Dhurandhar+The+Revenge+-+Aari+Aari+(From+%22Dhurandhar+The+Revenge%22)",
+        "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Gehra+Hua",
         "duration": "0",
         "@attr": {
-          "rank": "2"
+          "rank": "4"
         },
-        "playcount": "2"
+        "playcount": "1"
       },
       {
         "streamable": {
@@ -108,80 +182,6 @@
         "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Hum+Pyaar+Karne+Wale",
         "duration": "208",
         "@attr": {
-          "rank": "3"
-        },
-        "playcount": "2"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "050e870c-7209-4c1e-b9f8-c68d2147b52f",
-        "name": "Rasputin",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Boney+M.",
-          "name": "Boney M.",
-          "mbid": "5403bf6e-bc1d-4e62-b31f-926a2bf66a14"
-        },
-        "url": "https://www.last.fm/music/Boney+M./_/Rasputin",
-        "duration": "233",
-        "@attr": {
-          "rank": "4"
-        },
-        "playcount": "1"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "77326ede-c23c-4613-900f-2d6968685d66",
-        "name": "Hawa Hawa",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Hassan+Jahangir",
-          "name": "Hassan Jahangir",
-          "mbid": "531e8417-887a-4ca3-8ff8-3b4ec1d06ae5"
-        },
-        "url": "https://www.last.fm/music/Hassan+Jahangir/_/Hawa+Hawa",
-        "duration": "379",
-        "@attr": {
           "rank": "5"
         },
         "playcount": "1"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "4",
+      "totalPages": "2",
       "page": "1",
-      "total": "16",
+      "total": "9",
       "perPage": "5"
     }
   }
