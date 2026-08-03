@@ -1,7 +1,33 @@
-import { env } from '$env/dynamic/private'
-const LAST_FM_API_KEY = env.LAST_FM_API_KEY
-
 import toptracks from '$lib/data/toptracks.json'
+import { env } from '$env/dynamic/private'
+import type { PageServerLoad } from './$types'
+
+const lastFmApiKey = env.LAST_FM_API_KEY ?? ''
+
+type LastFmRecentTrack = {
+	name: string
+	album: { '#text': string }
+	artist: { '#text': string }
+	'@attr'?: Record<string, string>
+}
+
+type LastFmRecentTracksResponse = {
+	recenttracks?: {
+		track?: LastFmRecentTrack[]
+	}
+}
+
+type LastFmTopTrack = {
+	name: string
+	playcount: string
+	artist: { name: string }
+}
+
+type LastFmTopTracksResponse = {
+	toptracks: {
+		track: LastFmTopTrack[]
+	}
+}
 
 async function fetchAPI<T>(url: string, fallback: T, fetchFn: typeof fetch): Promise<T> {
 	try {
@@ -16,15 +42,17 @@ async function fetchAPI<T>(url: string, fallback: T, fetchFn: typeof fetch): Pro
 	}
 }
 
-export async function load({ fetch }) {
+export const load: PageServerLoad = async ({ fetch }) => {
 	try {
-		const lastTrackData = await fetchAPI<any>(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KrishSkywalker&api_key=${LAST_FM_API_KEY}&format=json&limit=1`, {}, fetch)
+		const fallbackRecentTracks: LastFmRecentTracksResponse = { recenttracks: { track: [] } }
 
-        const topTracks = toptracks
+		const lastTrackData = await fetchAPI<LastFmRecentTracksResponse>(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KrishSkywalker&api_key=${lastFmApiKey}&format=json&limit=1`, fallbackRecentTracks, fetch)
+
+		const topTracks = toptracks as LastFmTopTracksResponse
 
 		return {
 			track: lastTrackData,
-            topTracks
+			topTracks
 		}
 	} catch (error) {
 		console.error(`Failed to fetch data. Error generated at +page.server.ts:`, error)
