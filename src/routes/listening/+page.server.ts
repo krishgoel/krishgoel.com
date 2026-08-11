@@ -1,32 +1,42 @@
 import { env } from '$env/dynamic/private'
-const LAST_FM_API_KEY = env.LAST_FM_API_KEY
+import topTracksCache from '$lib/data/toptracks.json'
+import {
+	fetchRecentTrack,
+	fetchTopTracksWithPeriodFallback,
+	topTracksFromCachedPayload
+} from '$lib/server/lastfm'
+import type { LastFmTopTracksResponse, ListeningRecentTrack, ListeningTopTracksPayload } from '$lib/types'
+import type { PageServerLoad } from './$types'
 
-import toptracks from '$lib/data/toptracks.json'
+const lastFmApiKey = env.LAST_FM_API_KEY ?? ''
 
-async function fetchAPI<T>(url: string, fallback: T, fetchFn: typeof fetch): Promise<T> {
-	try {
-		const response = await fetchFn(url)
-		if (!response.ok) {
-			throw new Error(`Failed to fetch from ${url}`)
-		}
-		return response.json()
-	} catch (error) {
-		console.error(`Error fetching ${url}:`, error)
-		return fallback
-	}
+type ListeningPageData = {
+	recentTrack: ListeningRecentTrack | null
+	topTracks: ListeningTopTracksPayload
 }
 
-export async function load({ fetch }) {
-	try {
-		const lastTrackData = await fetchAPI<any>(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KrishSkywalker&api_key=${LAST_FM_API_KEY}&format=json&limit=1`, {}, fetch)
+export const load: PageServerLoad = async ({ fetch }): Promise<ListeningPageData> => {
+	const cachedTopTracks = topTracksFromCachedPayload(topTracksCache as LastFmTopTracksResponse)
 
-        const topTracks = toptracks
+	try {
+		const [recentTrack, topTracks] = await Promise.all([
+			fetchRecentTrack(lastFmApiKey, fetch),
+			fetchTopTracksWithPeriodFallback(lastFmApiKey, fetch, cachedTopTracks)
+		])
 
 		return {
-			track: lastTrackData,
-            topTracks
+			recentTrack,
+			topTracks
 		}
 	} catch (error) {
-		console.error(`Failed to fetch data. Error generated at +page.server.ts:`, error)
+		console.error('Failed to fetch listening page data:', error)
+		return {
+			recentTrack: null,
+			topTracks: {
+				tracks: cachedTopTracks,
+				period: null,
+				periodLabel: 'lately'
+			}
+		}
 	}
 }

@@ -1,19 +1,23 @@
 <script lang="ts">
-	export let data: { track: any; topTracks: any }
+	import type { ListeningRecentTrack, ListeningTopTracksPayload } from '$lib/types'
 
-	console.log(data)
+	export let data: {
+		recentTrack: ListeningRecentTrack | null
+		topTracks: ListeningTopTracksPayload
+	}
 </script>
 
-<h1>Top Tracks from this week</h1>
-<p class="mb-4">Sourced daily from <a aria-label="My Last.fm" href="https://last.fm/user/KrishSkywalker" target="_blank" class="svelte-1fnyxa0">Last.FM ></a></p>
+<h1>Top Tracks from {data.topTracks.periodLabel}</h1>
+<p class="mb-4">
+	Sourced from
+	<a aria-label="My Last.fm" href="https://last.fm/user/KrishSkywalker" target="_blank" class="svelte-1fnyxa0"
+		>Last.FM ></a
+	>
+</p>
 
 <div class="card rounded-lg py-6 md:px-12 px-6 mb-8">
-	{#await data.track}
-		<p>Loading my listening habits...</p>
-		<h2>Loading...</h2>
-		<p class="mb-0">Loading...</p>
-	{:then data}
-		{#if data.recenttracks?.track && data.recenttracks.track[0]?.hasOwnProperty('@attr')}
+	{#if data.recentTrack}
+		{#if data.recentTrack.isNowPlaying}
 			<div class="flex items-baseline">
 				<div class="music-animation mr-2 ml-1">
 					<span class="bg-zinc-900" />
@@ -22,38 +26,36 @@
 				</div>
 				<p class="mb-2">Currently listening to</p>
 			</div>
-			<h2>{data.recenttracks.track[0].name}</h2>
-			<p>from <strong>{data.recenttracks.track[0].album['#text']}</strong> by <strong>{data.recenttracks.track[0].artist['#text']}</strong></p>
 		{:else}
 			<p class="mb-2">Last listened to</p>
-			<h2 class="mt-0">{data.recenttracks?.track ? data.recenttracks.track[0].name : 'No track available'}</h2>
-			<p>from <strong>{data.recenttracks?.track ? data.recenttracks.track[0].album['#text'] : 'Unknown'}</strong> by <strong>{data.recenttracks?.track ? data.recenttracks.track[0].artist['#text'] : 'Unknown'}</strong></p>
 		{/if}
-	{:catch error}
-		<p>This section is supposed to display my recent listening habits</p>
-		<h2>But</h2>
-		<p class="mb-0">the API it relies on crashed. {error}</p>
-	{/await}
+		<h2 class="mt-0">{data.recentTrack.name}</h2>
+		<p>
+			from <strong>{data.recentTrack.album}</strong> by
+			<strong>{data.recentTrack.artist}</strong>
+		</p>
+	{:else}
+		<p class="mb-2">Recent listening</p>
+		<h2 class="mt-0">No track available</h2>
+		<p class="mb-0">Could not load the latest scrobble from Last.fm right now.</p>
+	{/if}
 </div>
 
 <div class="card rounded-lg py-3 md:px-12 px-6 divide-y divide-gray-400">
-	{#await data.topTracks}
-		<p>Loading my listening habits...</p>
-		<h2>Loading...</h2>
-		<p class="mb-0">Loading...</p>
-	{:then data}
-		<!-- <p>{JSON.stringify(data)}</p> -->
-		{#each data.toptracks.track as track}
+	{#if data.topTracks.tracks.length > 0}
+		{#each data.topTracks.tracks as track}
 			<div class="py-6">
 				<h3>{track.name}</h3>
-				<p class="mb-0">by <strong>{track.artist.name}</strong> [{track.playcount} Plays]</p>
+				<p class="mb-0">
+					by <strong>{track.artist.name}</strong> [{track.playcount} Plays]
+				</p>
 			</div>
 		{/each}
-	{:catch error}
-		<p>This section is supposed to display my recent listening habits</p>
-		<h2>But</h2>
-		<p class="mb-0">the API it relies on crashed. {error}</p>
-	{/await}
+	{:else}
+		<div class="py-6">
+			<p class="mb-0">No top tracks to show yet — check back after the next scrobbles sync.</p>
+		</div>
+	{/if}
 </div>
 
 <style>

@@ -81,3 +81,15 @@ export type LatestPublicGitHubCommit = {
 	messageFirstLine: string
 	committedAtIso: string
 }
+
+export type {
+	LastFmPeriod,
+	LastFmImage,
+	LastFmRecentTrack,
+	LastFmRecentTracksResponse,
+	LastFmTopTrack,
+	LastFmTopTracksResponse,
+	LastFmApiErrorResponse,
+	ListeningRecentTrack,
+	ListeningTopTracksPayload
+} from './lastfm'

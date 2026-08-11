@@ -44,7 +44,7 @@
 		},
 		'/listening': {
 			title: 'Listening',
-			description: "What I'm listening to this week."
+			description: "What I've been listening to lately."
 		},
 		'/bigdonmegaladon': {
 			title: 'Big Don Megaladon',
