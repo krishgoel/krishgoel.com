@@ -55,11 +55,17 @@ async function fetchTopTracksForPeriod(apiKey, period) {
 		limit: String(TRACK_LIMIT)
 	})
 
-	const response = await axios.get(`${LAST_FM_API_BASE}?${queryParams.toString()}`)
+	const response = await axios.get(`${LAST_FM_API_BASE}?${queryParams.toString()}`, {
+		validateStatus: () => true
+	})
 	const payload = response.data
 
 	if (isLastFmApiError(payload)) {
 		throw new Error(`Last.fm error ${payload.error}: ${payload.message}`)
+	}
+
+	if (response.status < 200 || response.status >= 300) {
+		throw new Error(`Last.fm HTTP ${response.status}`)
 	}
 
 	return /** @type {LastFmTopTracksResponse} */ (payload)
@@ -119,7 +125,16 @@ async function fetchTopTracks() {
 				break
 			}
 		} catch (error) {
-			console.error(`Failed fetching period=${period}:`, error)
+			const axiosPayload = /** @type {{ response?: { data?: LastFmApiErrorResponse } }} */ (
+				error
+			).response?.data
+			const message =
+				axiosPayload && isLastFmApiError(axiosPayload)
+					? `Last.fm error ${axiosPayload.error}: ${axiosPayload.message}`
+					: error instanceof Error
+						? error.message
+						: String(error)
+			console.error(`Failed fetching period=${period}: ${message}`)
 		}
 	}
 
