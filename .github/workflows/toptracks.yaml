@@ -11,15 +11,15 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v2
         with:
-          node-version: 22
+          node-version: 14
 
       - name: Install dependencies
-        run: npm install axios dotenv
+        run: npm install axios fs path dotenv
 
       - name: Fetch and save top tracks
         run: node scripts/fetch-top-tracks.js
