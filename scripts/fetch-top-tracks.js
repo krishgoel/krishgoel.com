@@ -8,7 +8,7 @@ dotenv.config()
 async function fetchTopTracks() {
 	const lastFmUrl = 'https://ws.audioscrobbler.com/2.0/'
 	const method = 'user.gettoptracks'
-	const period = '7day'
+	const period = '3month'
 	const user = 'KrishSkywalker'
 	const apiKey = process.env.LAST_FM_API_KEY
 	const format = 'json'

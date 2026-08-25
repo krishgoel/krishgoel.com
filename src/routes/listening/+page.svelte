@@ -2,7 +2,7 @@
 	export let data: { track: any; topTracks: any }
 </script>
 
-<h1>Top Tracks from this week</h1>
+<h1>Top Tracks from the last 3 months</h1>
 <p class="mb-4">Sourced daily from <a aria-label="My Last.fm" href="https://last.fm/user/KrishSkywalker" target="_blank" class="svelte-1fnyxa0">Last.FM ></a></p>
 
 <div class="card rounded-lg py-6 md:px-12 px-6 mb-8">
@@ -41,7 +41,7 @@
 		<p class="mb-0">Loading...</p>
 	{:then data}
 		{#if data.toptracks.track.length === 0}
-			<p class="py-6 mb-0">No tracks scrobbled this week.</p>
+			<p class="py-6 mb-0">No tracks scrobbled in the last 3 months.</p>
 		{:else}
 			{#each data.toptracks.track as track}
 				<div class="py-6">
