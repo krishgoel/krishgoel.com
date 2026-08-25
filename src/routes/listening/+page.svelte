@@ -1,7 +1,5 @@
 <script lang="ts">
 	export let data: { track: any; topTracks: any }
-
-	console.log(data)
 </script>
 
 <h1>Top Tracks from this week</h1>
@@ -42,13 +40,16 @@
 		<h2>Loading...</h2>
 		<p class="mb-0">Loading...</p>
 	{:then data}
-		<!-- <p>{JSON.stringify(data)}</p> -->
-		{#each data.toptracks.track as track}
-			<div class="py-6">
-				<h3>{track.name}</h3>
-				<p class="mb-0">by <strong>{track.artist.name}</strong> [{track.playcount} Plays]</p>
-			</div>
-		{/each}
+		{#if data.toptracks.track.length === 0}
+			<p class="py-6 mb-0">No tracks scrobbled this week.</p>
+		{:else}
+			{#each data.toptracks.track as track}
+				<div class="py-6">
+					<h3>{track.name}</h3>
+					<p class="mb-0">by <strong>{track.artist.name}</strong> [{track.playcount} Plays]</p>
+				</div>
+			{/each}
+		{/if}
 	{:catch error}
 		<p>This section is supposed to display my recent listening habits</p>
 		<h2>But</h2>
