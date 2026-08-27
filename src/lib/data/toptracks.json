@@ -36,7 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "4"
+        "playcount": "5"
       },
       {
         "streamable": {
@@ -73,7 +73,81 @@
         "@attr": {
           "rank": "2"
         },
-        "playcount": "4"
+        "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "d9c6f45e-1a06-4e4e-9e9f-1ed06ea8e7bb",
+        "name": "Ranjha",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Diljit+Dosanjh",
+          "name": "Diljit Dosanjh",
+          "mbid": "f931c961-b647-4861-be8c-f47d84a4de51"
+        },
+        "url": "https://www.last.fm/music/Diljit+Dosanjh/_/Ranjha",
+        "duration": "184",
+        "@attr": {
+          "rank": "3"
+        },
+        "playcount": "3"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "3719064c-6154-4634-a7b9-4a1b9a0e459d",
+        "name": "Jee Ni Lagda",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Karan+Aujla",
+          "name": "Karan Aujla",
+          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
+        },
+        "url": "https://www.last.fm/music/Karan+Aujla/_/Jee+Ni+Lagda",
+        "duration": "139",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "3"
       },
       {
         "streamable": {
@@ -108,90 +182,16 @@
         "url": "https://www.last.fm/music/Shashwat+Sachdev/_/Destiny+-+Mann+Atkeya",
         "duration": "226",
         "@attr": {
-          "rank": "3"
-        },
-        "playcount": "3"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "050e870c-7209-4c1e-b9f8-c68d2147b52f",
-        "name": "Rasputin",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Boney+M.",
-          "name": "Boney M.",
-          "mbid": "5403bf6e-bc1d-4e62-b31f-926a2bf66a14"
-        },
-        "url": "https://www.last.fm/music/Boney+M./_/Rasputin",
-        "duration": "233",
-        "@attr": {
-          "rank": "4"
-        },
-        "playcount": "2"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "e58f27a9-f2f2-452d-bf76-de3555fb3903",
-        "name": "Born to Shine",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Diljit+Dosanjh",
-          "name": "Diljit Dosanjh",
-          "mbid": "f931c961-b647-4861-be8c-f47d84a4de51"
-        },
-        "url": "https://www.last.fm/music/Diljit+Dosanjh/_/Born+to+Shine",
-        "duration": "213",
-        "@attr": {
           "rank": "5"
         },
-        "playcount": "2"
+        "playcount": "3"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "11",
+      "totalPages": "12",
       "page": "1",
-      "total": "55",
+      "total": "60",
       "perPage": "5"
     }
   }
