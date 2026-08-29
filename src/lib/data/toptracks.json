@@ -6,6 +6,43 @@
           "fulltrack": "0",
           "#text": "0"
         },
+        "mbid": "3719064c-6154-4634-a7b9-4a1b9a0e459d",
+        "name": "Jee Ni Lagda",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Karan+Aujla",
+          "name": "Karan Aujla",
+          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
+        },
+        "url": "https://www.last.fm/music/Karan+Aujla/_/Jee+Ni+Lagda",
+        "duration": "139",
+        "@attr": {
+          "rank": "1"
+        },
+        "playcount": "9"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
         "mbid": "",
         "name": "Bajrang Baan-Lofi",
         "image": [
@@ -34,9 +71,9 @@
         "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
         "duration": "217",
         "@attr": {
-          "rank": "1"
+          "rank": "2"
         },
-        "playcount": "6"
+        "playcount": "7"
       },
       {
         "streamable": {
@@ -71,17 +108,17 @@
         "url": "https://www.last.fm/music/Shankar+Mahadevan/_/Breathless+Hanuman+Chalisa",
         "duration": "225",
         "@attr": {
-          "rank": "2"
+          "rank": "3"
         },
-        "playcount": "6"
+        "playcount": "7"
       },
       {
         "streamable": {
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "3719064c-6154-4634-a7b9-4a1b9a0e459d",
-        "name": "Jee Ni Lagda",
+        "mbid": "",
+        "name": "Boyfriend",
         "image": [
           {
             "size": "small",
@@ -105,49 +142,12 @@
           "name": "Karan Aujla",
           "mbid": "4a779683-5404-4b90-a0d7-242495158265"
         },
-        "url": "https://www.last.fm/music/Karan+Aujla/_/Jee+Ni+Lagda",
-        "duration": "139",
-        "@attr": {
-          "rank": "3"
-        },
-        "playcount": "5"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "d9c6f45e-1a06-4e4e-9e9f-1ed06ea8e7bb",
-        "name": "Ranjha",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Diljit+Dosanjh",
-          "name": "Diljit Dosanjh",
-          "mbid": "f931c961-b647-4861-be8c-f47d84a4de51"
-        },
-        "url": "https://www.last.fm/music/Diljit+Dosanjh/_/Ranjha",
-        "duration": "184",
+        "url": "https://www.last.fm/music/Karan+Aujla/_/Boyfriend",
+        "duration": "0",
         "@attr": {
           "rank": "4"
         },
-        "playcount": "3"
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -155,7 +155,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Piya Ghar Aaya - Coke Studio Season 11",
+        "name": "For A Reason",
         "image": [
           {
             "size": "small",
@@ -175,16 +175,16 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Fareed+Ayaz+Abu+Muhammad+Qawwal",
-          "name": "Fareed Ayaz Abu Muhammad Qawwal",
-          "mbid": ""
+          "url": "https://www.last.fm/music/Karan+Aujla",
+          "name": "Karan Aujla",
+          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
         },
-        "url": "https://www.last.fm/music/Fareed+Ayaz+Abu+Muhammad+Qawwal/_/Piya+Ghar+Aaya+-+Coke+Studio+Season+11",
+        "url": "https://www.last.fm/music/Karan+Aujla/_/For+A+Reason",
         "duration": "0",
         "@attr": {
           "rank": "5"
         },
-        "playcount": "3"
+        "playcount": "4"
       }
     ],
     "@attr": {
