@@ -36,7 +36,7 @@
         "@attr": {
           "rank": "1"
         },
-        "playcount": "13"
+        "playcount": "12"
       },
       {
         "streamable": {
@@ -73,7 +73,7 @@
         "@attr": {
           "rank": "2"
         },
-        "playcount": "11"
+        "playcount": "10"
       },
       {
         "streamable": {
@@ -118,7 +118,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "For A Reason",
+        "name": "Nit Khair Mangan - Complete Original Recording",
         "image": [
           {
             "size": "small",
@@ -138,12 +138,12 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Karan+Aujla",
-          "name": "Karan Aujla",
-          "mbid": "4a779683-5404-4b90-a0d7-242495158265"
+          "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan",
+          "name": "Nusrat Fateh Ali Khan",
+          "mbid": "5968383c-11c1-4c5b-ada0-504a38cec8e7"
         },
-        "url": "https://www.last.fm/music/Karan+Aujla/_/For+A+Reason",
-        "duration": "0",
+        "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan/_/Nit+Khair+Mangan+-+Complete+Original+Recording",
+        "duration": "911",
         "@attr": {
           "rank": "4"
         },
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "16",
+      "totalPages": "17",
       "page": "1",
-      "total": "79",
+      "total": "83",
       "perPage": "5"
     }
   }
