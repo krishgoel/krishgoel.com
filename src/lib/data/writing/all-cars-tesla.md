@@ -3,7 +3,7 @@ title: What if all cars became Teslas? The end of traffic jams.
 date: 08.01.2022
 time: August 2022
 description: A guess on what the roads would look like if all cars became autonomous and communicative. Based on a Twitter Thread I wrote, pretty proud of it.
-tags: [{"text": "Autonomous Systems", "styling": "text-zinc-300 bg-blue-600"}, {"text": "Future?", "styling": "text-zinc-300 bg-indigo-600"}]
+tags: [{"text": "Autonomous Systems", "styling": "tag-blue"}, {"text": "Future?", "styling": "tag-indigo"}]
 displayOnIndex: true
 ---
 

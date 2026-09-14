@@ -34,7 +34,7 @@
 	{/await}
 </div>
 
-<div class="card rounded-lg py-3 md:px-12 px-6 divide-y divide-gray-400">
+<div class="card rounded-lg py-3 md:px-12 px-6 divide-y divide-[color:var(--rule)]">
 	{#await data.topTracks}
 		<p>Loading my listening habits...</p>
 		<h2>Loading...</h2>
