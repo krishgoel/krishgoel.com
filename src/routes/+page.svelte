@@ -48,7 +48,7 @@
 		<div class="grid md:grid-cols-2 mb-6">
 			<div>
 				<h1 class="mr-2 inline">Writing</h1>
-				<p class="inline-block"><a href="/projects" aria-label="See all projects">All Writings ></a></p>
+				<p class="inline-block"><a href="/writing" aria-label="See all writings">All Writings ></a></p>
 				<p class="md:mt-0">This is my blog. This will be updated, very infrequently, with anything I believe that's important enough to be shared with everyone; expectedly about tech, any abstract thoughts, or the time I went backpacking to the foothills of mount Tibidabo.</p>
 				<p>Consider checking out my <a href="https://twitter.com/krshgl" target="_blank" aria-label="Krish Goel's Twitter">Twitter/X</a>, I tend to be more aphoristic there.</p>
 			</div>
