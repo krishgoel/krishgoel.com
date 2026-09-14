@@ -4,9 +4,9 @@ export default {
 	theme: {
 		extend: {
 			fontSize: {
-				'3xl': '2rem',
-				'2xl': '1.5rem',
-				'xl': '1.4rem',
+				'3xl': ['2rem', { lineHeight: '1.15' }],
+				'2xl': ['1.5rem', { lineHeight: '1.3' }],
+				'xl': ['1.4rem', { lineHeight: '1.3' }],
 				'base': '0.95rem',
 			},
 		},

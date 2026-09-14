@@ -203,13 +203,13 @@
 			<h2>Reach Me</h2>
 			<p class="mb-2">I can be found on most social media platforms by <code>@krshgl</code>.</p>
 			<div class="inline space-y-1 mb-2">
-				<p class="inline-block mb-1"><a href="https://twitter.com/krshgl" target="_blank" aria-label="Krish Goel's Twitter">Twitter/X</a></p>
-				<p class="inline-block mb-1"><a href="mailto:krishgoel3@gmail.com" target="_blank" aria-label="Krish Goel's Email">Email</a></p>
-				<p class="inline-block mb-1"><a href="https://github.com/KrishGoel" target="_blank" aria-label="Krish Goel's Github">Github</a></p>
-				<p class="inline-block mb-1"><a href="https://open.spotify.com/user/39emqovi90p90iq1sfbczkan0?si=5a1dfcc062b44a32" target="_blank" aria-label="Krish Goel's Spotify">Spotify</a></p>
-				<p class="inline-block mb-1"><a href="https://scholar.google.com/citations?user=5a84VU4AAAAJ&hl=en" target="_blank" aria-label="Krish Goel's Google Scholar">Google Scholar</a></p>
-				<p class="inline-block mb-1"><a href="https://www.instagram.com/krshgl/" target="_blank" aria-label="Krish Goel's Instagram">Instagram</a></p>
-				<p class="inline-block mb-1"><a href="https://www.linkedin.com/in/krishgoel/" target="_blank" aria-label="Krish Goel's LinkedIn">LinkedIn</a></p>
+				<p class="inline-block mb-1 mr-2"><a href="https://twitter.com/krshgl" target="_blank" aria-label="Krish Goel's Twitter">Twitter/X</a></p>
+				<p class="inline-block mb-1 mr-2"><a href="mailto:krishgoel3@gmail.com" target="_blank" aria-label="Krish Goel's Email">Email</a></p>
+				<p class="inline-block mb-1 mr-2"><a href="https://github.com/KrishGoel" target="_blank" aria-label="Krish Goel's Github">Github</a></p>
+				<p class="inline-block mb-1 mr-2"><a href="https://open.spotify.com/user/39emqovi90p90iq1sfbczkan0?si=5a1dfcc062b44a32" target="_blank" aria-label="Krish Goel's Spotify">Spotify</a></p>
+				<p class="inline-block mb-1 mr-2"><a href="https://scholar.google.com/citations?user=5a84VU4AAAAJ&hl=en" target="_blank" aria-label="Krish Goel's Google Scholar">Google Scholar</a></p>
+				<p class="inline-block mb-1 mr-2"><a href="https://www.instagram.com/krshgl/" target="_blank" aria-label="Krish Goel's Instagram">Instagram</a></p>
+				<p class="inline-block mb-1 mr-2"><a href="https://www.linkedin.com/in/krishgoel/" target="_blank" aria-label="Krish Goel's LinkedIn">LinkedIn</a></p>
 			</div>
 			{#await data.commit}
 				<p>Loading latest commit information...</p>

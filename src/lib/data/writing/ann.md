@@ -3,7 +3,7 @@ title: Building an ANN from scratch
 date: 01.01.2024
 time: January 2025
 description: I conducted a talk on building an Artificial Neural Net from scratch in Vanilla Python, this blogpost is essentially a transcript of the talk + notes. Goes into the depth of mathematics and gives a pretty good intuitive and technical understanding of how ANNs work.
-tags: [{"text": "Artificial Intelligence", "styling": "text-zinc-300 bg-blue-600"}, {"text": "Neural Networks", "styling": "text-zinc-300 bg-green-600"}]
+tags: [{"text": "Artificial Intelligence", "styling": "tag-blue"}, {"text": "Neural Networks", "styling": "tag-green"}]
 displayOnIndex: true
 ---
 

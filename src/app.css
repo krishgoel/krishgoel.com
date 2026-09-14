@@ -9,41 +9,85 @@
 	font-family: 'Akkurat';
 	src: url('/fonts/Akkurat-Regular.woff2');
 	font-weight: 400;
+	font-display: swap;
 }
 @font-face {
 	font-family: 'Akkurat';
 	src: url('/fonts/Akkurat-Bold.woff2');
 	font-weight: 700;
+	font-display: swap;
 }
 @font-face {
 	font-family: 'SF-Mono';
 	src: url('/fonts/SFMono-Regular.otf');
 	font-weight: 400;
+	font-display: swap;
 }
 @font-face {
 	font-family: 'SF-Mono';
 	src: url('/fonts/SFMono-Bold.otf');
 	font-weight: 700;
+	font-display: swap;
+}
+
+:root {
+	--text-ui: 0.95rem;
+	--text-prose: 1.0625rem;
+	--leading-ui: 1.55;
+	--leading-prose: 1.7;
+
+	--fg-heading: #ededef;
+	--fg-body: #b9b9c0;
+	--fg-muted: #8a8a93;
+	--rule: #303036;
+	--link: #ededef;
+	--link-hover: #ffffff;
+	--link-underline: #6a6a74;
+}
+
+.light,
+.card {
+	--fg-heading: #18181b;
+	--fg-body: #3f3f46;
+	--fg-muted: #63636c;
+	--rule: #a9a9b0;
+	--link: #27272a;
+	--link-hover: #09090b;
+	--link-underline: #8f8f98;
+}
+
+.dark,
+.light .card {
+	--fg-heading: #ededef;
+	--fg-body: #b9b9c0;
+	--fg-muted: #8a8a93;
+	--rule: #303036;
+	--link: #ededef;
+	--link-hover: #ffffff;
+	--link-underline: #6a6a74;
 }
 
 body {
 	font-family: 'Akkurat', sans-serif;
 	@apply bg-zinc-900;
-	@apply text-gray-300;
+	color: var(--fg-body);
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 .mono,
 code {
 	font-family: 'SF-Mono';
+	font-size: 0.925em;
 }
 .light,
 .card {
 	@apply bg-zinc-300;
-	@apply text-zinc-800;
+	color: var(--fg-body);
 }
 .dark,
 .light .card {
 	@apply bg-zinc-900;
-	@apply text-gray-300;
+	color: var(--fg-body);
 }
 .web {
 	background-size: 100px 100px;
@@ -59,25 +103,44 @@ code {
 	@apply mx-auto;
 	@apply w-5/6;
 	@apply md:w-1/2;
+	/* Cap the prose measure at ~70 characters. `min()` means this only
+	   ever clamps — it never widens the column at any viewport. */
+	max-width: min(42rem, 100% - 3rem);
 }
 
 /* Text and Font Styling */
 p,
 li {
-	@apply text-base;
+	font-size: var(--text-ui);
+	line-height: var(--leading-ui);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--fg-heading);
+	font-weight: 700;
 }
 h1 {
 	@apply text-3xl;
-	font-weight: 700;
 }
 h2 {
 	@apply text-2xl;
-	font-weight: 700;
 	line-height: 1.3;
 }
 h3 {
 	@apply text-xl;
+}
+strong,
+b {
+	color: var(--fg-heading);
 	font-weight: 700;
+}
+hr {
+	border-top-width: 1px;
+	border-color: var(--rule);
 }
 
 /* General spacing */
@@ -85,7 +148,7 @@ p + p {
 	@apply mt-4;
 }
 h1 + p {
-	@apply mt-2;
+	@apply mt-3;
 }
 p + h2, ul + h2, ol + h2 {
 	@apply mt-6;
@@ -93,7 +156,7 @@ p + h2, ul + h2, ol + h2 {
 h2:not(.card h2) + p, h2 + ul, h2 + ol {
 	@apply mt-2;
 }
-li {
+li + li {
 	@apply mt-2;
 }
 ul, ol {
@@ -108,32 +171,25 @@ ul, ol {
 .card p + p + span {
 	@apply mt-4;
 }
-/* Link styling */
+
+/* Link styling.
+   Scoped to `p a` / `li a` on purpose — a bare `a` rule would underline
+   the nav brand, which is an <a> wrapping an <h2>. Because the colour
+   tokens are re-declared per surface, one rule pair now covers dark
+   prose, the light nav/footer, light cards and dark `.light .card`s. */
 p a,
-li a,
-.light .card p a {
-	@apply text-gray-200;
-	box-shadow: inset 0 -8px 0 #81818171;
-	transition: 0.2s;
+li a {
+	color: var(--link);
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-decoration-color: var(--link-underline);
+	text-underline-offset: 0.18em;
+	transition: color 0.2s, text-decoration-color 0.2s;
 }
 p a:hover,
-li a:hover,
-.light .card p a:hover {
-	@apply text-gray-300;
-	box-shadow: inset 0 -20px 0 #818181;
-}
-.light p a,
-.light li a,
-.card p a {
-	@apply text-zinc-700;
-	box-shadow: inset 0 -8px 0 rgba(130, 130, 130, 0.443);
-	transition: 0.2s;
-}
-.light p a:hover,
-.light li a:hover,
-.card p a:hover {
-	@apply text-gray-300;
-	box-shadow: inset 0 -20px 0 #282828;
+li a:hover {
+	color: var(--link-hover);
+	text-decoration-color: currentColor;
 }
 
 /* Misc */
@@ -148,43 +204,109 @@ ul {
 	@apply pl-6;
 }
 blockquote {
-	@apply border-l-4;
-	@apply border-gray-300;
-	@apply px-4;
-	@apply py-2;
-	@apply my-4;
-	@apply text-xs;
-	@apply leading-normal;
-	@apply bg-gray-300/20;
+	border-left: 3px solid var(--rule);
+	padding-left: 1rem;
+	margin: 1.5rem 0;
+	background: none;
 }
-.web blockquote {
-	@apply border-gray-600;
-	@apply bg-gray-900/10;
+/* Inside a card a blockquote is a secondary abstract, so it dims and
+   shrinks. In an article it carries primary content and keeps body colour. */
+.card blockquote {
+	font-size: 0.875rem;
+	margin: 1rem 0;
+	color: var(--fg-muted);
 }
 .tweet-container .twitter-tweet {
 	@apply mx-auto;
 	@apply py-6;
 }
 
+/* Tags.
+   `--fg-heading` flips per surface, so mixing the hue toward it gives a
+   readable tint on both the dark article pages and the light index cards
+   without needing surface-specific tag rules. */
+.tag {
+	--tag-hue: var(--fg-muted);
+	color: color-mix(in srgb, var(--tag-hue) 75%, var(--fg-heading));
+	background: color-mix(in srgb, var(--tag-hue) 16%, transparent);
+}
+.tag-blue {
+	--tag-hue: #3b82f6;
+}
+.tag-green {
+	--tag-hue: #16a34a;
+}
+.tag-indigo {
+	--tag-hue: #6366f1;
+}
+
 /* Article styling and spacing */
 article img {
 	@apply rounded-lg;
 	@apply mx-auto;
-	@apply md:w-5/6;
+	@apply w-full;
 }
+
+/* Prose sizing — applies to the constrained reading column and article
+   bodies only, so nav links and card metadata keep their UI size. */
+.width-md p, .width-md li,
+article p, article li {
+	font-size: var(--text-prose);
+	line-height: var(--leading-prose);
+}
+/* Cards are UI even when they sit inside a .width-md page
+   (/listening, /bigdonmegaladon). Equal specificity to the rule above,
+   so this MUST stay after it. */
+.card p, .card li {
+	font-size: var(--text-ui);
+	line-height: var(--leading-ui);
+}
+
+/* Prose rhythm: more space above a heading than below it, so headings
+   bind to the text they introduce. */
+.width-md p + p,
 article p + p {
-	@apply mt-4;
+	margin-top: 1.25rem;
 }
-article p + h1,
-article p + h2 {
-	@apply mt-8;
+.width-md h1 + p,
+article h1 + p {
+	margin-top: 0.85rem;
 }
+.width-md p + h2, .width-md ul + h2, .width-md ol + h2,
+article p + h1, article p + h2, article ul + h2, article ol + h2 {
+	margin-top: 2.25rem;
+}
+.width-md h2 + p, .width-md h2 + ul, .width-md h2 + ol,
+article h2 + p, article h2 + ul, article h2 + ol {
+	margin-top: 0.75rem;
+}
+.width-md p + h3,
 article p + h3 {
-	@apply mt-6;
+	margin-top: 1.75rem;
 }
-article p + img {
-	@apply mt-8;
+.width-md h3 + p,
+article h3 + p {
+	margin-top: 0.6rem;
 }
+/* Cards keep their own compact rhythm even inside a .width-md page
+   (/listening, /bigdonmegaladon) — a card is UI, not prose. Equal
+   specificity to the prose rules above, so this MUST stay after them. */
+.card p + p,
+.card h1 + p,
+.card h2 + p,
+.card h2 + ul,
+.card h2 + ol,
+.card h3 + p {
+	margin-top: 0;
+}
+/* A short label above a card title is part of the title, not a paragraph. */
+.card p + h2,
+.card ul + h2,
+.card ol + h2,
+.card p + h3 {
+	margin-top: 0.25rem;
+}
+
 article img + h3 {
 	@apply mt-12;
 }
@@ -192,8 +314,5 @@ article img + img {
 	@apply mt-3;
 }
 article h2 + img {
-	@apply mt-6;
-}
-article img + p {
 	@apply mt-6;
 }
