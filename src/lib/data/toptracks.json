@@ -6,43 +6,6 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "d9c6f45e-1a06-4e4e-9e9f-1ed06ea8e7bb",
-        "name": "Ranjha",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Diljit+Dosanjh",
-          "name": "Diljit Dosanjh",
-          "mbid": "f931c961-b647-4861-be8c-f47d84a4de51"
-        },
-        "url": "https://www.last.fm/music/Diljit+Dosanjh/_/Ranjha",
-        "duration": "184",
-        "@attr": {
-          "rank": "1"
-        },
-        "playcount": "8"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
         "mbid": "",
         "name": "Bajrang Baan-Lofi",
         "image": [
@@ -71,7 +34,7 @@
         "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
         "duration": "217",
         "@attr": {
-          "rank": "2"
+          "rank": "1"
         },
         "playcount": "7"
       },
@@ -108,9 +71,46 @@
         "url": "https://www.last.fm/music/Shankar+Mahadevan/_/Breathless+Hanuman+Chalisa",
         "duration": "225",
         "@attr": {
+          "rank": "2"
+        },
+        "playcount": "7"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "d9c6f45e-1a06-4e4e-9e9f-1ed06ea8e7bb",
+        "name": "Ranjha",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Diljit+Dosanjh",
+          "name": "Diljit Dosanjh",
+          "mbid": "f931c961-b647-4861-be8c-f47d84a4de51"
+        },
+        "url": "https://www.last.fm/music/Diljit+Dosanjh/_/Ranjha",
+        "duration": "184",
+        "@attr": {
           "rank": "3"
         },
-        "playcount": "6"
+        "playcount": "5"
       },
       {
         "streamable": {
@@ -147,7 +147,7 @@
         "@attr": {
           "rank": "4"
         },
-        "playcount": "5"
+        "playcount": "4"
       },
       {
         "streamable": {
@@ -155,7 +155,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Boyfriend",
+        "name": "I'ma Do My Thiiing",
         "image": [
           {
             "size": "small",
@@ -179,7 +179,7 @@
           "name": "Karan Aujla",
           "mbid": "4a779683-5404-4b90-a0d7-242495158265"
         },
-        "url": "https://www.last.fm/music/Karan+Aujla/_/Boyfriend",
+        "url": "https://www.last.fm/music/Karan+Aujla/_/I%27ma+Do+My+Thiiing",
         "duration": "0",
         "@attr": {
           "rank": "5"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "21",
+      "totalPages": "20",
       "page": "1",
-      "total": "102",
+      "total": "98",
       "perPage": "5"
     }
   }
