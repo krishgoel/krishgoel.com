@@ -1,7 +1,14 @@
 <script lang="ts">
 	import '../app.css'
+	import { dev } from '$app/environment'
 	import { page } from '$app/stores'
+	import { inject } from '@vercel/analytics'
 	import { derived } from 'svelte/store'
+	import { documentTitle, pageUrl, shareImageUrl, type Seo } from '$lib/seo'
+
+	export let data: { seo: Seo }
+
+	inject({ mode: dev ? 'development' : 'production' })
 
 	const bodyClass = derived(page, ($page) => {
 		const path = $page.url.pathname
@@ -11,84 +18,10 @@
 		return path === '/' ? '' : 'width-lg'
 	})
 
-	import type { ProjectAPIResponse, PostAPIResponse, SpeakingAPIResponse } from '$lib/types'
-	export let data: { projects: ProjectAPIResponse[]; blog: PostAPIResponse[]; speaking: SpeakingAPIResponse[] }
-
-	import { dev } from '$app/environment'
-	import { inject } from '@vercel/analytics'
-	inject({ mode: dev ? 'development' : 'production' })
-
-	const defaultTitle = 'Krish Goel | krishgoel.com'
-	const defaultDescription = 'Hi, welcome to my website. I love robots and AI.'
-
-	const pageData = {
-		'/': {
-			title: 'Krish Goel',
-			description: 'Hi, welcome to my website. I love robots and AI.'
-		},
-		'/lexicon': {
-			title: 'Lexicon',
-			description: 'Personal wiki of cool stuff from the internet.'
-		},
-		'/projects': {
-			title: 'Projects',
-			description: "Things I'm working on, and things I've built so far."
-		},
-		'/writing': {
-			title: 'Writings',
-			description: 'Thoughts, published, updated very (in)frequently.'
-		},
-		'/thanks': {
-			title: 'Thanks',
-			description: 'idk why this would need a description.'
-		},
-		'/listening': {
-			title: 'Listening',
-			description: "What I'm listening to this week."
-		},
-		'/bigdonmegaladon': {
-			title: 'Big Don Megaladon',
-			description: 'Sanskriti Batch of 21 Yearbook Gang.'
-		},
-		'/be-me': {
-			title: '> Be me',
-			description: 'A summary of my life and work hitherto.'
-		}
-	}
-
-	const getTitleAndDescription = (pathname: string) => {
-		if (pageData[pathname as keyof typeof pageData]) {
-			const { title, description } = pageData[pathname as keyof typeof pageData]
-			return { title: `${title} | krishgoel.com`, description }
-		}
-
-		const dynamicPageCheck = [
-			{ key: '/projects/', data: data.projects },
-			{ key: '/writing/', data: data.blog },
-			{ key: '/speaking/', data: data.speaking }
-		]
-
-		for (const { key, data } of dynamicPageCheck) {
-			if (pathname.startsWith(key)) {
-				const item = data.find((p) => p.path === pathname)
-				if (item) {
-					return { title: `${item.metadata.title} | krishgoel.com`, description: item.metadata.description }
-				}
-				break
-			}
-		}
-
-		return { title: defaultTitle, description: defaultDescription }
-	}
-
-	let title: string = defaultTitle
-	let description: string = defaultDescription
-
-	$: {
-		const { title: newTitle, description: newDescription } = getTitleAndDescription($page.url.pathname)
-		title = newTitle
-		description = newDescription
-	}
+	$: title = documentTitle(data.seo)
+	$: description = data.seo.description
+	$: canonical = pageUrl(data.seo.path)
+	$: shareImage = shareImageUrl(data.seo.path)
 </script>
 
 <svelte:head>
@@ -101,8 +34,16 @@
 	<meta content={description} property="og:description" />
 	<meta content={description} name="twitter:description" />
 
-	<meta content="https://krishgoel.com{$page.url.pathname}" property="og:url" />
-	<meta content="https://krishgoel.com{$page.url.pathname}" name="twitter:url" />
+	<meta content={canonical} property="og:url" />
+	<meta content={canonical} name="twitter:url" />
+
+	<meta property="og:image" content={shareImage} />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:image:alt" content={data.seo.title} />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:image" content={shareImage} />
+	<meta name="twitter:image:alt" content={data.seo.title} />
 </svelte:head>
 
 {#if $page.url.pathname === '/'}
