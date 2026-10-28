@@ -7,43 +7,6 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Sahnoon Bhul Gayee Khudaee Chanan Sari",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan",
-          "name": "Nusrat Fateh Ali Khan",
-          "mbid": "5968383c-11c1-4c5b-ada0-504a38cec8e7"
-        },
-        "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan/_/Sahnoon+Bhul+Gayee+Khudaee+Chanan+Sari",
-        "duration": "1017",
-        "@attr": {
-          "rank": "1"
-        },
-        "playcount": "8"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
         "name": "Bajrang Baan-Lofi",
         "image": [
           {
@@ -71,7 +34,7 @@
         "url": "https://www.last.fm/music/Rasraj+Ji+Maharaj/_/Bajrang+Baan-Lofi",
         "duration": "217",
         "@attr": {
-          "rank": "2"
+          "rank": "1"
         },
         "playcount": "8"
       },
@@ -108,7 +71,7 @@
         "url": "https://www.last.fm/music/Hamza+malik/_/Alfaaz+-+Vocals",
         "duration": "172",
         "@attr": {
-          "rank": "3"
+          "rank": "2"
         },
         "playcount": "7"
       },
@@ -145,7 +108,7 @@
         "url": "https://www.last.fm/music/Hanuman+Foundation/_/Kainchi",
         "duration": "368",
         "@attr": {
-          "rank": "4"
+          "rank": "3"
         },
         "playcount": "7"
       },
@@ -155,7 +118,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Rabba lakh lakh shukar manawan",
+        "name": "Sahnoon Bhul Gayee Khudaee Chanan Sari",
         "image": [
           {
             "size": "small",
@@ -179,8 +142,45 @@
           "name": "Nusrat Fateh Ali Khan",
           "mbid": "5968383c-11c1-4c5b-ada0-504a38cec8e7"
         },
-        "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan/_/Rabba+lakh+lakh+shukar+manawan",
-        "duration": "852",
+        "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan/_/Sahnoon+Bhul+Gayee+Khudaee+Chanan+Sari",
+        "duration": "1017",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "6"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Wzr Tank",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Wazir+Patar",
+          "name": "Wazir Patar",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Wazir+Patar/_/Wzr+Tank",
+        "duration": "0",
         "@attr": {
           "rank": "5"
         },
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "13",
+      "totalPages": "15",
       "page": "1",
-      "total": "61",
+      "total": "72",
       "perPage": "5"
     }
   }
