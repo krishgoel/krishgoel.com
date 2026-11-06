@@ -80,80 +80,6 @@
           "fulltrack": "0",
           "#text": "0"
         },
-        "mbid": "",
-        "name": "Sahnoon Bhul Gayee Khudaee Chanan Sari",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan",
-          "name": "Nusrat Fateh Ali Khan",
-          "mbid": "5968383c-11c1-4c5b-ada0-504a38cec8e7"
-        },
-        "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan/_/Sahnoon+Bhul+Gayee+Khudaee+Chanan+Sari",
-        "duration": "1017",
-        "@attr": {
-          "rank": "3"
-        },
-        "playcount": "5"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "e2512f66-78b2-4e5e-bc22-3edab7c6e2b1",
-        "name": "Sanak",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Badshah",
-          "name": "Badshah",
-          "mbid": "cd67b8c8-8b2f-4d56-b564-fbd837490256"
-        },
-        "url": "https://www.last.fm/music/Badshah/_/Sanak",
-        "duration": "115",
-        "@attr": {
-          "rank": "4"
-        },
-        "playcount": "4"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
         "mbid": "3719064c-6154-4634-a7b9-4a1b9a0e459d",
         "name": "Jee Ni Lagda",
         "image": [
@@ -182,16 +108,90 @@
         "url": "https://www.last.fm/music/Karan+Aujla/_/Jee+Ni+Lagda",
         "duration": "139",
         "@attr": {
-          "rank": "5"
+          "rank": "3"
         },
         "playcount": "4"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Dame Un Grrr - Provi Remix Radio Edit",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Fantomel",
+          "name": "Fantomel",
+          "mbid": "1130cbfd-3a69-4e8c-a3a6-dc9be50f60bd"
+        },
+        "url": "https://www.last.fm/music/Fantomel/_/Dame+Un+Grrr+-+Provi+Remix+Radio+Edit",
+        "duration": "120",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "3"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Baija Mere Kol Tainoo Takda Rawan - Live",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Ghulam+Ali",
+          "name": "Ghulam Ali",
+          "mbid": "ea0213e9-de08-4858-8915-c42e890df377"
+        },
+        "url": "https://www.last.fm/music/Ghulam+Ali/_/Baija+Mere+Kol+Tainoo+Takda+Rawan+-+Live",
+        "duration": "305",
+        "@attr": {
+          "rank": "5"
+        },
+        "playcount": "3"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
       "totalPages": "17",
       "page": "1",
-      "total": "83",
+      "total": "82",
       "perPage": "5"
     }
   }
