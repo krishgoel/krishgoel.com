@@ -155,7 +155,7 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Teke Teke",
+        "name": "Dirty Flow",
         "image": [
           {
             "size": "small",
@@ -175,11 +175,11 @@
           }
         ],
         "artist": {
-          "url": "https://www.last.fm/music/Hugel",
-          "name": "Hugel",
+          "url": "https://www.last.fm/music/Dances",
+          "name": "Dances",
           "mbid": ""
         },
-        "url": "https://www.last.fm/music/Hugel/_/Teke+Teke",
+        "url": "https://www.last.fm/music/Dances/_/Dirty+Flow",
         "duration": "0",
         "@attr": {
           "rank": "5"
@@ -189,9 +189,9 @@
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "21",
+      "totalPages": "23",
       "page": "1",
-      "total": "101",
+      "total": "113",
       "perPage": "5"
     }
   }
