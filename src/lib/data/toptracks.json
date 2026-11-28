@@ -44,43 +44,6 @@
           "#text": "0"
         },
         "mbid": "",
-        "name": "Intoxicated",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan",
-          "name": "Nusrat Fateh Ali Khan",
-          "mbid": "5968383c-11c1-4c5b-ada0-504a38cec8e7"
-        },
-        "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan/_/Intoxicated",
-        "duration": "454",
-        "@attr": {
-          "rank": "2"
-        },
-        "playcount": "6"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
         "name": "Sahnoon Bhul Gayee Khudaee Chanan Sari",
         "image": [
           {
@@ -108,44 +71,7 @@
         "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan/_/Sahnoon+Bhul+Gayee+Khudaee+Chanan+Sari",
         "duration": "1017",
         "@attr": {
-          "rank": "3"
-        },
-        "playcount": "6"
-      },
-      {
-        "streamable": {
-          "fulltrack": "0",
-          "#text": "0"
-        },
-        "mbid": "",
-        "name": "Hanuman Chalisa",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "artist": {
-          "url": "https://www.last.fm/music/Har+Govind+Baba+&+The+Hairakhandi%E2%80%99s",
-          "name": "Har Govind Baba & The Hairakhandi’s",
-          "mbid": ""
-        },
-        "url": "https://www.last.fm/music/Har+Govind+Baba+&+The+Hairakhandi%E2%80%99s/_/Hanuman+Chalisa",
-        "duration": "0",
-        "@attr": {
-          "rank": "4"
+          "rank": "2"
         },
         "playcount": "5"
       },
@@ -182,16 +108,90 @@
         "url": "https://www.last.fm/music/Zain+Zohaib/_/Ranjheya+Ve",
         "duration": "278",
         "@attr": {
-          "rank": "5"
+          "rank": "3"
         },
         "playcount": "5"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Do Pall",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Coachsahb",
+          "name": "Coachsahb",
+          "mbid": ""
+        },
+        "url": "https://www.last.fm/music/Coachsahb/_/Do+Pall",
+        "duration": "0",
+        "@attr": {
+          "rank": "4"
+        },
+        "playcount": "4"
+      },
+      {
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "",
+        "name": "Intoxicated",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "artist": {
+          "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan",
+          "name": "Nusrat Fateh Ali Khan",
+          "mbid": "5968383c-11c1-4c5b-ada0-504a38cec8e7"
+        },
+        "url": "https://www.last.fm/music/Nusrat+Fateh+Ali+Khan/_/Intoxicated",
+        "duration": "454",
+        "@attr": {
+          "rank": "5"
+        },
+        "playcount": "4"
       }
     ],
     "@attr": {
       "user": "KrishSkywalker",
-      "totalPages": "20",
+      "totalPages": "19",
       "page": "1",
-      "total": "98",
+      "total": "91",
       "perPage": "5"
     }
   }
